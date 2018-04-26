@@ -1,28 +1,14 @@
-import scala.sys.process._
+val weather =
+  <rss>
+    <channel>
+      <title>Yahoo! Weather - Boulder, CO</title>
+      <item>
+        <title>Conditions for Boulder, CO at 2:54 pm MST</title>
+        <forecast day="Thu" date="10 Nov 2011" low="37" high="58" text="Partly Cloudy"
+                  code="29" />
+      </item>
+    </channel>
+  </rss>
 
-"cd /home/pawelc/Desktop/Intelij_projects/Zamowienia_UE" !
-
-
-
-val rozp="rozpakowane"
-
-// "ls -al" !;
-
-//"tar -zxvf dane/2017-10.tar.gz -C rozpakowane" !;
-//rozpakoj("costam")
-//"rm -rf rozpakowane/*" !;
-//"ls rozpakowane" !;
-
-val result=list("")
-
-println(result)
-println(result)
-
-println("Helloooo")
-
-
-def list(path: String): String ={
-  "ls "+path !!
-}
-
-
+val forecast= weather \ "channel" \ "item" \ "forecast"
+println(forecast)
