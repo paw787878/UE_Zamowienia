@@ -1,16 +1,20 @@
 import scala.sys.process._
+import java.io.File
 
 object Hello {
   def main(args:Array[String]): Unit ={
 
 
-    val spakowane=ls("dane")
+    //val spakowane=ls("dane")
     //untar(spakowane(0))
 
-    val dni=ls(rozp)
-    val testowe=ls(dni(0))
-    val sciezka=testowe(0)
-    println(sciezka)
+    //val dni=ls(rozp)
+    //val testowe=ls(dni(0))
+    //val sciezka=testowe(0)
+   // println(sciezka)
+    println(czysc())
+
+
 
 
 
@@ -19,6 +23,22 @@ object Hello {
   }
 
   val rozp="rozpakowane";
+
+  def deleteRecursively(file: File): Unit = {
+    if (file.exists()) {
+      if (file.isDirectory)
+        file.listFiles.foreach(deleteRecursively)
+      if (file.exists && !file.delete)
+        throw new Exception(s"Unable to delete ${file.getAbsolutePath}")
+    }
+  }
+
+  def czysc(): Unit ={
+    val a = new File(rozp)
+    deleteRecursively(a)
+    "mkdir "+rozp !
+
+  }
 
   def untar(path: String): Unit ={
     "tar -zxvf "+path+" -C rozpakowane" !;
@@ -30,5 +50,7 @@ object Hello {
     val b=a.split("\n")
     b.map(x=> path+"/"+x)
   }
+
+
 
 }
