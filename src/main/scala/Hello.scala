@@ -2,7 +2,7 @@ import scala.sys.process._
 
 object Hello {
   def main(args:Array[String]): Unit ={
-    val rozp="rozpakowane";
+
 
    // "ls -al" !;
 
@@ -10,15 +10,24 @@ object Hello {
     //rozpakoj("costam")
     //"rm -rf rozpakowane/*" !;
     //"ls rozpakowane" !;
-    val result=list(rozp)
-    println(result)
-    println(result)
+    val dni=list(rozp)
+    val testowe=list(rozp+"/"+dni(0))
+    val sciezka=rozp+"/"+dni(0)+"/"+testowe(0)
+    println(sciezka)
 
-    println("Helloooo")
+
+
+
   }
 
-  def list(path: String): String ={
-    "ls "+path !!
+  val rozp="rozpakowane";
+
+
+
+  def list(path: String): Array[String] ={
+    //results list of directories in path
+    val a="ls "+path !!;
+    a.split("\n")
   }
 
 }

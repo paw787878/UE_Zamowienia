@@ -3,4 +3,26 @@ miesiaca
 
 Mam problem z usuwaniem ale to sie wszystko kiedys zrobi
 
+Teraz slow kilka o strategii
+
+najsamwpierw szukasz 
+<TD_DOCUMENT_TYPE CODE="7">Contract award notice</TD_DOCUMENT_TYPE>
+to znaczy, ze to jest ile przyznali pieniendzy i komu. tylko takie
+dokumenty nas interesuja.
+
+Teraz jak juz znajdziesz to szukasz 
+
+<VALUES>
+<VALUE TYPE="PROCUREMENT_TOTAL" CURRENCY="PLN">6257710.21</VALUE>
+</VALUES>
+
+tu praktycznie na pewno bedzie wowczas "procurement_total" czyli dostarczona suma
+
+to masz kwote ktora jest bez vat i tam masz tez currency masz wszystko
+
+jeszcze potrzeba nam panstwa
+
+panstwo znadjujemy przy pomocy 
+<ISO_COUNTRY VALUE="PL"/>
+i to jest kod iso panstwa ktory mozna odszyfrowac. 
 
