@@ -5,14 +5,14 @@ object Hello {
   def main(args:Array[String]): Unit ={
 
 
-    //val spakowane=ls("dane")
-    //untar(spakowane(0))
+    val spakowane=ls("dane")
+    untar(spakowane(0))
 
-    //val dni=ls(rozp)
-    //val testowe=ls(dni(0))
-    //val sciezka=testowe(0)
-   // println(sciezka)
-    println(czysc())
+    val dni=ls(rozp)
+    val testowe=ls(dni(0))
+    val sciezka=testowe(0)
+   println(sciezka)
+
 
 
 
@@ -23,24 +23,23 @@ object Hello {
   }
 
   val rozp="rozpakowane";
-
-  def deleteRecursively(file: File): Unit = {
-    if (file.exists()) {
-      if (file.isDirectory)
-        file.listFiles.foreach(deleteRecursively)
-      if (file.exists && !file.delete)
-        throw new Exception(s"Unable to delete ${file.getAbsolutePath}")
-    }
-  }
-
-  def czysc(): Unit ={
-    val a = new File(rozp)
-    deleteRecursively(a)
-    "mkdir "+rozp !
-
-  }
-
   def untar(path: String): Unit ={
+    // untar .gz.tar folder to file rozpakowane
+    def czysc(): Unit ={
+      def deleteRecursively(file: File): Unit = {
+        if (file.exists()) {
+          if (file.isDirectory)
+            file.listFiles.foreach(deleteRecursively)
+          if (file.exists && !file.delete)
+            throw new Exception(s"Unable to delete ${file.getAbsolutePath}")
+        }
+      }
+      val a = new File(rozp)
+      deleteRecursively(a)
+      "mkdir "+rozp !
+
+    }
+    czysc()
     "tar -zxvf "+path+" -C rozpakowane" !;
   }
 
