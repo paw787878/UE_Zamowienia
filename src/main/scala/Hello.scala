@@ -24,7 +24,7 @@ object Hello {
      for(f<-linie)
        println(f)
 
-    //XML.loadFile("example.xml")
+    val a=XML.loadFile("example.xml")
 
     // val linie=Source.fromFile(filename).getLines()
    // for(f<-linie)
