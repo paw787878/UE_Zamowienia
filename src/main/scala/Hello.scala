@@ -4,16 +4,14 @@ object Hello {
   def main(args:Array[String]): Unit ={
 
 
-   // "ls -al" !;
+    val spakowane=ls("dane")
+    //untar(spakowane(0))
 
-    //"tar -zxvf dane/2017-10.tar.gz -C rozpakowane" !;
-    //rozpakoj("costam")
-    //"rm -rf rozpakowane/*" !;
-    //"ls rozpakowane" !;
-    val dni=list(rozp)
-    val testowe=list(rozp+"/"+dni(0))
-    val sciezka=rozp+"/"+dni(0)+"/"+testowe(0)
+    val dni=ls(rozp)
+    val testowe=ls(dni(0))
+    val sciezka=testowe(0)
     println(sciezka)
+
 
 
 
@@ -22,12 +20,15 @@ object Hello {
 
   val rozp="rozpakowane";
 
+  def untar(path: String): Unit ={
+    "tar -zxvf "+path+" -C rozpakowane" !;
+  }
 
-
-  def list(path: String): Array[String] ={
+  def ls(path: String): Array[String] ={
     //results list of directories in path
     val a="ls "+path !!;
-    a.split("\n")
+    val b=a.split("\n")
+    b.map(x=> path+"/"+x)
   }
 
 }
