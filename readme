@@ -9,12 +9,14 @@ najsamwpierw szukasz
 <TD_DOCUMENT_TYPE CODE="7">Contract award notice</TD_DOCUMENT_TYPE>
 to znaczy, ze to jest ile przyznali pieniendzy i komu. tylko takie
 dokumenty nas interesuja.
+tu liczy sie ten code rowny 7 a nie wnetrze bo w starych jest inaczej
+
 
 Teraz jak juz znajdziesz to szukasz 
 
-<VALUES>
 <VALUE TYPE="PROCUREMENT_TOTAL" CURRENCY="PLN">6257710.21</VALUE>
-</VALUES>
+w starych dokumentach nie ma "procurement_total"
+
 
 tu praktycznie na pewno bedzie wowczas "procurement_total" czyli dostarczona suma
 
