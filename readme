@@ -1,3 +1,7 @@
+
+
+czasem nie ma value w pliku. 
+
 wazne by miec w intellij w project structure external libraries add mavel i 
 wowczas scala.xml wpisac i znalexc jakies lang czy cos i jakas nowsza wersje dodac najlepiej
 z jakims bootstrapem czy cyms.
@@ -25,6 +29,10 @@ czasem jest
 <VALUE_RANGE TYPE="PROCUREMENT_TOTAL" CURRENCY="EUR"><LOW>1400000.00</LOW>
 <HIGH>1400000.00</HIGH></VALUE_RANGE>
 
+czasem jest tez przypadek gdy jest values_list i wowczas moze byc
+najpierw ten z atrybutem global a potem jakies inne podkontrakty
+mozna by dla pewnosci zakodzic, na razie zaklada, ze to jest jako pierwsze
+to jest w pliku w home "przypadek_z_values_list.xml"
 
 
 

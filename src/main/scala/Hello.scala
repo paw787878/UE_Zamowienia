@@ -1,8 +1,9 @@
 import scala.sys.process._
 import java.io.File
+
+import scala.collection.mutable.ListBuffer
 import xml._
 import scala.xml.parsing
-
 import scala.io.Source
 
 
@@ -78,7 +79,23 @@ val dokumenty=testowe.map(g)
 
 def czytaj_xml(path:String): Dokument={
   def to_double(napis:String): Double={
-    napis.replaceAll("\\s", "").replaceAll(",",".").toDouble
+
+    val bez_przecinkow=napis.replaceAll(",",".")
+    val pozycje= new ListBuffer[Int]()
+    for (i <- 0 until bez_przecinkow.size)
+      if (bez_przecinkow(i)=='.')
+        pozycje+=i
+
+    val chary=bez_przecinkow.toCharArray()
+    if (pozycje.size>1){
+      for (i <- 0 until pozycje.size-1)
+        chary(pozycje(i))=' '
+    }
+
+    String.valueOf(chary).replaceAll("\\s","").toDouble
+
+
+
   }
   val wczytane_dane=XML.loadFile(path)
 
