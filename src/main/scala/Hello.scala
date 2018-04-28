@@ -51,6 +51,8 @@ object Hello {
 
   }
 
+
+
 //  def czytaj_xml(path:String): Unit ={
 //    val wczytane_dane=XML.loadFile(path)
 //
@@ -77,11 +79,14 @@ def czytaj_xml(path:String): Unit ={
   }
 
   if (czy_award_notice(wczytane_dane)) {
-    val b= wczytane_dane(0) \\ "VALUE"
-    val currency= (b \ "@CURRENCY").text
+    val b= (wczytane_dane \\ "VALUE")(0)
+    val currency= ((b \ "@CURRENCY"))(0).text
     val amount=b.text.toFloat
+    val country= ((wczytane_dane \\ "COUNTRY" )(0) \ "@VALUE")(0).text
+
     println(currency)
     println(amount)
+    println(country)
   }
 
 
