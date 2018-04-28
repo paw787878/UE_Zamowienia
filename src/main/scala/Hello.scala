@@ -27,6 +27,7 @@ object Hello {
 
 
     val dokumenty = testowe.map(czytaj_xml)
+    //val costam=new informacje_o_panstwach(dokumenty)
     def czy_dziwny(d:Dokument):Boolean={
       d.dziwny
     }
@@ -77,9 +78,9 @@ object Hello {
 
   }
 
-  case class Dokument(czy_award_notice:Boolean,plik:String, currency:String="", amount_min: Double=0,
+  case class Dokument(czy_award_notice:Boolean,plik:String,country_iso: String, currency:String="", amount_min: Double=0,
                       amount_max:Double=0,
-                      country_iso: String="",dziwny:Boolean=false)
+                      dziwny:Boolean=false)
 
 
 
@@ -116,15 +117,16 @@ object Hello {
 
     if (czy_award_notice(wczytane_dane)) {
       val b= wczytane_dane \\ "VALUE"
+      val country_iso = (((wczytane_dane \\ "ISO_COUNTRY")(0) \ "@VALUE").text).replaceAll("\\s", "")
       if (b.size!=0) {
         val currency = ((b(0) \ "@CURRENCY")).text
 
-        val country_iso = ((wczytane_dane \\ "ISO_COUNTRY")(0) \ "@VALUE").text
+
         try {
           val amount = to_double(b(0).text)
-        }catch{ case _ =>return Dokument(true,path,dziwny=true)}
+        }catch{ case _ =>return Dokument(true,path,country_iso,dziwny=true)}
         val amount = to_double(b(0).text)
-        return Dokument(true, path, currency.replaceAll("\\s", ""), amount,amount, country_iso.replaceAll("\\s", ""))
+        return Dokument(true, path,country_iso.replaceAll("\\s", ""), currency.replaceAll("\\s", ""), amount,amount)
       }else{
         val b= wczytane_dane \\ "VALUE_RANGE"
         if(b.size!=0){
@@ -132,15 +134,15 @@ object Hello {
           val min=to_double((b(0) \ "LOW").text)
           val max=to_double((b(0) \ "HIGH").text)
 
-          val country_iso = ((wczytane_dane \\ "ISO_COUNTRY")(0) \ "@VALUE").text
+
           val currency= (b(0) \ "@CURRENCY" ).text
-          return Dokument(true, path,currency.replaceAll("\\s", ""),min,max,country_iso.replaceAll("\\s", ""))
+          return Dokument(true,path,country_iso,currency,min,max)
         }
 
-        return Dokument(true,path,dziwny=true)
+        return Dokument(true,path,country_iso,dziwny=true)
       }
     } else
-      return Dokument(false,path)
+      return Dokument(false,path,country_iso="")
 
   }
 
