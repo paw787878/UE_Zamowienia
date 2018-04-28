@@ -27,20 +27,23 @@ object Hello {
 
     //val a=XML.loadFile("example.xml")
 
-    for (i <- 0 until 2000 )
-      {
-        println(i)
-        println(testowe(i))
-        czytaj_xml(testowe(i))
-      }
-
-
-
-    def g(a:String): String ={
-      "kurde"+a
+    val dokumenty=testowe.map(czytaj_xml)
+    def czy_dziwny(d:Dokument):Boolean={
+      d.dziwny
     }
-    testowe(0)
-val dokumenty=testowe.map(g)
+    val dziwne=dokumenty.filter(czy_dziwny)
+    def drukuj_nazwe(d:Dokument): Unit ={
+      println(d.plik)
+    }
+
+    println(dziwne.size)
+    dziwne.foreach(drukuj_nazwe)
+
+
+
+
+
+
 
 
 
@@ -77,59 +80,61 @@ val dokumenty=testowe.map(g)
 
 
 
-def czytaj_xml(path:String): Dokument={
-  def to_double(napis:String): Double={
+  def czytaj_xml(path:String): Dokument={
+    def to_double(napis:String): Double={
 
-    val bez_przecinkow=napis.replaceAll(",",".")
-    val pozycje= new ListBuffer[Int]()
-    for (i <- 0 until bez_przecinkow.size)
-      if (bez_przecinkow(i)=='.')
-        pozycje+=i
+      val bez_przecinkow=napis.replaceAll(",",".")
+      val pozycje= new ListBuffer[Int]()
+      for (i <- 0 until bez_przecinkow.size)
+        if (bez_przecinkow(i)=='.')
+          pozycje+=i
 
-    val chary=bez_przecinkow.toCharArray()
-    if (pozycje.size>1){
-      for (i <- 0 until pozycje.size-1)
-        chary(pozycje(i))=' '
-    }
-
-    String.valueOf(chary).replaceAll("\\s","").toDouble
-
-
-
-  }
-  val wczytane_dane=XML.loadFile(path)
-
-  def czy_award_notice(wczytane:scala.xml.Elem): Boolean ={
-    val b= wczytane \\ "TD_DOCUMENT_TYPE"
-    val kod=((b \ "@CODE").text)
-
-    kod=="7"
-  }
-
-  if (czy_award_notice(wczytane_dane)) {
-    val b= wczytane_dane \\ "VALUE"
-    if (b.size!=0) {
-      val currency = ((b(0) \ "@CURRENCY")).text
-      val amount = to_double(b(0).text)
-      val country_iso = ((wczytane_dane \\ "COUNTRY")(0) \ "@VALUE").text
-
-      Dokument(true, path, currency.replaceAll("\\s", ""), amount, country_iso.replaceAll("\\s", ""))
-    }else{
-      val b= wczytane_dane \\ "VALUE_RANGE"
-      if(b.size!=0){
-        val min=to_double((b(0) \ "LOW").text)
-        val max=to_double((b(0) \ "HIGH").text)
-        val amount= (min+max)/2
-        val country_iso = ((wczytane_dane \\ "COUNTRY")(0) \ "@VALUE").text
-        val currency= (b(0) \ "@CURRENCY" ).text
-        Dokument(true, path,currency.replaceAll("\\s", ""),amount,country_iso.replaceAll("\\s", ""))
+      val chary=bez_przecinkow.toCharArray()
+      if (pozycje.size>1){
+        for (i <- 0 until pozycje.size-1)
+          chary(pozycje(i))=' '
       }
-      Dokument(true,path,dziwny=true)
-    }
-  } else
-  Dokument(false,path)
 
-}
+      String.valueOf(chary).replaceAll("\\s","").toDouble
+
+
+
+    }
+    val wczytane_dane=XML.loadFile(path)
+
+    def czy_award_notice(wczytane:scala.xml.Elem): Boolean ={
+      val b= wczytane \\ "TD_DOCUMENT_TYPE"
+      val kod=((b \ "@CODE").text)
+
+      kod=="7"
+    }
+
+    if (czy_award_notice(wczytane_dane)) {
+      val b= wczytane_dane \\ "VALUE"
+      if (b.size!=0) {
+        val currency = ((b(0) \ "@CURRENCY")).text
+        val amount = to_double(b(0).text)
+        val country_iso = ((wczytane_dane \\ "COUNTRY")(0) \ "@VALUE").text
+
+        return Dokument(true, path, currency.replaceAll("\\s", ""), amount, country_iso.replaceAll("\\s", ""))
+      }else{
+        val b= wczytane_dane \\ "VALUE_RANGE"
+        if(b.size!=0){
+
+          val min=to_double((b(0) \ "LOW").text)
+          val max=to_double((b(0) \ "HIGH").text)
+          val amount= (min+max)/2
+          val country_iso = ((wczytane_dane \\ "COUNTRY")(0) \ "@VALUE").text
+          val currency= (b(0) \ "@CURRENCY" ).text
+          return Dokument(true, path,currency.replaceAll("\\s", ""),amount,country_iso.replaceAll("\\s", ""))
+        }
+
+        return Dokument(true,path,dziwny=true)
+      }
+    } else
+      return Dokument(false,path)
+
+  }
 
 
 
