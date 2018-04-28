@@ -35,11 +35,14 @@ object Hello {
    //   println(f)
     val zly="397361_2017.xml"
     val dobry="386737_2017.xml"
-    czytaj_xml(dobry)
+    val dok=czytaj_xml(zly)
+    println(dok.czy_award_notice)
 
 
 
-   //println(sciezka)
+
+
+
 
 
 
@@ -51,23 +54,12 @@ object Hello {
 
   }
 
+  case class Dokument(czy_award_notice:Boolean, currency:String="", amount: Double=0, country_iso: String="")
 
 
-//  def czytaj_xml(path:String): Unit ={
-//    val wczytane_dane=XML.loadFile(path)
-//
-//    def czy_award_notice(wczytane:scala.xml.Elem): Boolean ={
-//      val b= wczytane \\ "TD_DOCUMENT_TYPE"
-//
-//      val kod=((b(0) \ "@CODE").text)
-//
-//      kod=="7"
-//    }
-//    print(czy_award_notice(wczytane_dane))
-//
-//
-//  }
-def czytaj_xml(path:String): Unit ={
+
+
+def czytaj_xml(path:String): Dokument={
   val wczytane_dane=XML.loadFile(path)
 
   def czy_award_notice(wczytane:scala.xml.Elem): Boolean ={
@@ -81,14 +73,12 @@ def czytaj_xml(path:String): Unit ={
   if (czy_award_notice(wczytane_dane)) {
     val b= (wczytane_dane \\ "VALUE")(0)
     val currency= ((b \ "@CURRENCY"))(0).text
-    val amount=b.text.toFloat
-    val country= ((wczytane_dane \\ "COUNTRY" )(0) \ "@VALUE")(0).text
+    val amount=b.text.toDouble
+    val country_iso= ((wczytane_dane \\ "COUNTRY" )(0) \ "@VALUE")(0).text
 
-    println(currency)
-    println(amount)
-    println(country)
-  }
-
+    Dokument(true,currency,amount,country_iso)
+  } else
+  Dokument(false)
 
 }
 

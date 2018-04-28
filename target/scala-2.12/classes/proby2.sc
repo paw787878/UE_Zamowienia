@@ -19,7 +19,7 @@ def czytaj_xml(path:String): Unit ={
   if (czy_award_notice(wczytane_dane)) {
     val b= (wczytane_dane \\ "VALUE")(0)
     val currency= ((b \ "@CURRENCY"))(0).text
-    val amount=b.text.toFloat
+    val amount=b.text.toDouble
     val country= ((wczytane_dane \\ "COUNTRY" )(0) \ "@VALUE")(0).text
 
     println(currency)
