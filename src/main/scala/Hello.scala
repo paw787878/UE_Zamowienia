@@ -77,6 +77,9 @@ val dokumenty=testowe.map(g)
 
 
 def czytaj_xml(path:String): Dokument={
+  def to_double(napis:String): Double={
+    napis.replaceAll("\\s", "").replaceAll(",",".").toDouble
+  }
   val wczytane_dane=XML.loadFile(path)
 
   def czy_award_notice(wczytane:scala.xml.Elem): Boolean ={
@@ -90,19 +93,19 @@ def czytaj_xml(path:String): Dokument={
     val b= wczytane_dane \\ "VALUE"
     if (b.size!=0) {
       val currency = ((b(0) \ "@CURRENCY")).text
-      val amount = b(0).text.toDouble
+      val amount = to_double(b(0).text)
       val country_iso = ((wczytane_dane \\ "COUNTRY")(0) \ "@VALUE").text
 
-      Dokument(true, path, currency, amount, country_iso)
+      Dokument(true, path, currency.replaceAll("\\s", ""), amount, country_iso.replaceAll("\\s", ""))
     }else{
       val b= wczytane_dane \\ "VALUE_RANGE"
       if(b.size!=0){
-        val min=(b(0) \ "LOW").text.toDouble
-        val max=(b(0) \ "HIGH").text.toDouble
+        val min=to_double((b(0) \ "LOW").text)
+        val max=to_double((b(0) \ "HIGH").text)
         val amount= (min+max)/2
         val country_iso = ((wczytane_dane \\ "COUNTRY")(0) \ "@VALUE").text
         val currency= (b(0) \ "@CURRENCY" ).text
-        Dokument(true, path,currency,amount,country_iso)
+        Dokument(true, path,currency.replaceAll("\\s", ""),amount,country_iso.replaceAll("\\s", ""))
       }
       Dokument(true,path,dziwny=true)
     }
