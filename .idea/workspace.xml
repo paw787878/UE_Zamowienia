@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0b2106d-772f-4fcc-90dd-98630adfed01" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme" beforeDir="false" afterPath="$PROJECT_DIR$/readme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Hello.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Hello.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/proby2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/proby2.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Hello$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Hello$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Hello$Dokument$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Hello$Dokument$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Hello$Dokument.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Hello$Dokument.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/proby2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/proby2.sc" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,8 +25,8 @@
       <file leaf-file-name="Hello.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Hello.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2610">
-              <caret line="174" column="43" selection-start-line="174" selection-start-column="43" selection-end-line="174" selection-end-column="43" />
+            <state relative-caret-position="150">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -479,8 +472,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Hello.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2610">
-          <caret line="174" column="43" selection-start-line="174" selection-start-column="43" selection-end-line="174" selection-end-column="43" />
+        <state relative-caret-position="150">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

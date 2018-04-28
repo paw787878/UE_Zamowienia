@@ -13,37 +13,33 @@ object Hello {
 
 
 
-    untar("dane/2011-01.tar.gz")
+    //untar("dane/2011-01.tar.gz")
 
     val dni=ls(rozp)
    val testowe=ls(dni(0))
-//    val sciezka=testowe(0)
-//    val filename=sciezka
 
-     //val linie=Source.fromFile(filename,enc="UTF-8").getLines()
-    //val string_z_pliku = scala.io.Source.fromFile("example.xml").mkString
-//     for(f<-linie)
-//       println(f)
+    for (i<- 0 until testowe.size){
+      println(i)
+      println(testowe(i))
+      czytaj_xml(testowe(i))
 
-    //val a=XML.loadFile("example.xml")
-
-    val dokumenty=testowe.map(czytaj_xml)
-    def czy_dziwny(d:Dokument):Boolean={
-      d.dziwny
     }
-    def czy_kontrakt(d:Dokument):Boolean={
-      d.czy_award_notice
-    }
-    val dziwne=dokumenty.filter(czy_dziwny)
-    def drukuj_nazwe(d:Dokument): Unit ={
-      println(d.plik)
-    }
-
-    println("tyle dziwnych"+dziwne.size)
-    println("tyle wszystkich kontraktow"+dokumenty.filter(czy_kontrakt).size)
-    //dziwne.foreach(drukuj_nazwe)
-
-
+//    def czy_dziwny(d:Dokument):Boolean={
+//      d.dziwny
+//    }
+//    def czy_kontrakt(d:Dokument):Boolean={
+//      d.czy_award_notice
+//    }
+//    val dziwne=dokumenty.filter(czy_dziwny)
+//    def drukuj_nazwe(d:Dokument): Unit ={
+//      println(d.plik)
+//    }
+//
+//    println("tyle dziwnych"+dziwne.size)
+//    println("tyle wszystkich kontraktow"+dokumenty.filter(czy_kontrakt).size)
+//    //dziwne.foreach(drukuj_nazwe)
+//
+//
 
 
 
@@ -87,6 +83,7 @@ object Hello {
   def czytaj_xml(path:String): Dokument={
     def to_double(napis:String): Double={
 
+
       val bez_przecinkow=napis.replaceAll(",",".")
       val pozycje= new ListBuffer[Int]()
       for (i <- 0 until bez_przecinkow.size)
@@ -117,9 +114,12 @@ object Hello {
       val b= wczytane_dane \\ "VALUE"
       if (b.size!=0) {
         val currency = ((b(0) \ "@CURRENCY")).text
-        val amount = to_double(b(0).text)
-        val country_iso = ((wczytane_dane \\ "ISO_COUNTRY")(0) \ "@VALUE").text
 
+        val country_iso = ((wczytane_dane \\ "ISO_COUNTRY")(0) \ "@VALUE").text
+        try {
+          val amount = to_double(b(0).text)
+        }catch{ case _ =>return Dokument(true,path,dziwny=true)}
+        val amount = to_double(b(0).text)
         return Dokument(true, path, currency.replaceAll("\\s", ""), amount, country_iso.replaceAll("\\s", ""))
       }else{
         val b= wczytane_dane \\ "VALUE_RANGE"
