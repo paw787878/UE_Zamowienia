@@ -35,7 +35,7 @@ object Hello {
    //   println(f)
     val zly="397361_2017.xml"
     val dobry="386737_2017.xml"
-    czytaj_xml(zly)
+    czytaj_xml(dobry)
 
 
 
@@ -51,20 +51,43 @@ object Hello {
 
   }
 
-  def czytaj_xml(path:String): Unit ={
-    val wczytane_dane=XML.loadFile(path)
+//  def czytaj_xml(path:String): Unit ={
+//    val wczytane_dane=XML.loadFile(path)
+//
+//    def czy_award_notice(wczytane:scala.xml.Elem): Boolean ={
+//      val b= wczytane \\ "TD_DOCUMENT_TYPE"
+//
+//      val kod=((b(0) \ "@CODE").text)
+//
+//      kod=="7"
+//    }
+//    print(czy_award_notice(wczytane_dane))
+//
+//
+//  }
+def czytaj_xml(path:String): Unit ={
+  val wczytane_dane=XML.loadFile(path)
 
-    def czy_award_notice(wczytane:scala.xml.Elem): Boolean ={
-      val b= wczytane \\ "TD_DOCUMENT_TYPE"
+  def czy_award_notice(wczytane:scala.xml.Elem): Boolean ={
+    val b= wczytane \\ "TD_DOCUMENT_TYPE"
 
-      val kod=((b(0) \ "@CODE").text)
+    val kod=((b(0) \ "@CODE").text)
 
-      kod=="7"
-    }
-    print(czy_award_notice(wczytane_dane))
-
-
+    kod=="7"
   }
+
+  if (czy_award_notice(wczytane_dane)) {
+    val b= wczytane_dane(0) \\ "VALUE"
+    val currency= (b \ "@CURRENCY").text
+    val amount=b.text.toFloat
+    println(currency)
+    println(amount)
+  }
+
+
+}
+
+
 
 
 
