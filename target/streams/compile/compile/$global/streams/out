@@ -1,2 +1,5 @@
-[0m[[0m[33mwarn[0m] [0m[0mthere were three feature warnings; re-run with -feature for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/pawelc/Desktop/Intelij_projects/Zamowienia_UE/src/main/scala/xml_test.scala:3:5: To compile XML syntax, the scala.xml package must be on the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mPlease see https://github.com/scala/scala-xml for details.[0m
+[0m[[0m[31merror[0m] [0m[0m    <html>[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -19,21 +19,27 @@ object Hello {
     val sciezka=testowe(0)
     val filename=sciezka
 
-     val linie=Source.fromFile("example.xml").getLines()
-    val string_z_pliku = scala.io.Source.fromFile("example.xml").mkString
-     for(f<-linie)
-       println(f)
+     //val linie=Source.fromFile(filename,enc="UTF-8").getLines()
+    //val string_z_pliku = scala.io.Source.fromFile("example.xml").mkString
+//     for(f<-linie)
+//       println(f)
 
-    val a=XML.loadFile("example.xml")
+    //val a=XML.loadFile("example.xml")
+
+
+
+    //println(a)
 
     // val linie=Source.fromFile(filename).getLines()
    // for(f<-linie)
    //   println(f)
+    val zly="397361_2017.xml"
+    val dobry="386737_2017.xml"
+    czytaj_xml(zly)
 
 
 
-
-   println(sciezka)
+   //println(sciezka)
 
 
 
@@ -44,6 +50,28 @@ object Hello {
 
 
   }
+
+  def czytaj_xml(path:String): Unit ={
+    val wczytane_dane=XML.loadFile(path)
+
+    def czy_award_notice(wczytane:scala.xml.Elem): Boolean ={
+      val b= wczytane \\ "TD_DOCUMENT_TYPE"
+
+      val kod=((b(0) \ "@CODE").text)
+
+      kod=="7"
+    }
+    print(czy_award_notice(wczytane_dane))
+
+
+  }
+
+
+
+
+
+
+
 
   val rozp="rozpakowane";
   def untar(path: String): Unit ={
