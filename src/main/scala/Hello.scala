@@ -13,33 +13,36 @@ object Hello {
 
 
 
-    //untar("dane/2011-01.tar.gz")
+    //untar("dane/2018-02.tar.gz")
 
     val dni=ls(rozp)
    val testowe=ls(dni(0))
 
-    for (i<- 0 until testowe.size){
-      println(i)
-      println(testowe(i))
-      czytaj_xml(testowe(i))
+//    for (i<- 0 until testowe.size){
+//      println(i)
+//      println(testowe(i))
+//      czytaj_xml(testowe(i))
+//
+//    }
 
+
+    val dokumenty = testowe.map(czytaj_xml)
+    def czy_dziwny(d:Dokument):Boolean={
+      d.dziwny
     }
-//    def czy_dziwny(d:Dokument):Boolean={
-//      d.dziwny
-//    }
-//    def czy_kontrakt(d:Dokument):Boolean={
-//      d.czy_award_notice
-//    }
-//    val dziwne=dokumenty.filter(czy_dziwny)
-//    def drukuj_nazwe(d:Dokument): Unit ={
-//      println(d.plik)
-//    }
-//
-//    println("tyle dziwnych"+dziwne.size)
-//    println("tyle wszystkich kontraktow"+dokumenty.filter(czy_kontrakt).size)
-//    //dziwne.foreach(drukuj_nazwe)
-//
-//
+    def czy_kontrakt(d:Dokument):Boolean={
+      d.czy_award_notice
+    }
+    val dziwne=dokumenty.filter(czy_dziwny)
+    def drukuj_nazwe(d:Dokument): Unit ={
+      println(d.plik)
+    }
+
+    println("tyle dziwnych"+dziwne.size)
+    println("tyle wszystkich kontraktow"+dokumenty.filter(czy_kontrakt).size)
+   //dziwne.foreach(drukuj_nazwe)
+
+
 
 
 
@@ -74,7 +77,8 @@ object Hello {
 
   }
 
-  case class Dokument(czy_award_notice:Boolean,plik:String, currency:String="", amount: Double=0,
+  case class Dokument(czy_award_notice:Boolean,plik:String, currency:String="", amount_min: Double=0,
+                      amount_max:Double=0,
                       country_iso: String="",dziwny:Boolean=false)
 
 
@@ -105,7 +109,7 @@ object Hello {
 
     def czy_award_notice(wczytane:scala.xml.Elem): Boolean ={
       val b= wczytane \\ "TD_DOCUMENT_TYPE"
-      val kod=((b \ "@CODE").text)
+      val kod=((b(0) \ "@CODE").text)
 
       kod=="7"
     }
@@ -120,17 +124,17 @@ object Hello {
           val amount = to_double(b(0).text)
         }catch{ case _ =>return Dokument(true,path,dziwny=true)}
         val amount = to_double(b(0).text)
-        return Dokument(true, path, currency.replaceAll("\\s", ""), amount, country_iso.replaceAll("\\s", ""))
+        return Dokument(true, path, currency.replaceAll("\\s", ""), amount,amount, country_iso.replaceAll("\\s", ""))
       }else{
         val b= wczytane_dane \\ "VALUE_RANGE"
         if(b.size!=0){
 
           val min=to_double((b(0) \ "LOW").text)
           val max=to_double((b(0) \ "HIGH").text)
-          val amount= (min+max)/2
+
           val country_iso = ((wczytane_dane \\ "ISO_COUNTRY")(0) \ "@VALUE").text
           val currency= (b(0) \ "@CURRENCY" ).text
-          return Dokument(true, path,currency.replaceAll("\\s", ""),amount,country_iso.replaceAll("\\s", ""))
+          return Dokument(true, path,currency.replaceAll("\\s", ""),min,max,country_iso.replaceAll("\\s", ""))
         }
 
         return Dokument(true,path,dziwny=true)
