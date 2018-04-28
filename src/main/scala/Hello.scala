@@ -12,8 +12,8 @@ object Hello {
   def main(args:Array[String]): Unit ={
 
 
-    val spakowane=ls("dane")
-    //untar(spakowane(0))
+
+    untar("dane/2011-01.tar.gz")
 
     val dni=ls(rozp)
    val testowe=ls(dni(0))
@@ -31,13 +31,17 @@ object Hello {
     def czy_dziwny(d:Dokument):Boolean={
       d.dziwny
     }
+    def czy_kontrakt(d:Dokument):Boolean={
+      d.czy_award_notice
+    }
     val dziwne=dokumenty.filter(czy_dziwny)
     def drukuj_nazwe(d:Dokument): Unit ={
       println(d.plik)
     }
 
-    println(dziwne.size)
-    dziwne.foreach(drukuj_nazwe)
+    println("tyle dziwnych"+dziwne.size)
+    println("tyle wszystkich kontraktow"+dokumenty.filter(czy_kontrakt).size)
+    //dziwne.foreach(drukuj_nazwe)
 
 
 
@@ -162,8 +166,26 @@ object Hello {
       "mkdir "+rozp !
 
     }
+    def dodatkowe_untarowywanie(sciezka:String): Unit ={
+
+      def czy_starowany(path:String):Boolean={
+        path.slice(path.size-7,path.size)==".tar.gz"
+      }
+      if (czy_starowany(sciezka)){
+        "tar -zxvf "+sciezka+" -C "+rozp !;
+        val plik = new File(sciezka)
+        plik.delete
+
+      }
+
+
+
+    }
     czysc()
     "tar -zxvf "+path+" -C rozpakowane" !;
+    val foldery=ls(rozp)
+    foldery.foreach(dodatkowe_untarowywanie)
+
   }
 
   def ls(path: String): Array[String] ={

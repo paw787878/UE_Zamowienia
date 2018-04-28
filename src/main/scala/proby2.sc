@@ -94,10 +94,12 @@ val currency= (b(0) \ "@CURRENCY" ).text
 
 
 
+val aa="costam. tar.gz"
+def czy_starowany(path:String):Boolean={
+  path.slice(path.size-7,path.size)==".tar.gz"
+}
 
-val moj_plik="388052_2017.xml"
-//ten plik sie wykrzaczyl
-czytaj_xml("jeden_z_127.xml")
+czy_starowany(aa)
 
 
 
