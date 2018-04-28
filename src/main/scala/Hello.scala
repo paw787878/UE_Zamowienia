@@ -136,7 +136,7 @@ object Hello {
 
 
           val currency= (b(0) \ "@CURRENCY" ).text
-          return Dokument(true,path,country_iso,currency,min,max)
+          return Dokument(true,path,country_iso,currency.replaceAll("\\s", ""),min,max)
         }
 
         return Dokument(true,path,country_iso,dziwny=true)
