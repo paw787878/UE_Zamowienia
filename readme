@@ -20,6 +20,10 @@ Teraz jak juz znajdziesz to szukasz
 
 <VALUE TYPE="PROCUREMENT_TOTAL" CURRENCY="PLN">6257710.21</VALUE>
 w starych dokumentach nie ma "procurement_total"
+w bardzo starych nie ma value
+czasem jest
+<VALUE_RANGE TYPE="PROCUREMENT_TOTAL" CURRENCY="EUR"><LOW>1400000.00</LOW>
+<HIGH>1400000.00</HIGH></VALUE_RANGE>
 
 
 
