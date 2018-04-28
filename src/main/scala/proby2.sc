@@ -12,8 +12,15 @@ port.add_money("pln",1000)
 port.add_money("pln",1000)
 port.add_money("euro",20)
 
+val port2=new Portfel_walut()
+port2.add_money("pln",5000)
+port2.add_money("inna",2)
 
-port.portfel("euro")
+port.add_portfel(port2)
+
+
+
+port.portfel("pln")
 
 
 

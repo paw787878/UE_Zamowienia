@@ -8,4 +8,9 @@ class Portfel_walut() {
     }
   }
 
+  def add_portfel(inny:Portfel_walut): Unit ={
+    for ((waluta,wartosc)<-inny.portfel)
+      add_money(waluta,wartosc)
+  }
+
 }

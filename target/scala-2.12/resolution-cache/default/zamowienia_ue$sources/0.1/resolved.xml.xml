@@ -4,7 +4,7 @@
 		module="zamowienia_ue$sources"
 		revision="0.1"
 		status="integration"
-		publication="20180428105317"
+		publication="20180428204828"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
