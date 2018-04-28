@@ -42,5 +42,8 @@ jeszcze potrzeba nam panstwa
 
 panstwo znadjujemy przy pomocy 
 <ISO_COUNTRY VALUE="PL"/>
+no wlasnie czasem nie ma <country> a jest to <iso_country>
+na razie mam szukanie przy pomocy country to to potem zmienie
 i to jest kod iso panstwa ktory mozna odszyfrowac. 
 
+bywa, ze wartosc kontraktu podana jest w tekscie. 

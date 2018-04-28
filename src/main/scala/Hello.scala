@@ -114,7 +114,7 @@ object Hello {
       if (b.size!=0) {
         val currency = ((b(0) \ "@CURRENCY")).text
         val amount = to_double(b(0).text)
-        val country_iso = ((wczytane_dane \\ "COUNTRY")(0) \ "@VALUE").text
+        val country_iso = ((wczytane_dane \\ "ISO_COUNTRY")(0) \ "@VALUE").text
 
         return Dokument(true, path, currency.replaceAll("\\s", ""), amount, country_iso.replaceAll("\\s", ""))
       }else{
@@ -124,7 +124,7 @@ object Hello {
           val min=to_double((b(0) \ "LOW").text)
           val max=to_double((b(0) \ "HIGH").text)
           val amount= (min+max)/2
-          val country_iso = ((wczytane_dane \\ "COUNTRY")(0) \ "@VALUE").text
+          val country_iso = ((wczytane_dane \\ "ISO_COUNTRY")(0) \ "@VALUE").text
           val currency= (b(0) \ "@CURRENCY" ).text
           return Dokument(true, path,currency.replaceAll("\\s", ""),amount,country_iso.replaceAll("\\s", ""))
         }
