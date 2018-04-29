@@ -142,33 +142,37 @@ def czytaj_xml_nowe(path: String): Dokument = {
 
   val wczytane_dane = XML.loadFile(path)
 
-  def liczba_w_polu(tag:String,gdzie:scala.xml.Node):Double ={
+
+
+  def liczba_w_polu(tag:String,gdzie:scala.xml.Node):(Double,String) ={
   //-1 to znaczy, ze sie nie udalo
   //-2 to znaczy, ze tam cos dziwnego w srodku sieci jeszcze
   val node_list = gdzie \\ tag
   if(node_list.size!=0){
     if(hasOnlyTextChild(node_list(0))){
-    return to_double(node_list(0).text)
+    return (to_double(node_list(0).text),
+      (node_list(0) \\ "@CURRENCY").text.replaceAll("\\s", ""))
   }else{
-    return -2
+    return (-2,"")
   }
   }else{
-    return -1
+    return (-1,"")
   }
 
 
   }
 
-  def range_w_polu(tag: String,gdzie:scala.xml.Node): (Double,Double)={
+  def range_w_polu(tag: String,gdzie:scala.xml.Node): (Double,Double,String)={
     //zwraca min,max w tym polu jesli sa albo -1
     //gdy nie ma
     //lub -2 jak cos dziwnego siedzi w srodku
     val node_list = gdzie \\ tag
     if (node_list.size!=0){
-      return (liczba_w_polu("LOW",node_list(0)),
-        liczba_w_polu("HIGH",node_list(0)))
+      return (liczba_w_polu("LOW",node_list(0))._1,
+        liczba_w_polu("HIGH",node_list(0))._1,
+        (node_list(0) \\ "@CURRENCY").text.replaceAll("\\s", ""))
     }else{
-      return (-1,-1)
+      return (-1,-1,"")
     }
   }
 
@@ -177,7 +181,74 @@ def czytaj_xml_nowe(path: String): Dokument = {
   val country_iso = (((wczytane_dane \\ "ISO_COUNTRY") (0)
     \ "@VALUE").text).replaceAll("\\s", "")
 
-  return Dokument(true,path,country_iso)
+  if (czy_award_notice(wczytane_dane)) {
+
+    //zacznijmy od poszukania glebokich rzeczy
+
+      var value_r= range_w_polu("VAL_RANGE_TOTAL",wczytane_dane)
+      if(value_r._1 == -2 || value_r._2 == -2)
+        return Dokument(true, path, country_iso, dziwny = true, cos_jest_glebiej = true)
+      if(!(value_r._1 == -1 || value_r._2 == -1))
+        return Dokument(true,path,country_iso,value_r._3,value_r._1,value_r._2)
+      //wykluczony taki przypadek
+
+
+
+
+      var value = liczba_w_polu("VAL_TOTAL", wczytane_dane)
+      if (value._1 == -2)
+        return Dokument(true, path, country_iso, dziwny = true, cos_jest_glebiej = true)
+      if (value._1 != -1)
+        return Dokument(true,path,country_iso,value._2,value._1,value._1)
+      //teraz mamy juz wykluczony przypadek taki
+
+
+    {
+      var value= range_w_polu("VALUE_RANGE",wczytane_dane)
+      if(value._1 == -2 || value._2 == -2)
+        return Dokument(true, path, country_iso, dziwny = true, cos_jest_glebiej = true)
+      if(!(value._1 == -1 || value._2 == -1))
+        return Dokument(true,path,country_iso,value._3,value._1,value._2)
+      //wykluczony taki przypadek
+    }
+
+    {
+      var value = liczba_w_polu("VALUE", wczytane_dane)
+      if (value._1 == -2)
+        return Dokument(true, path, country_iso, dziwny = true, cos_jest_glebiej = true)
+      if (value._1 != -1)
+        return Dokument(true, path, country_iso, value._2, value._1, value._1)
+      //teraz mamy juz wykluczony przypadek taki
+    }
+
+    Dokument(true,path,country_iso,"",dziwny=true,superdziwny = true)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }else{
+
+    Dokument(false,path,country_iso)
+  }
+
+
+
+
+
 
 
 }

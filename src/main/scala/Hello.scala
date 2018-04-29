@@ -86,7 +86,7 @@ object Hello {
 
   case class Dokument(czy_award_notice:Boolean,plik:String,country_iso: String, currency:String="", amount_min: Double=0,
                       amount_max:Double=0,
-                      dziwny:Boolean=false)
+                      dziwny:Boolean=false,cos_jest_glebiej:Boolean=false,superdziwny:Boolean=false)
 
 
 
