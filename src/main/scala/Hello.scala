@@ -114,10 +114,10 @@ object Hello {
 
       kod=="7"
     }
-
+    val country_iso = (((wczytane_dane \\ "ISO_COUNTRY")(0) \ "@VALUE").text).replaceAll("\\s", "")
     if (czy_award_notice(wczytane_dane)) {
       val b= wczytane_dane \\ "VALUE"
-      val country_iso = (((wczytane_dane \\ "ISO_COUNTRY")(0) \ "@VALUE").text).replaceAll("\\s", "")
+
       if (b.size!=0) {
         val currency = ((b(0) \ "@CURRENCY")).text
 
@@ -139,10 +139,10 @@ object Hello {
           return Dokument(true,path,country_iso,currency.replaceAll("\\s", ""),min,max)
         }
 
-        return Dokument(true,path,country_iso,dziwny=true)
+        return Dokument(true,path,country_iso.replaceAll("\\s", ""),dziwny=true)
       }
     } else
-      return Dokument(false,path,country_iso="")
+      return Dokument(false,path,country_iso)
 
   }
 
