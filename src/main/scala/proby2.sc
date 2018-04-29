@@ -6,7 +6,7 @@ import scala.xml.XML
 //val moj_plik="386737_2017.xml"
 
 
-def czytaj_xml(path: String): Dokument = {
+def czytaj_xml_stare(path: String): Dokument = {
 
   def to_double(napis: String): Double = {
     val bez_przecinkow = napis.replaceAll(",", ".")
@@ -107,22 +107,53 @@ def czytaj_xml(path: String): Dokument = {
 
 }
 
-val file = "dziwne_przypadki/046960_2018.xml"
+//val file = "dziwne_przypadki/046960_2018.xml"
 //val file= "dziwne_przypadki/juz_dziala/386737_2017.xml"
 
-val cos = czytaj_xml(file)
+def czytaj_xml_nowe(path: String): Dokument = {
+
+  def to_double(napis: String): Double = {
+    //zwroci -1 jesli sie nie da
+    val bez_przecinkow = napis.replaceAll(",", ".")
+    val pozycje = new ListBuffer[Int]()
+    for (i <- 0 until bez_przecinkow.size)
+      if (bez_przecinkow(i) == '.')
+        pozycje += i
+    val chary = bez_przecinkow.toCharArray()
+    if (pozycje.size > 1) {
+      for (i <- 0 until pozycje.size - 1)
+        chary(pozycje(i)) = ' '
+    }
+    val ostateczny_tekst=String.valueOf(chary).replaceAll("\\s", "")
+    try {return ostateczny_tekst.toDouble}
+    catch {
+      case _ => return -1
+    }
+  }
+
+  def czy_award_notice(wczytane: scala.xml.Elem): Boolean = {
+    val b = wczytane \\ "TD_DOCUMENT_TYPE"
+    val kod = ((b(0) \ "@CODE").text)
+    kod == "7"
+  }
+
+  def hasOnlyTextChild(node: scala.xml.Node) =
+    node.child.size == 1 && node.child(0).isInstanceOf[scala.xml.Text]
+
+
+  val wczytane_dane = XML.loadFile(path)
+  val country_iso = (((wczytane_dane \\ "ISO_COUNTRY") (0)
+    \ "@VALUE").text).replaceAll("\\s", "")
+
+
+}
 
 
 
 
-cos
 
-val wczytane_dane = XML.loadFile(file)
-val b = wczytane_dane \\ "VALUE"
-def hasOnlyTextChild(node: scala.xml.Node) =
-  node.child.size == 1 && node.child(0).isInstanceOf[scala.xml.Text]
 
-hasOnlyTextChild(b(0))
+
 
 
 
