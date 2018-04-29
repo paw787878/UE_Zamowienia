@@ -140,10 +140,31 @@ def czytaj_xml_nowe(path: String): Dokument = {
   def hasOnlyTextChild(node: scala.xml.Node) =
     node.child.size == 1 && node.child(0).isInstanceOf[scala.xml.Text]
 
-
   val wczytane_dane = XML.loadFile(path)
+
+  def liczba_w_polu(tag:String):Double ={
+  //-1 to znaczy, ze sie nie udalo
+  //-2 to znaczy, ze tam cos dziwnego w srodku sieci jeszcze
+  val node_list = wczytane_dane \\ tag
+  if(node_list.size!=0){
+    if(hasOnlyTextChild(node_list(0))){
+    return to_double(node_list(0).text)
+  }else{
+    return -2
+  }
+  }else{
+    return -1
+  }
+
+
+  }
+
+
+
   val country_iso = (((wczytane_dane \\ "ISO_COUNTRY") (0)
     \ "@VALUE").text).replaceAll("\\s", "")
+
+  return Dokument(true,path,country_iso)
 
 
 }
