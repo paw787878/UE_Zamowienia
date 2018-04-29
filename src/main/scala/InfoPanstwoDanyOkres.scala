@@ -8,7 +8,7 @@ class InfoPanstwoDanyOkres() {
   def add_dokument(dok:Dokument): Unit ={
     if(dok.czy_award_notice){
       liczba_wszystkich+=1
-      if(dok.dziwny)
+      if(dok.nieodczytywalny)
         liczba_nieodczytywalnych+=1
       else{
         min_value.add_money(dok.currency,dok.amount_min)

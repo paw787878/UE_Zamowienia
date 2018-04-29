@@ -13,7 +13,7 @@ object Hello {
 
 
 
-    //untar("dane/2018-02.tar.gz")
+    //untar("dane/2013-01.tar.gz")
 
     val dni=ls(rozp)
    val testowe=ls(dni(0))
@@ -29,7 +29,7 @@ object Hello {
     val dokumenty = testowe.map(czytaj_xml)
     //val costam=new informacje_o_panstwach(dokumenty)
     def czy_dziwny(d:Dokument):Boolean={
-      d.dziwny
+      d.nieodczytywalny
     }
     def czy_kontrakt(d:Dokument):Boolean={
       d.czy_award_notice
@@ -39,13 +39,24 @@ object Hello {
       println(d.plik)
     }
 
-    println("tyle dziwnych"+dziwne.size)
-    println("tyle wszystkich kontraktow"+dokumenty.filter(czy_kontrakt).size)
-
     var info= new InfoPanstwaDanyOkres
+
+
     for (dok <- dokumenty)
       info.add_dokument(dok)
     info.print()
+
+
+    println("stary dal")
+    println("tyle nieodczytywalnych"+dziwne.size)
+    println("tyle wszystkich kontraktow"+dokumenty.filter(czy_kontrakt).size)
+
+
+
+
+
+
+
 
    //dziwne.foreach(drukuj_nazwe)
 
@@ -84,9 +95,18 @@ object Hello {
 
   }
 
-  case class Dokument(czy_award_notice:Boolean,plik:String,country_iso: String, currency:String="", amount_min: Double=0,
+  case class Dokument(czy_award_notice:Boolean, plik:String, country_iso: String, currency:String="", amount_min: Double=0,
                       amount_max:Double=0,
-                      dziwny:Boolean=false,cos_jest_glebiej:Boolean=false,superdziwny:Boolean=false)
+                      nieodczytywalny:Boolean=false, cos_jest_glebiej:Boolean=false, superdziwny:Boolean=false)
+  //nieodczytywalny znaczy ze nie umiem tego wyciagnac wartosci
+  //cos_jest_glebiej to znaczy, ze informacja o walucie moze byc zakopana glebiej niz patrze dotychczas
+  // superdziwny to znaczy, ze nie reaguje wcale na moje przeszukiwania.
+
+
+
+
+
+
 
 
 
@@ -94,6 +114,7 @@ object Hello {
   def czytaj_xml(path: String): Dokument = {
 
     def to_double(napis: String): Double = {
+      //zwroci -1 jesli sie nie da
       val bez_przecinkow = napis.replaceAll(",", ".")
       val pozycje = new ListBuffer[Int]()
       for (i <- 0 until bez_przecinkow.size)
@@ -104,7 +125,11 @@ object Hello {
         for (i <- 0 until pozycje.size - 1)
           chary(pozycje(i)) = ' '
       }
-      String.valueOf(chary).replaceAll("\\s", "").toDouble
+      val ostateczny_tekst=String.valueOf(chary).replaceAll("\\s", "")
+      try {return ostateczny_tekst.toDouble}
+      catch {
+        case _ => return -1
+      }
     }
 
     def czy_award_notice(wczytane: scala.xml.Elem): Boolean = {
@@ -116,79 +141,93 @@ object Hello {
     def hasOnlyTextChild(node: scala.xml.Node) =
       node.child.size == 1 && node.child(0).isInstanceOf[scala.xml.Text]
 
-
     val wczytane_dane = XML.loadFile(path)
+
+
+
+    def liczba_w_polu(tag:String,gdzie:scala.xml.Node):(Double,String) ={
+      //-1 to znaczy, ze sie nie udalo
+      //-2 to znaczy, ze tam cos dziwnego w srodku siedzi jeszcze
+      val node_list = gdzie \\ tag
+      if(node_list.size!=0){
+        if(hasOnlyTextChild(node_list(0))){
+          return (to_double(node_list(0).text),
+            (node_list(0) \\ "@CURRENCY").text.replaceAll("\\s", ""))
+        }else{
+          return (-2,"")
+        }
+      }else{
+        return (-1,"")
+      }
+
+
+    }
+
+    def range_w_polu(tag: String,gdzie:scala.xml.Node): (Double,Double,String)={
+      //zwraca min,max w tym polu jesli sa albo -1
+      //gdy nie ma
+      //lub -2 jak cos dziwnego siedzi w srodku
+      val node_list = gdzie \\ tag
+      if (node_list.size!=0){
+        return (liczba_w_polu("LOW",node_list(0))._1,
+          liczba_w_polu("HIGH",node_list(0))._1,
+          (node_list(0) \\ "@CURRENCY").text.replaceAll("\\s", ""))
+      }else{
+        return (-1,-1,"")
+      }
+    }
+
+
+
     val country_iso = (((wczytane_dane \\ "ISO_COUNTRY") (0)
       \ "@VALUE").text).replaceAll("\\s", "")
 
-
     if (czy_award_notice(wczytane_dane)) {
-      val b = wczytane_dane \\ "VALUE"
-      if (b.size != 0) {
-        if (hasOnlyTextChild(b(0))) {
-          val currency = ((b(0) \ "@CURRENCY")).text
-          try {
-            val amount = to_double(b(0).text)
-          } catch {
-            case _ => return Dokument(true, path, country_iso, dziwny = true)
-          }
-          val amount = to_double(b(0).text)
+
+      //zacznijmy od poszukania glebokich rzeczy
+
+      var value_r= range_w_polu("VAL_RANGE_TOTAL",wczytane_dane)
+      if(value_r._1 == -2 || value_r._2 == -2)
+        return Dokument(true, path, country_iso, nieodczytywalny = true, cos_jest_glebiej = true)
+      if(!(value_r._1 == -1 || value_r._2 == -1))
+        return Dokument(true,path,country_iso,value_r._3,value_r._1,value_r._2)
+      //wykluczony taki przypadek
 
 
 
 
-
-          return Dokument(true, path, country_iso.replaceAll("\\s", ""),
-            currency.replaceAll("\\s", ""), amount, amount)
-
-        } else {
-          val b=wczytane_dane \\ "VAL_TOTAL"
-          if(b.size!=0){
-            val currency = ((b(0) \ "@CURRENCY")).text
-            if(hasOnlyTextChild(b(0))) {
-              try {
-                val amount = to_double(b(0).text)
-              } catch {
-                case _ => return Dokument(true, path, country_iso, dziwny = true)
-              }
-              val amount = to_double(b(0).text)
-              return Dokument(true, path, country_iso.replaceAll("\\s", ""),
-                currency.replaceAll("\\s", ""), amount, amount)
-            }else{
-              println(path)
-              return Dokument(true, path, country_iso)
-            }
+      var value = liczba_w_polu("VAL_TOTAL", wczytane_dane)
+      if (value._1 == -2)
+        return Dokument(true, path, country_iso, nieodczytywalny = true, cos_jest_glebiej = true)
+      if (value._1 != -1)
+        return Dokument(true,path,country_iso,value._2,value._1,value._1)
+      //teraz mamy juz wykluczony przypadek taki
 
 
-
-          }else{
-            println(path)
-            return Dokument(true, path, country_iso)
-          }
-        }
-
-      } else {
-        val b = wczytane_dane \\ "VALUE_RANGE"
-        if (b.size != 0) {
-
-          val min = to_double((b(0) \ "LOW").text)
-          val max = to_double((b(0) \ "HIGH").text)
-
-
-          val currency = (b(0) \ "@CURRENCY").text
-
-
-          if (currency.replaceAll("\\s", "") == "")
-            println("brak currency " + path)
-
-
-          return Dokument(true, path, country_iso, currency.replaceAll("\\s", ""), min, max)
-        }
-
-        return Dokument(true, path, country_iso.replaceAll("\\s", ""), dziwny = true)
+      {
+        var value= range_w_polu("VALUE_RANGE",wczytane_dane)
+        if(value._1 == -2 || value._2 == -2)
+          return Dokument(true, path, country_iso, nieodczytywalny = true, cos_jest_glebiej = true)
+        if(!(value._1 == -1 || value._2 == -1))
+          return Dokument(true,path,country_iso,value._3,value._1,value._2)
+        //wykluczony taki przypadek
       }
-    } else
-      return Dokument(false, path, country_iso)
+
+      {
+        var value = liczba_w_polu("VALUE", wczytane_dane)
+        if (value._1 == -2)
+          return Dokument(true, path, country_iso, nieodczytywalny = true, cos_jest_glebiej = true)
+        if (value._1 != -1)
+          return Dokument(true, path, country_iso, value._2, value._1, value._1)
+        //teraz mamy juz wykluczony przypadek taki
+      }
+
+      Dokument(true,path,country_iso,"",nieodczytywalny=true,superdziwny = true)
+
+    }else{
+
+      Dokument(false,path,country_iso)
+    }
 
   }
 

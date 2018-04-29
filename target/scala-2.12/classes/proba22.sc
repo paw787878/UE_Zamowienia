@@ -42,7 +42,7 @@ def czytaj_xml(path: String): Dokument = {
         try {
           val amount = to_double(b(0).text)
         } catch {
-          case _ => return Dokument(true, path, country_iso, dziwny = true)
+          case _ => return Dokument(true, path, country_iso, nieodczytywalny = true)
         }
         val amount = to_double(b(0).text)
 
@@ -61,7 +61,7 @@ def czytaj_xml(path: String): Dokument = {
             try {
               val amount = to_double(b(0).text)
             } catch {
-              case _ => return Dokument(true, path, country_iso, dziwny = true)
+              case _ => return Dokument(true, path, country_iso, nieodczytywalny = true)
             }
             val amount = to_double(b(0).text)
             return Dokument(true, path, country_iso.replaceAll("\\s", ""),
@@ -97,7 +97,7 @@ def czytaj_xml(path: String): Dokument = {
         return Dokument(true, path, country_iso, currency.replaceAll("\\s", ""), min, max)
       }
 
-      return Dokument(true, path, country_iso.replaceAll("\\s", ""), dziwny = true)
+      return Dokument(true, path, country_iso.replaceAll("\\s", ""), nieodczytywalny = true)
     }
   } else
     return Dokument(false, path, country_iso)
@@ -149,7 +149,7 @@ def czytaj_xml_nowe(path: String): Dokument = {
 
   def liczba_w_polu(tag:String,gdzie:scala.xml.Node):(Double,String) ={
     //-1 to znaczy, ze sie nie udalo
-    //-2 to znaczy, ze tam cos dziwnego w srodku sieci jeszcze
+    //-2 to znaczy, ze tam cos dziwnego w srodku siedzi jeszcze
     val node_list = gdzie \\ tag
     if(node_list.size!=0){
       if(hasOnlyTextChild(node_list(0))){
@@ -190,7 +190,7 @@ def czytaj_xml_nowe(path: String): Dokument = {
 
     var value_r= range_w_polu("VAL_RANGE_TOTAL",wczytane_dane)
     if(value_r._1 == -2 || value_r._2 == -2)
-      return Dokument(true, path, country_iso, dziwny = true, cos_jest_glebiej = true)
+      return Dokument(true, path, country_iso, nieodczytywalny = true, cos_jest_glebiej = true)
     if(!(value_r._1 == -1 || value_r._2 == -1))
       return Dokument(true,path,country_iso,value_r._3,value_r._1,value_r._2)
     //wykluczony taki przypadek
@@ -200,7 +200,7 @@ def czytaj_xml_nowe(path: String): Dokument = {
 
     var value = liczba_w_polu("VAL_TOTAL", wczytane_dane)
     if (value._1 == -2)
-      return Dokument(true, path, country_iso, dziwny = true, cos_jest_glebiej = true)
+      return Dokument(true, path, country_iso, nieodczytywalny = true, cos_jest_glebiej = true)
     if (value._1 != -1)
       return Dokument(true,path,country_iso,value._2,value._1,value._1)
     //teraz mamy juz wykluczony przypadek taki
@@ -209,7 +209,7 @@ def czytaj_xml_nowe(path: String): Dokument = {
     {
       var value= range_w_polu("VALUE_RANGE",wczytane_dane)
       if(value._1 == -2 || value._2 == -2)
-        return Dokument(true, path, country_iso, dziwny = true, cos_jest_glebiej = true)
+        return Dokument(true, path, country_iso, nieodczytywalny = true, cos_jest_glebiej = true)
       if(!(value._1 == -1 || value._2 == -1))
         return Dokument(true,path,country_iso,value._3,value._1,value._2)
       //wykluczony taki przypadek
@@ -218,13 +218,13 @@ def czytaj_xml_nowe(path: String): Dokument = {
     {
       var value = liczba_w_polu("VALUE", wczytane_dane)
       if (value._1 == -2)
-        return Dokument(true, path, country_iso, dziwny = true, cos_jest_glebiej = true)
+        return Dokument(true, path, country_iso, nieodczytywalny = true, cos_jest_glebiej = true)
       if (value._1 != -1)
         return Dokument(true, path, country_iso, value._2, value._1, value._1)
       //teraz mamy juz wykluczony przypadek taki
     }
 
-    Dokument(true,path,country_iso,"",dziwny=true,superdziwny = true)
+    Dokument(true,path,country_iso,"",nieodczytywalny=true,superdziwny = true)
 
   }else{
 
@@ -233,7 +233,7 @@ def czytaj_xml_nowe(path: String): Dokument = {
 
 }
 
-var plik="047489_2018.xml"
+var plik="dziwne_przypadki/juz_dziala/przypadek_z_values_list.xml"
 var a=czytaj_xml(plik)
 a
 
