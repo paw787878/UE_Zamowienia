@@ -13,10 +13,10 @@ object Hello {
 
 
 
-    //untar("dane/2013-01.tar.gz")
+    //untar("dane/2018-02.tar.gz")
 
     val dni=ls(rozp)
-   val testowe=ls(dni(0))
+   val testowe=ls(dni(5))
 
 //    for (i<- 0 until testowe.size){
 //      println(i)
@@ -27,6 +27,7 @@ object Hello {
 
 
     val dokumenty = testowe.map(czytaj_xml)
+
     //val costam=new informacje_o_panstwach(dokumenty)
     def czy_dziwny(d:Dokument):Boolean={
       d.nieodczytywalny
@@ -52,6 +53,10 @@ object Hello {
     println("tyle wszystkich kontraktow"+dokumenty.filter(czy_kontrakt).size)
 
 
+    println("tu_sa_takie ktore maja cos glebiej")
+    for(d<- dokumenty)
+      if((!(d.superdziwny)) && d.nieodczytywalny)
+        println(d.plik)
 
 
 
@@ -222,7 +227,11 @@ object Hello {
         //teraz mamy juz wykluczony przypadek taki
       }
 
-      Dokument(true,path,country_iso,"",nieodczytywalny=true,superdziwny = true)
+
+      val pom =(wczytane_dane \\ "VALUES_LIST")
+      if(pom.size!=0 && pom(0).text=="")
+        return Dokument(true,path,country_iso,"",nieodczytywalny=true)
+      return Dokument(true,path,country_iso,nieodczytywalny=true,superdziwny=true)
 
     }else{
 
