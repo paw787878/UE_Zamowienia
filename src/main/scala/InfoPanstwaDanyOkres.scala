@@ -23,4 +23,12 @@ class InfoPanstwaDanyOkres() {
     for ((iso,info)<-inny.panstwa)
       add_jedno_panstwo(iso,info)
   }
+  def print(): Unit ={
+    for ((iso,info)<- panstwa){
+      println(iso)
+      info.print()
+      println("")
+      println("")
+    }
+  }
 }

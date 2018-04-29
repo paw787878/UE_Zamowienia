@@ -13,4 +13,9 @@ class Portfel_walut() {
       add_money(waluta,wartosc)
   }
 
+  def print(): Unit ={
+    for ( (waluta,ilosc)<- portfel)
+      println("    "+waluta+" "+ilosc)
+  }
+
 }

@@ -41,6 +41,12 @@ object Hello {
 
     println("tyle dziwnych"+dziwne.size)
     println("tyle wszystkich kontraktow"+dokumenty.filter(czy_kontrakt).size)
+
+    var info= new InfoPanstwaDanyOkres
+    for (dok <- dokumenty)
+      info.add_dokument(dok)
+    info.print()
+
    //dziwne.foreach(drukuj_nazwe)
 
 

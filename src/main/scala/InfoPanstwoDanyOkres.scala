@@ -23,4 +23,18 @@ class InfoPanstwoDanyOkres() {
     liczba_wszystkich+=inny.liczba_wszystkich
     liczba_nieodczytywalnych+=inny.liczba_nieodczytywalnych
   }
+  def print(): Unit ={
+    println("  min_value")
+    min_value.print()
+    println("")
+    println("  max_value")
+    max_value.print()
+    println("")
+    println("  wszystkich transakcji ( w tym nieodczytywalnych")
+    println("    "+liczba_wszystkich)
+    println("")
+    println("  liczba_nieodczytywalnych")
+    println("    "+liczba_nieodczytywalnych)
+
+  }
 }
