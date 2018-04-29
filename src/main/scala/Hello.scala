@@ -156,14 +156,14 @@ object Hello {
                 currency.replaceAll("\\s", ""), amount, amount)
             }else{
               println(path)
-              return Dokument(false, path, country_iso)
+              return Dokument(true, path, country_iso)
             }
 
 
 
           }else{
             println(path)
-            return Dokument(false, path, country_iso)
+            return Dokument(true, path, country_iso)
           }
         }
 
@@ -191,7 +191,6 @@ object Hello {
       return Dokument(false, path, country_iso)
 
   }
-
 
 
 

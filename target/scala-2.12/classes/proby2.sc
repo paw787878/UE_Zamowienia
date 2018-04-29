@@ -6,7 +6,7 @@ import scala.xml.XML
 //val moj_plik="386737_2017.xml"
 
 
-def czytaj_xml_stare(path: String): Dokument = {
+def czytaj_xml(path: String): Dokument = {
 
   def to_double(napis: String): Double = {
     val bez_przecinkow = napis.replaceAll(",", ".")
@@ -199,7 +199,7 @@ def czytaj_xml_nowe(path: String): Dokument = {
       if (value._1 == -2)
         return Dokument(true, path, country_iso, dziwny = true, cos_jest_glebiej = true)
       if (value._1 != -1)
-        return Dokument(true, path, country_iso, value._2, value._1, value._2)
+        return Dokument(true,path,country_iso,value._2,value._1,value._1)
       //teraz mamy juz wykluczony przypadek taki
 
 
@@ -217,41 +217,25 @@ def czytaj_xml_nowe(path: String): Dokument = {
       if (value._1 == -2)
         return Dokument(true, path, country_iso, dziwny = true, cos_jest_glebiej = true)
       if (value._1 != -1)
-        return Dokument(true, path, country_iso, value._2, value._1, value._2)
+        return Dokument(true, path, country_iso, value._2, value._1, value._1)
       //teraz mamy juz wykluczony przypadek taki
     }
 
     Dokument(true,path,country_iso,"",dziwny=true,superdziwny = true)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   }else{
 
     Dokument(false,path,country_iso)
   }
 
-
-
-
-
-
-
 }
+var plik="047489_2018.xml"
+czytaj_xml(plik)
+
+
+//czytaj_xml_nowe(plik)
+
+
 
 
 

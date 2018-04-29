@@ -6,7 +6,7 @@ import scala.xml.XML
 //val moj_plik="386737_2017.xml"
 
 
-def czytaj_xml_stare(path: String): Dokument = {
+def czytaj_xml(path: String): Dokument = {
 
   def to_double(napis: String): Double = {
     val bez_przecinkow = napis.replaceAll(",", ".")
@@ -223,35 +223,19 @@ def czytaj_xml_nowe(path: String): Dokument = {
 
     Dokument(true,path,country_iso,"",dziwny=true,superdziwny = true)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   }else{
 
     Dokument(false,path,country_iso)
   }
 
-
-
-
-
-
-
 }
+var plik="047489_2018.xml"
+czytaj_xml(plik)
+
+
+//czytaj_xml_nowe(plik)
+
+
 
 
 
