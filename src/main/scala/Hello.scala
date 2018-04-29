@@ -91,64 +91,104 @@ object Hello {
 
 
 
-  def czytaj_xml(path:String): Dokument={
-    def to_double(napis:String): Double={
+  def czytaj_xml(path: String): Dokument = {
 
-
-      val bez_przecinkow=napis.replaceAll(",",".")
-      val pozycje= new ListBuffer[Int]()
+    def to_double(napis: String): Double = {
+      val bez_przecinkow = napis.replaceAll(",", ".")
+      val pozycje = new ListBuffer[Int]()
       for (i <- 0 until bez_przecinkow.size)
-        if (bez_przecinkow(i)=='.')
-          pozycje+=i
-
-      val chary=bez_przecinkow.toCharArray()
-      if (pozycje.size>1){
-        for (i <- 0 until pozycje.size-1)
-          chary(pozycje(i))=' '
+        if (bez_przecinkow(i) == '.')
+          pozycje += i
+      val chary = bez_przecinkow.toCharArray()
+      if (pozycje.size > 1) {
+        for (i <- 0 until pozycje.size - 1)
+          chary(pozycje(i)) = ' '
       }
-
-      String.valueOf(chary).replaceAll("\\s","").toDouble
-
-
-
+      String.valueOf(chary).replaceAll("\\s", "").toDouble
     }
-    val wczytane_dane=XML.loadFile(path)
 
-    def czy_award_notice(wczytane:scala.xml.Elem): Boolean ={
-      val b= wczytane \\ "TD_DOCUMENT_TYPE"
-      val kod=((b(0) \ "@CODE").text)
-
-      kod=="7"
+    def czy_award_notice(wczytane: scala.xml.Elem): Boolean = {
+      val b = wczytane \\ "TD_DOCUMENT_TYPE"
+      val kod = ((b(0) \ "@CODE").text)
+      kod == "7"
     }
-    val country_iso = (((wczytane_dane \\ "ISO_COUNTRY")(0) \ "@VALUE").text).replaceAll("\\s", "")
+
+    def hasOnlyTextChild(node: scala.xml.Node) =
+      node.child.size == 1 && node.child(0).isInstanceOf[scala.xml.Text]
+
+
+    val wczytane_dane = XML.loadFile(path)
+    val country_iso = (((wczytane_dane \\ "ISO_COUNTRY") (0)
+      \ "@VALUE").text).replaceAll("\\s", "")
+
+
     if (czy_award_notice(wczytane_dane)) {
-      val b= wczytane_dane \\ "VALUE"
-
-      if (b.size!=0) {
-        val currency = ((b(0) \ "@CURRENCY")).text
-
-
-        try {
+      val b = wczytane_dane \\ "VALUE"
+      if (b.size != 0) {
+        if (hasOnlyTextChild(b(0))) {
+          val currency = ((b(0) \ "@CURRENCY")).text
+          try {
+            val amount = to_double(b(0).text)
+          } catch {
+            case _ => return Dokument(true, path, country_iso, dziwny = true)
+          }
           val amount = to_double(b(0).text)
-        }catch{ case _ =>return Dokument(true,path,country_iso,dziwny=true)}
-        val amount = to_double(b(0).text)
-        return Dokument(true, path,country_iso.replaceAll("\\s", ""), currency.replaceAll("\\s", ""), amount,amount)
-      }else{
-        val b= wczytane_dane \\ "VALUE_RANGE"
-        if(b.size!=0){
-
-          val min=to_double((b(0) \ "LOW").text)
-          val max=to_double((b(0) \ "HIGH").text)
 
 
-          val currency= (b(0) \ "@CURRENCY" ).text
-          return Dokument(true,path,country_iso,currency.replaceAll("\\s", ""),min,max)
+
+
+
+          return Dokument(true, path, country_iso.replaceAll("\\s", ""),
+            currency.replaceAll("\\s", ""), amount, amount)
+
+        } else {
+          val b=wczytane_dane \\ "VAL_TOTAL"
+          if(b.size!=0){
+            val currency = ((b(0) \ "@CURRENCY")).text
+            if(hasOnlyTextChild(b(0))) {
+              try {
+                val amount = to_double(b(0).text)
+              } catch {
+                case _ => return Dokument(true, path, country_iso, dziwny = true)
+              }
+              val amount = to_double(b(0).text)
+              return Dokument(true, path, country_iso.replaceAll("\\s", ""),
+                currency.replaceAll("\\s", ""), amount, amount)
+            }else{
+              println(path)
+              return Dokument(false, path, country_iso)
+            }
+
+
+
+          }else{
+            println(path)
+            return Dokument(false, path, country_iso)
+          }
         }
 
-        return Dokument(true,path,country_iso.replaceAll("\\s", ""),dziwny=true)
+      } else {
+        val b = wczytane_dane \\ "VALUE_RANGE"
+        if (b.size != 0) {
+
+          val min = to_double((b(0) \ "LOW").text)
+          val max = to_double((b(0) \ "HIGH").text)
+
+
+          val currency = (b(0) \ "@CURRENCY").text
+
+
+          if (currency.replaceAll("\\s", "") == "")
+            println("brak currency " + path)
+
+
+          return Dokument(true, path, country_iso, currency.replaceAll("\\s", ""), min, max)
+        }
+
+        return Dokument(true, path, country_iso.replaceAll("\\s", ""), dziwny = true)
       }
     } else
-      return Dokument(false,path,country_iso)
+      return Dokument(false, path, country_iso)
 
   }
 

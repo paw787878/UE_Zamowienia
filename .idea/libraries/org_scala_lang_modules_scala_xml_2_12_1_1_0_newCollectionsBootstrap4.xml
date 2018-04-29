@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="org.scala-lang.modules:scala-xml_2.12:1.1.0-newCollectionsBootstrap4" type="repository">
+    <properties maven-id="org.scala-lang.modules:scala-xml_2.12:1.1.0-newCollectionsBootstrap" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-xml_2.12/1.1.0-newCollectionsBootstrap/scala-xml_2.12-1.1.0-newCollectionsBootstrap.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
