@@ -1,3 +1,5 @@
+import java.io.{File, PrintWriter}
+
 import Hello.Dokument
 
 class InfoPanstwaDanyOkres() {
@@ -31,4 +33,16 @@ class InfoPanstwaDanyOkres() {
       println("")
     }
   }
+  def print_do_pliku(nazwa:String ): Unit ={
+    val pw= new PrintWriter(new File(nazwa))
+
+
+    for ((iso,info)<- panstwa){
+      pw.write(iso+"\n")
+      info.print_do_pliku(pw)
+    }
+    pw.close()
+  }
+
+
 }

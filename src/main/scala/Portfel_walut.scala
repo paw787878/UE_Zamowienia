@@ -1,3 +1,4 @@
+import java.io.{File, PrintWriter}
 class Portfel_walut() {
   var portfel=collection.mutable.Map[String, Double]()
   def add_money(waluta:String,ilosc:Double): Unit ={
@@ -16,6 +17,10 @@ class Portfel_walut() {
   def print(): Unit ={
     for ( (waluta,ilosc)<- portfel)
       println("    "+waluta+" "+ilosc)
+  }
+  def print_do_pliku(pw:java.io.PrintWriter): Unit ={
+    for ( (waluta,ilosc)<- portfel)
+      pw.write("s "+waluta+" "+ilosc+"\n")
   }
 
 }

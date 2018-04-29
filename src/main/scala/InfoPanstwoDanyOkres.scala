@@ -1,6 +1,9 @@
+import java.io.{File, PrintWriter}
+
 import Hello.Dokument
 
 class InfoPanstwoDanyOkres() {
+  val nazwa_folderu="wyniki"
   var min_value=new Portfel_walut()
   var max_value=new Portfel_walut()
   var liczba_wszystkich =0
@@ -37,4 +40,20 @@ class InfoPanstwoDanyOkres() {
     println("    "+liczba_nieodczytywalnych)
 
   }
+  def print_do_pliku(pw:java.io.PrintWriter): Unit ={
+
+    pw.write("min_value"+"\n")
+    min_value.print_do_pliku(pw)
+    pw.write("max_value"+"\n")
+    max_value.print_do_pliku(pw)
+    pw.write("wszystkich transakcji ( w tym nieodczytywalnych)"+"\n")
+    pw.write(liczba_wszystkich.toString+"\n")
+    pw.write("liczba_nieodczytywalnych"+"\n")
+    pw.write(liczba_nieodczytywalnych.toString+"\n")
+
+
+
+  }
+
+
 }

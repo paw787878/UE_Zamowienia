@@ -3,6 +3,7 @@ import java.io.File
 
 import scala.collection.mutable.ListBuffer
 import xml._
+
 import scala.xml.parsing
 import scala.io.Source
 
@@ -57,6 +58,7 @@ object Hello {
     for(d<- dokumenty)
       if((!(d.superdziwny)) && d.nieodczytywalny)
         println(d.plik)
+    info.print_do_pliku("przyklad.txt")
 
 
 

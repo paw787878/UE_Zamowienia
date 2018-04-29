@@ -1,5 +1,8 @@
+
+
+import java.io.{File, PrintWriter}
+
 import scala.xml.XML
-val path="dziwne_przypadki/000152_2013.xml"
-val wczytane_dane = XML.loadFile(path)
-val a= wczytane_dane \\ "VALUES_LIST"
-a.text
+
+
+val pw = new PrintWriter(new File("hello.txt" ))
