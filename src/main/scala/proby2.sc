@@ -142,10 +142,10 @@ def czytaj_xml_nowe(path: String): Dokument = {
 
   val wczytane_dane = XML.loadFile(path)
 
-  def liczba_w_polu(tag:String):Double ={
+  def liczba_w_polu(tag:String,gdzie:scala.xml.Node):Double ={
   //-1 to znaczy, ze sie nie udalo
   //-2 to znaczy, ze tam cos dziwnego w srodku sieci jeszcze
-  val node_list = wczytane_dane \\ tag
+  val node_list = gdzie \\ tag
   if(node_list.size!=0){
     if(hasOnlyTextChild(node_list(0))){
     return to_double(node_list(0).text)
@@ -157,6 +157,19 @@ def czytaj_xml_nowe(path: String): Dokument = {
   }
 
 
+  }
+
+  def range_w_polu(tag: String,gdzie:scala.xml.Node): (Double,Double)={
+    //zwraca min,max w tym polu jesli sa albo -1
+    //gdy nie ma
+    //lub -2 jak cos dziwnego siedzi w srodku
+    val node_list = gdzie \\ tag
+    if (node_list.size!=0){
+      return (liczba_w_polu("LOW",node_list(0)),
+        liczba_w_polu("HIGH",node_list(0)))
+    }else{
+      return (-1,-1)
+    }
   }
 
 
