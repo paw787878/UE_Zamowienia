@@ -1,0 +1,758 @@
+BJ
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+MA
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+BA
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+1
+liczba_nieodczytywalnych
+1
+KR
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+3
+liczba_nieodczytywalnych
+3
+HU
+min_value
+s EUR 1.60288318E8
+s HUF 2.38456462658E11
+s USD 126000.0
+s GBP 46014.0
+max_value
+s EUR 1.60288318E8
+s HUF 2.38456462658E11
+s USD 126000.0
+s GBP 46014.0
+wszystkich transakcji ( w tym nieodczytywalnych)
+258
+liczba_nieodczytywalnych
+1
+TZ
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+JP
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+IT
+min_value
+s EUR 2.208724637999999E9
+s USD 10440.0
+max_value
+s EUR 2.2089111524899993E9
+s USD 10440.0
+wszystkich transakcji ( w tym nieodczytywalnych)
+628
+liczba_nieodczytywalnych
+65
+RS
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+2
+liczba_nieodczytywalnych
+2
+IN
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+TN
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+2
+liczba_nieodczytywalnych
+2
+PL
+min_value
+s MTL 75240.08
+s PLN 1.2887343588010006E10
+s EUR 1.9058566537000003E8
+s GBP 1109757.83
+s USD 7156160.0
+max_value
+s MTL 75240.08
+s PLN 1.2887343588010006E10
+s EUR 1.9058566537000003E8
+s GBP 1109757.83
+s USD 7156160.0
+wszystkich transakcji ( w tym nieodczytywalnych)
+2194
+liczba_nieodczytywalnych
+71
+IE
+min_value
+s EUR 4.1433355790000004E8
+max_value
+s EUR 4.1433355790000004E8
+wszystkich transakcji ( w tym nieodczytywalnych)
+76
+liczba_nieodczytywalnych
+32
+SI
+min_value
+s EUR 1.7191937089000005E8
+s USD 706153.0
+max_value
+s EUR 1.7191937089000005E8
+s USD 706153.0
+wszystkich transakcji ( w tym nieodczytywalnych)
+180
+liczba_nieodczytywalnych
+46
+HR
+min_value
+s HRK 1.36026629079E9
+max_value
+s HRK 1.36026629079E9
+wszystkich transakcji ( w tym nieodczytywalnych)
+113
+liczba_nieodczytywalnych
+1
+CN
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+DM
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+1A
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+1
+liczba_nieodczytywalnych
+1
+CZ
+min_value
+s CZK 8.520486510249998E9
+s NOK 4596157.0
+s CHF 343800.0
+s EUR 6.541866475E7
+s USD 647990.0
+max_value
+s CZK 8.520486510249998E9
+s NOK 4596157.0
+s CHF 343800.0
+s EUR 6.541866475E7
+s USD 647990.0
+wszystkich transakcji ( w tym nieodczytywalnych)
+402
+liczba_nieodczytywalnych
+21
+CH
+min_value
+s CHF 3.3426404107E8
+max_value
+s CHF 3.3426404107E8
+wszystkich transakcji ( w tym nieodczytywalnych)
+236
+liczba_nieodczytywalnych
+43
+ML
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+1
+liczba_nieodczytywalnych
+1
+ZM
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+LA
+min_value
+s CHF 6771664.0
+max_value
+s CHF 6771664.0
+wszystkich transakcji ( w tym nieodczytywalnych)
+1
+liczba_nieodczytywalnych
+0
+BF
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+KW
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+ID
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+1
+liczba_nieodczytywalnych
+1
+KE
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+2
+liczba_nieodczytywalnych
+2
+SB
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+1
+liczba_nieodczytywalnych
+1
+SK
+min_value
+s CZK 8.023908616E7
+s EUR 3.394458325E8
+max_value
+s CZK 8.023908616E7
+s EUR 3.394458325E8
+wszystkich transakcji ( w tym nieodczytywalnych)
+114
+liczba_nieodczytywalnych
+0
+BI
+min_value
+s EUR 105465.18
+max_value
+s EUR 105465.18
+wszystkich transakcji ( w tym nieodczytywalnych)
+1
+liczba_nieodczytywalnych
+0
+RO
+min_value
+s RON 2.412021077440001E9
+s EUR 1.7039958461E8
+s USD 3.647502512E7
+max_value
+s RON 2.412021077440001E9
+s EUR 1.7039958461E8
+s USD 3.647502512E7
+wszystkich transakcji ( w tym nieodczytywalnych)
+338
+liczba_nieodczytywalnych
+0
+KZ
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+BR
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+LV
+min_value
+s EUR 1.1497340399000001E8
+max_value
+s EUR 1.1497340399000001E8
+wszystkich transakcji ( w tym nieodczytywalnych)
+111
+liczba_nieodczytywalnych
+1
+AM
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+1
+liczba_nieodczytywalnych
+1
+IS
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+GI
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+SN
+min_value
+s EUR 4368407.66
+max_value
+s EUR 4368407.66
+wszystkich transakcji ( w tym nieodczytywalnych)
+1
+liczba_nieodczytywalnych
+0
+SE
+min_value
+s SEK 6.70745822E8
+s EUR 946720.0
+max_value
+s SEK 6.70745822E8
+s EUR 946720.0
+wszystkich transakcji ( w tym nieodczytywalnych)
+408
+liczba_nieodczytywalnych
+373
+TJ
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+1
+liczba_nieodczytywalnych
+1
+HN
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+GR
+min_value
+s EUR 2.0782049185999995E8
+max_value
+s EUR 2.0782049185999995E8
+wszystkich transakcji ( w tym nieodczytywalnych)
+127
+liczba_nieodczytywalnych
+4
+JO
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+3
+liczba_nieodczytywalnych
+3
+MW
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+RU
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+PT
+min_value
+s EUR 7.003755171000001E7
+max_value
+s EUR 7.003755171000001E7
+wszystkich transakcji ( w tym nieodczytywalnych)
+189
+liczba_nieodczytywalnych
+6
+AL
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+2
+liczba_nieodczytywalnych
+2
+MZ
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+1
+liczba_nieodczytywalnych
+1
+BZ
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+LC
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+CD
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+LU
+min_value
+s EUR 8.497097150000001E7
+max_value
+s EUR 8.497097150000001E7
+wszystkich transakcji ( w tym nieodczytywalnych)
+62
+liczba_nieodczytywalnych
+23
+EE
+min_value
+s EUR 9.002398266000001E7
+max_value
+s EUR 9.002398266000001E7
+wszystkich transakcji ( w tym nieodczytywalnych)
+79
+liczba_nieodczytywalnych
+0
+MT
+min_value
+s EUR 6759602.45
+max_value
+s EUR 6759602.45
+wszystkich transakcji ( w tym nieodczytywalnych)
+20
+liczba_nieodczytywalnych
+0
+NP
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+AF
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+1
+liczba_nieodczytywalnych
+1
+CY
+min_value
+s EUR 1.0438680535999997E8
+max_value
+s EUR 1.0438680535999997E8
+wszystkich transakcji ( w tym nieodczytywalnych)
+39
+liczba_nieodczytywalnych
+0
+MK
+min_value
+s MKD 1.30495136922E9
+s EUR 118035.0
+max_value
+s MKD 1.30495425422E9
+s EUR 118035.0
+wszystkich transakcji ( w tym nieodczytywalnych)
+81
+liczba_nieodczytywalnych
+37
+TR
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+19
+liczba_nieodczytywalnych
+19
+LI
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+IL
+min_value
+s EUR 3191861.12
+max_value
+s EUR 3191861.12
+wszystkich transakcji ( w tym nieodczytywalnych)
+1
+liczba_nieodczytywalnych
+0
+ME
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+3
+liczba_nieodczytywalnych
+3
+BE
+min_value
+s EUR 4.38573334034E9
+max_value
+s EUR 4.38573334034E9
+wszystkich transakcji ( w tym nieodczytywalnych)
+408
+liczba_nieodczytywalnych
+136
+CA
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+LR
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+UK
+min_value
+s EUR 1.0325866605E8
+s USD 562436.68
+s GBP 7.285855517280002E9
+max_value
+s EUR 1.0325866605E8
+s USD 562436.68
+s GBP 7.286606844280002E9
+wszystkich transakcji ( w tym nieodczytywalnych)
+752
+liczba_nieodczytywalnych
+193
+GE
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+FR
+min_value
+s EUR 4.882079990609997E9
+max_value
+s EUR 4.882701570609997E9
+wszystkich transakcji ( w tym nieodczytywalnych)
+4049
+liczba_nieodczytywalnych
+2081
+RW
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+FI
+min_value
+s EUR 5.87047926E8
+max_value
+s EUR 5.87047926E8
+wszystkich transakcji ( w tym nieodczytywalnych)
+206
+liczba_nieodczytywalnych
+0
+KP
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+1
+liczba_nieodczytywalnych
+1
+KG
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+PY
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+1
+liczba_nieodczytywalnych
+1
+NO
+min_value
+s NOK 3.78168817775E9
+s EUR 3160822.0
+max_value
+s NOK 3.78168817775E9
+s EUR 3160822.0
+wszystkich transakcji ( w tym nieodczytywalnych)
+223
+liczba_nieodczytywalnych
+103
+EG
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+1
+liczba_nieodczytywalnych
+1
+SV
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+DK
+min_value
+s CHF 1650000.0
+s DKK 2.508781572986E10
+s EUR 3133200.0
+max_value
+s CHF 1650000.0
+s DKK 2.508916618623E10
+s EUR 3133200.0
+wszystkich transakcji ( w tym nieodczytywalnych)
+242
+liczba_nieodczytywalnych
+98
+ES
+min_value
+s EUR 1.7427337658200011E9
+s USD 1182378.12
+max_value
+s EUR 1.7427337658200011E9
+s USD 1182378.12
+wszystkich transakcji ( w tym nieodczytywalnych)
+902
+liczba_nieodczytywalnych
+70
+DE
+min_value
+s BGN 2441135.46
+s EUR 2.3215522925100007E9
+s GBP 701500.0
+max_value
+s BGN 2441135.46
+s EUR 2.3222691579100003E9
+s GBP 701500.0
+wszystkich transakcji ( w tym nieodczytywalnych)
+1994
+liczba_nieodczytywalnych
+989
+CI
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+MD
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+BY
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+LB
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+0
+liczba_nieodczytywalnych
+0
+LT
+min_value
+s EUR 3.881280069100001E8
+max_value
+s EUR 3.881280069100001E8
+wszystkich transakcji ( w tym nieodczytywalnych)
+184
+liczba_nieodczytywalnych
+0
+AT
+min_value
+s EUR 5.5545304654E8
+max_value
+s EUR 5.5545304654E8
+wszystkich transakcji ( w tym nieodczytywalnych)
+229
+liczba_nieodczytywalnych
+124
+BG
+min_value
+s BGN 4.630530321400002E8
+s EUR 3783080.0
+max_value
+s BGN 4.630530321400002E8
+s EUR 3783080.0
+wszystkich transakcji ( w tym nieodczytywalnych)
+438
+liczba_nieodczytywalnych
+0
+DZ
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+2
+liczba_nieodczytywalnych
+2
+US
+min_value
+s EUR 1657463.73
+max_value
+s EUR 1657463.73
+wszystkich transakcji ( w tym nieodczytywalnych)
+19
+liczba_nieodczytywalnych
+15
+NL
+min_value
+s EUR 2.1042594387000006E8
+s USD 256240.0
+max_value
+s EUR 2.1042594387000006E8
+s USD 256240.0
+wszystkich transakcji ( w tym nieodczytywalnych)
+487
+liczba_nieodczytywalnych
+311
+UA
+min_value
+max_value
+wszystkich transakcji ( w tym nieodczytywalnych)
+4
+liczba_nieodczytywalnych
+4

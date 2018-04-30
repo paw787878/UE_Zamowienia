@@ -14,7 +14,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.12.5:jar" level="project" />
-    <orderEntry type="library" name="org.scala-lang.modules:scala-xml_2.12:1.1.0-newCollectionsBootstrap5" level="project" />
-    <orderEntry type="library" name="net.liftweb:lift-json_2.9.2:2.5.3" level="project" />
+    <orderEntry type="library" name="org.scala-lang.modules:scala-xml_2.12:1.1.0-newCollectionsBootstrap6" level="project" />
   </component>
 </module>

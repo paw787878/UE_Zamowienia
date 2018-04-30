@@ -13,9 +13,31 @@ object Hello {
   def main(args:Array[String]): Unit ={
 
 
+    val lista_miesiecy=ls("dane")
+    //lista_miesiecy.foreach(println)
+
+
+    for (mies<-lista_miesiecy){
+      val nazwa="wyniki/"+rob_nazwe(mies)+".txt"
+      var dane=new InfoPanstwaDanyOkres()
+      untar(mies)
+      val dni=ls(rozp)
+      for(dzien<-dni){
+        println(dzien)
+        val sciezki_dokumentow=ls(dzien)
+        val dokumenty=sciezki_dokumentow.map(czytaj_xml)
+        for(d<- dokumenty)
+          dane.add_dokument(d)
+
+      }
+      dane.print_do_pliku(nazwa)
+    }
+
+
+
 
     //untar("dane/2018-02.tar.gz")
-
+/*
     val dni=ls(rozp)
    val testowe=ls(dni(5))
 
@@ -98,7 +120,7 @@ object Hello {
 
 
 
-
+*/
 
   }
 
@@ -292,8 +314,14 @@ object Hello {
   def ls(path: String): Array[String] ={
     //results list of directories in path
     val a="ls "+path !!;
-    val b=a.split("\n")
+    val b=a.split("\n").reverse
     b.map(x=> path+"/"+x)
+  }
+
+  def rob_nazwe(s:String):String={
+    val nazwa=s.split("/")(1)
+
+    return nazwa.substring(0,7)
   }
 
 

@@ -1,8 +1,4 @@
 
 
-import java.io.{File, PrintWriter}
-
-import scala.xml.XML
-
-
-val pw = new PrintWriter(new File("hello.txt" ))
+val s="costam/2011-01-04"
+s.split("/")
