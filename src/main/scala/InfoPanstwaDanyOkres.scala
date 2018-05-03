@@ -45,6 +45,17 @@ class InfoPanstwaDanyOkres() {
     pw.close()
   }
 
+  def print_do_pliku_czysto(nazwa:String ): Unit ={
+    val pw= new PrintWriter(new File(nazwa))
+
+
+    for ((iso,info)<- panstwa){
+      pw.write(Panstwa.nazwa_ze_skroto(iso)+"\n")
+      info.print_do_pliku_czysto(pw)
+    }
+    pw.close()
+  }
+
   def doczytaj(path:String): Unit ={
     val source = Source.fromFile(path)
     val linie = source.getLines().toList

@@ -1,0 +1,2232 @@
+IQ (IRAQ)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+12
+  Liczba_nieodczytywalnych
+12
+SC (SEYCHELLES)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+4
+SL (SIERRA LEONE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1515266.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1515266.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+11
+  Liczba_nieodczytywalnych
+10
+BS (BAHAMAS)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+CO (COLOMBIA)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 417992.0
+    EUR (Euro) 1220254.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 417992.0
+    EUR (Euro) 1220254.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+28
+  Liczba_nieodczytywalnych
+24
+TH (THAILAND)
+  Minimalna wartosc w wczytywalnych
+    SEK (Swedish Krona) 3.12E7
+    CHF (Swiss Franc) 357700.0
+    EUR (Euro) 352000.0
+  Maksymalna wartosc w wczytywalnych
+    SEK (Swedish Krona) 3.12E7
+    CHF (Swiss Franc) 357700.0
+    EUR (Euro) 352000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+8
+  Liczba_nieodczytywalnych
+4
+JM (JAMAICA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1950000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1950000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+11
+  Liczba_nieodczytywalnych
+9
+BA (BOSNIA AND HERZEGOVINA)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 3.6711527E7
+    EUR (Euro) 8746122.85
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 3.6711527E7
+    EUR (Euro) 8746122.85
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+214
+  Liczba_nieodczytywalnych
+195
+MA (MOROCCO)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3757676.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3757676.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+53
+  Liczba_nieodczytywalnych
+51
+AE (UNITED ARAB EMIRATES)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+BJ (BENIN)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 2000000.0
+    EUR (Euro) 1588529.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 2000000.0
+    EUR (Euro) 1588529.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+20
+  Liczba_nieodczytywalnych
+17
+HU (HUNGARY)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 7367096.0
+    HUF (Forint) 3.896653417394666E29
+    EUR (Euro) 1.2552121903359778E15
+    GBP (Pound Sterling) 649248.0
+    USD (US Dollar) 1.4280579E8
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 7367096.0
+    HUF (Forint) 3.896653417394666E29
+    EUR (Euro) 1.2552121918668708E15
+    GBP (Pound Sterling) 649248.0
+    USD (US Dollar) 1.4280579E8
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+16037
+  Liczba_nieodczytywalnych
+1329
+AN
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+3
+  Liczba_nieodczytywalnych
+3
+KR (KOREA, REPUBLIC OF)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 84800.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 84800.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+3
+AW (ARUBA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+CF (CENTRAL AFRICAN REPUBLIC)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3315010.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3315010.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+0
+TZ (TANZANIA, UNITED REPUBLIC OF)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 9560483.0
+    USD (US Dollar) 4449822.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 9560483.0
+    USD (US Dollar) 4449822.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+20
+  Liczba_nieodczytywalnych
+15
+KI (KIRIBATI)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+SO (SOMALIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2361300.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2361300.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+3
+  Liczba_nieodczytywalnych
+1
+UY (URUGUAY)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1440807.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1440807.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+14
+  Liczba_nieodczytywalnych
+13
+VC (SAINT VINCENT AND THE GRENADINES)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+12
+  Liczba_nieodczytywalnych
+12
+GA (GABON)
+  Minimalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 308685.63
+    EUR (Euro) 2352998.0
+  Maksymalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 308685.63
+    EUR (Euro) 2352998.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+6
+  Liczba_nieodczytywalnych
+2
+JP (JAPAN)
+  Minimalna wartosc w wczytywalnych
+    JPY (Japanese yen) 6.33528041E8
+    EUR (Euro) 1462380.0
+  Maksymalna wartosc w wczytywalnych
+    JPY (Japanese yen) 6.33528041E8
+    EUR (Euro) 1462380.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+17
+  Liczba_nieodczytywalnych
+4
+IT (ITALY)
+  Minimalna wartosc w wczytywalnych
+    EEK (Kroon) 1118253.5
+    CZK (Czech Koruna) 7253860.79
+    CHF (Swiss Franc) 8043256.100000001
+    BGN (Bulgarian Lev) 3613719.5200000005
+    JPY (Japanese yen) 2.00676244E8
+    CYP (Cyprus Pound) 1.055097927E7
+    EUR (Euro) 4.5525010619866003E11
+    USD (US Dollar) 1.6523471021E8
+    GBP (Pound Sterling) 3.585603897E7
+  Maksymalna wartosc w wczytywalnych
+    EEK (Kroon) 1118253.5
+    CZK (Czech Koruna) 7253860.79
+    CHF (Swiss Franc) 8043256.100000001
+    BGN (Bulgarian Lev) 3613719.5200000005
+    JPY (Japanese yen) 2.00676244E8
+    CYP (Cyprus Pound) 1.055097927E7
+    EUR (Euro) 4.5527620817241003E11
+    USD (US Dollar) 1.6523471021E8
+    GBP (Pound Sterling) 3.585603897E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+57677
+  Liczba_nieodczytywalnych
+7432
+TT (TRINIDAD AND TOBAGO)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 187500.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 187500.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+1
+RS (SERBIA)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1.0426916E7
+    EUR (Euro) 1.1609598979999999E7
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1.0426916E7
+    EUR (Euro) 1.1609598979999999E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+491
+  Liczba_nieodczytywalnych
+457
+UG (UGANDA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1196443.85
+    USD (US Dollar) 3227777.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1196443.85
+    USD (US Dollar) 3227777.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+11
+  Liczba_nieodczytywalnych
+8
+AZ (AZERBAIJAN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1495000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1495000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+10
+  Liczba_nieodczytywalnych
+8
+SX (SINT MAARTEN (DUTCH PART))
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+GD (GRENADA)
+  Minimalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 849700.0
+  Maksymalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 849700.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+0
+TN (TUNISIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 4.7573844187E8
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 4.7573844187E8
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+82
+  Liczba_nieodczytywalnych
+78
+IN (INDIA)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 684000.0
+    EUR (Euro) 3758815.0
+    GBP (Pound Sterling) 1.520980768E8
+    USD (US Dollar) 1597268.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 684000.0
+    EUR (Euro) 3758815.0
+    GBP (Pound Sterling) 1.520980768E8
+    USD (US Dollar) 1597268.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+66
+  Liczba_nieodczytywalnych
+16
+PL (POLAND)
+  Minimalna wartosc w wczytywalnych
+    CZK (Czech Koruna) 407085.46
+    SKK (Slovak Koruna) 7071388.359999999
+    RON (Romanian New Leu) 1.528011872E7
+    DKK (Danish Krone) 5.145752E7
+    NOK (Norwegian Krone) 5443595.89
+    SEK (Swedish Krona) 5.107396481E7
+    CHF (Swiss Franc) 4569462.58
+    MTL (Maltese Lira) 1.1987275699E8
+    PLN (Zloty) 9.456857973214102E11
+    EUR (Euro) 2.9417919522030003E10
+    GBP (Pound Sterling) 2.6974864650000002E7
+    USD (US Dollar) 8.4182079509E8
+  Maksymalna wartosc w wczytywalnych
+    CZK (Czech Koruna) 407085.46
+    SKK (Slovak Koruna) 7071388.359999999
+    RON (Romanian New Leu) 1.528011872E7
+    DKK (Danish Krone) 5.145752E7
+    NOK (Norwegian Krone) 5443595.89
+    SEK (Swedish Krona) 5.107396481E7
+    CHF (Swiss Franc) 4569462.58
+    MTL (Maltese Lira) 1.1987275699E8
+    PLN (Zloty) 9.483330750734102E11
+    EUR (Euro) 2.9451189406520004E10
+    GBP (Pound Sterling) 2.6974864650000002E7
+    USD (US Dollar) 8.4182079509E8
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+167324
+  Liczba_nieodczytywalnych
+7486
+SI (SLOVENIA)
+  Minimalna wartosc w wczytywalnych
+    RON (Romanian New Leu) 50847.0
+    BGN (Bulgarian Lev) 5563607.8
+    JPY (Japanese yen) 6.25344E7
+    EUR (Euro) 1.876623338481E10
+    GBP (Pound Sterling) 180640.0
+    USD (US Dollar) 2.256623078E7
+  Maksymalna wartosc w wczytywalnych
+    RON (Romanian New Leu) 50847.0
+    BGN (Bulgarian Lev) 5563607.8
+    JPY (Japanese yen) 6.25344E7
+    EUR (Euro) 1.876623338481E10
+    GBP (Pound Sterling) 180640.0
+    USD (US Dollar) 2.256623078E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+15839
+  Liczba_nieodczytywalnych
+1580
+IE (IRELAND)
+  Minimalna wartosc w wczytywalnych
+    HUF (Forint) 2000000.0
+    EUR (Euro) 7.000180398867765E14
+    USD (US Dollar) 345226.0
+    GBP (Pound Sterling) 3946860.8000000003
+  Maksymalna wartosc w wczytywalnych
+    HUF (Forint) 2000000.0
+    EUR (Euro) 7.000187430806834E14
+    USD (US Dollar) 345226.1
+    GBP (Pound Sterling) 3946861.8000000003
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+6331
+  Liczba_nieodczytywalnych
+2571
+EC (ECUADOR)
+  Minimalna wartosc w wczytywalnych
+    USD (US Dollar) 1091835.58
+  Maksymalna wartosc w wczytywalnych
+    USD (US Dollar) 1091835.58
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+2
+GM (GAMBIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 275000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 275000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+3
+  Liczba_nieodczytywalnych
+2
+YT (MAYOTTE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 219098.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 219098.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+3
+  Liczba_nieodczytywalnych
+0
+SR (SURINAME)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+HR (CROATIA)
+  Minimalna wartosc w wczytywalnych
+    HRK (Croatian Kuna) 8.931465305801E10
+    EUR (Euro) 4.124473535E7
+    USD (US Dollar) 2.2636450249999996E7
+    GBP (Pound Sterling) 617060.34
+  Maksymalna wartosc w wczytywalnych
+    HRK (Croatian Kuna) 8.931465305801E10
+    EUR (Euro) 4.124473535E7
+    USD (US Dollar) 2.2636450249999996E7
+    GBP (Pound Sterling) 617060.34
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+7023
+  Liczba_nieodczytywalnych
+366
+ZA (SOUTH AFRICA)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1.0142134E7
+    EUR (Euro) 4407387.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1.0142134E7
+    EUR (Euro) 4407387.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+12
+  Liczba_nieodczytywalnych
+9
+PF (FRENCH POLYNESIA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+5
+  Liczba_nieodczytywalnych
+5
+GP (GUADELOUPE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.248301625E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.248318425E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+14
+  Liczba_nieodczytywalnych
+1
+GY (GUYANA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+17
+  Liczba_nieodczytywalnych
+17
+YE (YEMEN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1709500.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1709500.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+2
+CN (CHINA)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 5997575.0
+    EUR (Euro) 2819082.39
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 5997575.0
+    EUR (Euro) 2819082.39
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+26
+  Liczba_nieodczytywalnych
+21
+DJ (DJIBOUTI)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 4264895.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 4264895.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+8
+  Liczba_nieodczytywalnych
+6
+CW (CURAÇAO)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+MR (MAURITANIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1848787.61
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1848787.61
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+17
+  Liczba_nieodczytywalnych
+16
+NE (NIGER)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1.541880096E7
+    EUR (Euro) 2291219.94
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1.541880096E7
+    EUR (Euro) 2291219.94
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+19
+  Liczba_nieodczytywalnych
+13
+OM (OMAN)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+DM (DOMINICA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+1A
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 3.606970597E7
+    SEK (Swedish Krona) 2.14E7
+    EUR (Euro) 941208.87
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 3.606970597E7
+    SEK (Swedish Krona) 2.14E7
+    EUR (Euro) 941208.87
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+79
+  Liczba_nieodczytywalnych
+72
+MU (MAURITIUS)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+4
+CZ (CZECH REPUBLIC)
+  Minimalna wartosc w wczytywalnych
+    LTL (Lithuanian Litas) 1.355E7
+    EEK (Kroon) 205700.0
+    CZK (Czech Koruna) 1.8537025036849905E12
+    SEK (Swedish Krona) 9100000.0
+    CHF (Swiss Franc) 9829596.0
+    DKK (Danish Krone) 6.767024516E7
+    NOK (Norwegian Krone) 7.4106095E7
+    BGN (Bulgarian Lev) 4.42547467E7
+    JPY (Japanese yen) 2.653375E7
+    TRY (New Turkish Lira) 6670182.0
+    CYP (Cyprus Pound) 9837173.84
+    EUR (Euro) 7.769262385980002E9
+    USD (US Dollar) 7.036894400699999E8
+    GBP (Pound Sterling) 1.1303855794E8
+  Maksymalna wartosc w wczytywalnych
+    LTL (Lithuanian Litas) 1.355E7
+    EEK (Kroon) 205700.0
+    CZK (Czech Koruna) 1.8569242416392703E12
+    SEK (Swedish Krona) 9100000.0
+    CHF (Swiss Franc) 9829596.0
+    DKK (Danish Krone) 6.767024516E7
+    NOK (Norwegian Krone) 7.4106095E7
+    BGN (Bulgarian Lev) 4.42547467E7
+    JPY (Japanese yen) 2.653375E7
+    TRY (New Turkish Lira) 6670182.0
+    CYP (Cyprus Pound) 9837173.84
+    EUR (Euro) 7.769277671570003E9
+    USD (US Dollar) 7.0382661877E8
+    GBP (Pound Sterling) 1.1303855794E8
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+46091
+  Liczba_nieodczytywalnych
+3420
+CH (SWITZERLAND)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 3.2294384759510017E10
+    EUR (Euro) 2.1131587507000002E8
+    USD (US Dollar) 3.940717277E7
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 3.645368304589002E10
+    EUR (Euro) 2.1302254607000002E8
+    USD (US Dollar) 3.940717277E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+17176
+  Liczba_nieodczytywalnych
+3610
+MC (MONACO)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+ML (MALI)
+  Minimalna wartosc w wczytywalnych
+    SEK (Swedish Krona) 2000000.0
+    CHF (Swiss Franc) 2.2453E7
+    DKK (Danish Krone) 3.840148691E7
+    EUR (Euro) 2560539.28
+  Maksymalna wartosc w wczytywalnych
+    SEK (Swedish Krona) 2000000.0
+    CHF (Swiss Franc) 2.2453E7
+    DKK (Danish Krone) 3.840148691E7
+    EUR (Euro) 2560539.28
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+58
+  Liczba_nieodczytywalnych
+48
+AG (ANTIGUA AND BARBUDA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+ZM (ZAMBIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 4711122.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 4711122.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+32
+  Liczba_nieodczytywalnych
+31
+ER (ERITREA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 6149391.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 6149391.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+18
+  Liczba_nieodczytywalnych
+16
+TV (TUVALU)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+LA (LAO PEOPLE'S DEMOCRATIC REPUBLIC)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 6772559.0
+    EUR (Euro) 250000.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 6772559.0
+    EUR (Euro) 250000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+1
+MX (MEXICO)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1874112.85
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1874112.85
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+6
+  Liczba_nieodczytywalnych
+3
+TM (TURKMENISTAN)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+7
+  Liczba_nieodczytywalnych
+7
+BF (BURKINA FASO)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 4.3980763E7
+    DKK (Danish Krone) 4.30016705E7
+    EUR (Euro) 3145000.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 4.3980763E7
+    DKK (Danish Krone) 4.30016705E7
+    EUR (Euro) 3145000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+52
+  Liczba_nieodczytywalnych
+35
+BO (BOLIVIA, PLURINATIONAL STATE OF)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 3.7634918E7
+    EUR (Euro) 111939.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 3.7634918E7
+    EUR (Euro) 111939.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+20
+  Liczba_nieodczytywalnych
+13
+SZ (SWAZILAND)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 375000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 375000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+8
+  Liczba_nieodczytywalnych
+7
+TD (CHAD)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 7800000.0
+    EUR (Euro) 1511424.33
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 7800000.0
+    EUR (Euro) 1511424.33
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+5
+  Liczba_nieodczytywalnych
+3
+VN (VIETNAM)
+  Minimalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 200340.0
+  Maksymalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 200340.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+23
+  Liczba_nieodczytywalnych
+21
+ID (INDONESIA)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1224100.0
+    EUR (Euro) 2125000.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1224100.0
+    EUR (Euro) 2125000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+12
+  Liczba_nieodczytywalnych
+10
+LS (LESOTHO)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3766325.06
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3766325.06
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+6
+  Liczba_nieodczytywalnych
+3
+KW (KUWAIT)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+VE (VENEZUELA, BOLIVARIAN REPUBLIC OF)
+  Minimalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 3221280.0
+    EUR (Euro) 3485792.0
+  Maksymalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 3221280.0
+    EUR (Euro) 3485792.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+6
+  Liczba_nieodczytywalnych
+2
+KN (SAINT KITTS AND NEVIS)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+2
+KE (KENYA)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1701314.35
+    EUR (Euro) 6907900.930000001
+    GBP (Pound Sterling) 3114798.4
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1701314.35
+    EUR (Euro) 6907900.930000001
+    GBP (Pound Sterling) 3114798.4
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+55
+  Liczba_nieodczytywalnych
+42
+SB (SOLOMON ISLANDS)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+SK (SLOVAKIA)
+  Minimalna wartosc w wczytywalnych
+    EEK (Kroon) 404232.0
+    SKK (Slovak Koruna) 247000.0
+    CZK (Czech Koruna) 8.941908616E7
+    HRK (Croatian Kuna) 283920.0
+    BGN (Bulgarian Lev) 1458750.0
+    EUR (Euro) 3.9154218928509995E10
+    GBP (Pound Sterling) 304652.44
+    USD (US Dollar) 9977206.719999999
+  Maksymalna wartosc w wczytywalnych
+    EEK (Kroon) 404232.0
+    SKK (Slovak Koruna) 247000.0
+    CZK (Czech Koruna) 8.941908616E7
+    HRK (Croatian Kuna) 283920.0
+    BGN (Bulgarian Lev) 1458750.0
+    EUR (Euro) 3.915578274788E10
+    GBP (Pound Sterling) 304652.44
+    USD (US Dollar) 9977206.719999999
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+9668
+  Liczba_nieodczytywalnych
+1010
+HT (HAITI)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 6873987.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 6873987.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+3
+ST (SAO TOME AND PRINCIPE)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+AD (ANDORRA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+2
+BI (BURUNDI)
+  Minimalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 69329.25
+    EUR (Euro) 4696685.18
+  Maksymalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 69329.25
+    EUR (Euro) 4696685.18
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+29
+  Liczba_nieodczytywalnych
+18
+TG (TOGO)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1380000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1380000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+14
+  Liczba_nieodczytywalnych
+13
+KZ (KAZAKHSTAN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 500000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 500000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+3
+  Liczba_nieodczytywalnych
+2
+RO (ROMANIA)
+  Minimalna wartosc w wczytywalnych
+    RON (Romanian New Leu) 2.5312208121729993E11
+    EUR (Euro) 5.70102777756E9
+    USD (US Dollar) 2.14080780202E9
+  Maksymalna wartosc w wczytywalnych
+    RON (Romanian New Leu) 2.5312208121729993E11
+    EUR (Euro) 5.70107876756E9
+    USD (US Dollar) 2.14080780202E9
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+30612
+  Liczba_nieodczytywalnych
+1721
+KH (CAMBODIA)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1.9592515E7
+    USD (US Dollar) 1199330.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1.9592515E7
+    USD (US Dollar) 1199330.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+0
+GF (FRENCH GUIANA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 208175.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 208175.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+0
+AM (ARMENIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 150000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 150000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+31
+  Liczba_nieodczytywalnych
+30
+LV (LATVIA)
+  Minimalna wartosc w wczytywalnych
+    LVL (Latvian Lats) 2.64097564179E9
+    NOK (Norwegian Krone) 1.6747108E7
+    SEK (Swedish Krona) 3080000.0
+    EUR (Euro) 9.63241531101E9
+    USD (US Dollar) 5.1231232839999996E7
+    GBP (Pound Sterling) 628500.0
+  Maksymalna wartosc w wczytywalnych
+    LVL (Latvian Lats) 2.64097564179E9
+    NOK (Norwegian Krone) 1.6747108E7
+    SEK (Swedish Krona) 3080000.0
+    EUR (Euro) 9.635240268929998E9
+    USD (US Dollar) 5.1231232839999996E7
+    GBP (Pound Sterling) 628500.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+10802
+  Liczba_nieodczytywalnych
+931
+BR (BRAZIL)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 8834029.42
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 8834029.42
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+17
+  Liczba_nieodczytywalnych
+16
+IS (ICELAND)
+  Minimalna wartosc w wczytywalnych
+    NOK (Norwegian Krone) 1.371468944E7
+    ISK (Iceland Krona) 9.6596306936E10
+    EUR (Euro) 8.27578724E8
+    USD (US Dollar) 1.91824608E8
+  Maksymalna wartosc w wczytywalnych
+    NOK (Norwegian Krone) 1.371468944E7
+    ISK (Iceland Krona) 9.6973655885E10
+    EUR (Euro) 8.29355585E8
+    USD (US Dollar) 1.91824608E8
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+445
+  Liczba_nieodczytywalnych
+246
+GI (GIBRALTAR)
+  Minimalna wartosc w wczytywalnych
+    GBP (Pound Sterling) 1.6320914055E8
+  Maksymalna wartosc w wczytywalnych
+    GBP (Pound Sterling) 1.6320914055E8
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+29
+  Liczba_nieodczytywalnych
+8
+TJ (TAJIKISTAN)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1.041488E7
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1.041488E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+26
+  Liczba_nieodczytywalnych
+23
+SE (SWEDEN)
+  Minimalna wartosc w wczytywalnych
+    SKK (Slovak Koruna) 1.127704118E9
+    NOK (Norwegian Krone) 4.9E7
+    SEK (Swedish Krona) 6.1165015868078E11
+    EUR (Euro) 1.6399572517399998E9
+    GBP (Pound Sterling) 478555.0
+    USD (US Dollar) 2.008254741E9
+  Maksymalna wartosc w wczytywalnych
+    SKK (Slovak Koruna) 1.130421713E9
+    NOK (Norwegian Krone) 4.91E7
+    SEK (Swedish Krona) 6.1442807333478E11
+    EUR (Euro) 1.6469572527399998E9
+    GBP (Pound Sterling) 478555.0
+    USD (US Dollar) 2.008254741E9
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+34519
+  Liczba_nieodczytywalnych
+24763
+SN (SENEGAL)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 4368407.66
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 4368407.66
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+28
+  Liczba_nieodczytywalnych
+27
+HN (HONDURAS)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1.3572556E7
+    EUR (Euro) 1045000.0
+    USD (US Dollar) 1.4999208E7
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1.3572556E7
+    EUR (Euro) 1045000.0
+    USD (US Dollar) 1.4999208E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+25
+  Liczba_nieodczytywalnych
+20
+PH (PHILIPPINES)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1000000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1000000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+13
+  Liczba_nieodczytywalnych
+12
+GR (GREECE)
+  Minimalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 733529.49
+    EUR (Euro) 3.0600916667350006E10
+    USD (US Dollar) 1498385.27
+  Maksymalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 733529.49
+    EUR (Euro) 3.0615802502690006E10
+    USD (US Dollar) 1513655.27
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+16408
+  Liczba_nieodczytywalnych
+1072
+JO (JORDAN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2799562.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2799562.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+28
+  Liczba_nieodczytywalnych
+27
+FM (MICRONESIA, FEDERATED STATES OF)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+MW (MALAWI)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2800000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2800000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+12
+  Liczba_nieodczytywalnych
+11
+PK (PAKISTAN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.056533539E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.056533539E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+7
+  Liczba_nieodczytywalnych
+4
+RU (RUSSIAN FEDERATION)
+  Minimalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 528855.5
+    PLN (Zloty) 3.8173356E7
+    EUR (Euro) 2.0387861880000003E7
+  Maksymalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 528855.5
+    PLN (Zloty) 3.8173356E7
+    EUR (Euro) 2.0387861880000003E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+27
+  Liczba_nieodczytywalnych
+9
+DO (DOMINICAN REPUBLIC)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2600000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2600000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+3
+GL (GREENLAND)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+NA (NAMIBIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 750000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 750000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+11
+  Liczba_nieodczytywalnych
+10
+PT (PORTUGAL)
+  Minimalna wartosc w wczytywalnych
+    CZK (Czech Koruna) 349400.0
+    BGN (Bulgarian Lev) 3488196.39
+    EUR (Euro) 2.5219063012229992E10
+    USD (US Dollar) 2.48841555E7
+  Maksymalna wartosc w wczytywalnych
+    CZK (Czech Koruna) 349400.0
+    BGN (Bulgarian Lev) 3488196.39
+    EUR (Euro) 2.524047709359999E10
+    USD (US Dollar) 2.48841555E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+15682
+  Liczba_nieodczytywalnych
+2283
+ET (ETHIOPIA)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 4649180.0
+    EUR (Euro) 4641000.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 4649180.0
+    EUR (Euro) 4641000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+35
+  Liczba_nieodczytywalnych
+32
+VG (VIRGIN ISLANDS, BRITISH)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+AL (ALBANIA)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 3.5615905E7
+    EUR (Euro) 1780228.51
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 3.5615905E7
+    EUR (Euro) 1780228.51
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+107
+  Liczba_nieodczytywalnych
+101
+MZ (MOZAMBIQUE)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 6309501.0
+    EUR (Euro) 1452000.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 6309501.0
+    EUR (Euro) 1452000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+23
+  Liczba_nieodczytywalnych
+20
+CV (CAPE VERDE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 800000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 800000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+3
+MQ (MARTINIQUE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 7.574575148E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 7.717627060000001E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+17
+  Liczba_nieodczytywalnych
+0
+BQ (BONAIRE, SINT EUSTATIUS AND SABA)
+  Minimalna wartosc w wczytywalnych
+    USD (US Dollar) 1.0
+  Maksymalna wartosc w wczytywalnych
+    USD (US Dollar) 1.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+0
+BZ (BELIZE)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+4
+PE (PERU)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 6373405.0
+    EUR (Euro) 725000.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 6373405.0
+    EUR (Euro) 725000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+10
+  Liczba_nieodczytywalnych
+4
+KY (CAYMAN ISLANDS)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+LC (SAINT LUCIA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+8
+  Liczba_nieodczytywalnych
+8
+FJ (FIJI)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3137514.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3137514.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+1
+CD (CONGO, THE DEMOCRATIC REPUBLIC OF THE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.335107182E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.335107182E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+33
+  Liczba_nieodczytywalnych
+25
+PN (PITCAIRN)
+  Minimalna wartosc w wczytywalnych
+    PLN (Zloty) 1.9E7
+  Maksymalna wartosc w wczytywalnych
+    PLN (Zloty) 1.9E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+0
+CM (CAMEROON)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1296828.91
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1296828.91
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+9
+  Liczba_nieodczytywalnych
+8
+QA (QATAR)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+LU (LUXEMBOURG)
+  Minimalna wartosc w wczytywalnych
+    LVL (Latvian Lats) 8347817.96
+    SEK (Swedish Krona) 3.3728805E7
+    EUR (Euro) 9.586415344119999E9
+    GBP (Pound Sterling) 125000.0
+    USD (US Dollar) 140000.0
+  Maksymalna wartosc w wczytywalnych
+    LVL (Latvian Lats) 8347817.96
+    SEK (Swedish Krona) 3.3728805E7
+    EUR (Euro) 9.588494965619999E9
+    GBP (Pound Sterling) 125000.0
+    USD (US Dollar) 140000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4169
+  Liczba_nieodczytywalnych
+1321
+EE (ESTONIA)
+  Minimalna wartosc w wczytywalnych
+    EEK (Kroon) 2046568.71
+    BGN (Bulgarian Lev) 186489.6
+    EUR (Euro) 1.4170307562780005E10
+  Maksymalna wartosc w wczytywalnych
+    EEK (Kroon) 2046568.71
+    BGN (Bulgarian Lev) 186489.6
+    EUR (Euro) 1.4170307562780005E10
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+9241
+  Liczba_nieodczytywalnych
+277
+MT (MALTA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.65009356581E9
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.6508430385500002E9
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2279
+  Liczba_nieodczytywalnych
+460
+BT (BHUTAN)
+  Minimalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 107450.0
+  Maksymalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 107450.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+5
+  Liczba_nieodczytywalnych
+4
+VA (HOLY SEE (VATICAN CITY STATE))
+  Minimalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 71326.0
+  Maksymalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 71326.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+0
+AF (AFGHANISTAN)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 5582681.0
+    EUR (Euro) 507285.87
+    USD (US Dollar) 2887265.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 5582681.0
+    EUR (Euro) 507285.87
+    USD (US Dollar) 2887265.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+22
+  Liczba_nieodczytywalnych
+16
+WF (WALLIS AND FUTUNA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+5
+  Liczba_nieodczytywalnych
+5
+NP (NEPAL)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1.6946264E7
+    EUR (Euro) 562500.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1.6946264E7
+    EUR (Euro) 562500.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+11
+  Liczba_nieodczytywalnych
+9
+AO (ANGOLA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2359292.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2359292.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+3
+CY (CYPRUS)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3.642628273269999E9
+    USD (US Dollar) 2011000.0
+    GBP (Pound Sterling) 1199782.6
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3.642628273269999E9
+    USD (US Dollar) 2011000.0
+    GBP (Pound Sterling) 1199782.6
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2615
+  Liczba_nieodczytywalnych
+93
+NG (NIGERIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1100000.0
+    GBP (Pound Sterling) 194432.03
+    USD (US Dollar) 390000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1100000.0
+    GBP (Pound Sterling) 194432.03
+    USD (US Dollar) 390000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+29
+  Liczba_nieodczytywalnych
+26
+MK (MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 2.9662687E7
+    MKD (Denar) 4.736770250489001E10
+    EUR (Euro) 1.47287555556E9
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 2.9662687E7
+    MKD (Denar) 4.737855460089001E10
+    EUR (Euro) 1.47292324656E9
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2660
+  Liczba_nieodczytywalnych
+895
+CG (CONGO)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2909987.3
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2909987.3
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+7
+  Liczba_nieodczytywalnych
+6
+TR (TURKEY)
+  Minimalna wartosc w wczytywalnych
+    TRY (New Turkish Lira) 1.14270887823E9
+    EUR (Euro) 2104810.98
+    USD (US Dollar) 6187598.0
+  Maksymalna wartosc w wczytywalnych
+    TRY (New Turkish Lira) 1.14270887823E9
+    EUR (Euro) 2104810.98
+    USD (US Dollar) 6187598.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+697
+  Liczba_nieodczytywalnych
+682
+AX (ÅLAND ISLANDS)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2184000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2184000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+1
+BB (BARBADOS)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 170345.79
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 170345.79
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+1
+TL (TIMOR-LESTE)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+IL (ISRAEL)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 5826861.12
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 5826861.12
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+1
+SY (SYRIAN ARAB REPUBLIC)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+16
+  Liczba_nieodczytywalnych
+16
+LI (LIECHTENSTEIN)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 3.895964459999999E7
+    EUR (Euro) 8018202.6
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 4.001831729999999E7
+    EUR (Euro) 8018202.6
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+37
+  Liczba_nieodczytywalnych
+1
+AR (ARGENTINA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3289967.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3289967.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+69
+  Liczba_nieodczytywalnych
+67
+SG (SINGAPORE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 207154.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 207154.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+1
+UZ (UZBEKISTAN)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+12
+  Liczba_nieodczytywalnych
+12
+ME (MONTENEGRO)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1422917.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1422917.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+93
+  Liczba_nieodczytywalnych
+89
+MN (MONGOLIA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+5
+  Liczba_nieodczytywalnych
+5
+TC (TURKS AND CAICOS ISLANDS)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+BE (BELGIUM)
+  Minimalna wartosc w wczytywalnych
+    LTL (Lithuanian Litas) 2706913.94
+    CZK (Czech Koruna) 602290.81
+    PLN (Zloty) 344797.1
+    EUR (Euro) 1.1458381322844998E11
+    GBP (Pound Sterling) 1693497.0
+    USD (US Dollar) 8066708.4
+  Maksymalna wartosc w wczytywalnych
+    LTL (Lithuanian Litas) 2706913.94
+    CZK (Czech Koruna) 602290.81
+    PLN (Zloty) 344797.1
+    EUR (Euro) 1.1473616281729999E11
+    GBP (Pound Sterling) 1693497.0
+    USD (US Dollar) 8066708.4
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+27659
+  Liczba_nieodczytywalnych
+8712
+KM (COMOROS)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+2
+CA (CANADA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 254969.37
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 254969.37
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+2
+LR (LIBERIA)
+  Minimalna wartosc w wczytywalnych
+    USD (US Dollar) 1025720.12
+  Maksymalna wartosc w wczytywalnych
+    USD (US Dollar) 1025720.12
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+9
+  Liczba_nieodczytywalnych
+0
+BW (BOTSWANA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1727352.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1727352.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+5
+  Liczba_nieodczytywalnych
+4
+UK
+  Minimalna wartosc w wczytywalnych
+    LTL (Lithuanian Litas) 700000.0
+    EEK (Kroon) 122000.0
+    RON (Romanian New Leu) 2033071.56
+    HRK (Croatian Kuna) 1701523.0
+    SEK (Swedish Krona) 1.749761104E8
+    CHF (Swiss Franc) 7752294.0
+    NOK (Norwegian Krone) 2966000.0
+    BGN (Bulgarian Lev) 2.3469E7
+    ISK (Iceland Krona) 1400000.0
+    JPY (Japanese yen) 1.01438413E8
+    CYP (Cyprus Pound) 2120000.0
+    EUR (Euro) 1.2492415348509E11
+    USD (US Dollar) 2.112344227E8
+    GBP (Pound Sterling) 3.296321506513775E12
+  Maksymalna wartosc w wczytywalnych
+    LTL (Lithuanian Litas) 700000.0
+    EEK (Kroon) 122000.0
+    RON (Romanian New Leu) 2033071.56
+    HRK (Croatian Kuna) 1701523.0
+    SEK (Swedish Krona) 1.749761104E8
+    CHF (Swiss Franc) 7752294.0
+    NOK (Norwegian Krone) 2966000.0
+    BGN (Bulgarian Lev) 2.3469E7
+    ISK (Iceland Krona) 1400000.0
+    JPY (Japanese yen) 1.01438413E8
+    CYP (Cyprus Pound) 2120000.0
+    EUR (Euro) 1.2494401499809E11
+    USD (US Dollar) 2.112344227E8
+    GBP (Pound Sterling) 3.358252651268475E12
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+82053
+  Liczba_nieodczytywalnych
+29790
+RE (RÉUNION)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.0829752227699997E9
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.0829752227699997E9
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+28
+  Liczba_nieodczytywalnych
+5
+GE (GEORGIA)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1200000.0
+    EUR (Euro) 1015000.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1200000.0
+    EUR (Euro) 1015000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+75
+  Liczba_nieodczytywalnych
+73
+GN (GUINEA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 721991.77
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 721991.77
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+21
+  Liczba_nieodczytywalnych
+20
+FR (FRANCE)
+  Minimalna wartosc w wczytywalnych
+    CZK (Czech Koruna) 131429.27
+    CHF (Swiss Franc) 1.6540532739999998E7
+    BGN (Bulgarian Lev) 3.231978E7
+    JPY (Japanese yen) 1.721E7
+    CYP (Cyprus Pound) 1553099.0
+    HUF (Forint) 1116865.5
+    EUR (Euro) 2.0000011653536416E20
+    GBP (Pound Sterling) 907638.5700000001
+    USD (US Dollar) 2.760416958E7
+  Maksymalna wartosc w wczytywalnych
+    CZK (Czech Koruna) 131429.27
+    CHF (Swiss Franc) 1.6540532739999998E7
+    BGN (Bulgarian Lev) 3.231978E7
+    JPY (Japanese yen) 1.721E7
+    CYP (Cyprus Pound) 1553099.0
+    HUF (Forint) 1116865.5
+    EUR (Euro) 2.0000011666564465E20
+    GBP (Pound Sterling) 907638.5700000001
+    USD (US Dollar) 2.760416958E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+274497
+  Liczba_nieodczytywalnych
+102212
+TO (TONGA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+IO (BRITISH INDIAN OCEAN TERRITORY)
+  Minimalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 6742075.84
+  Maksymalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 6742075.84
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+0
+FI (FINLAND)
+  Minimalna wartosc w wczytywalnych
+    EEK (Kroon) 1900000.0
+    SEK (Swedish Krona) 1106560.0
+    EUR (Euro) 1.0134206902741998E11
+    USD (US Dollar) 6665242.0
+    GBP (Pound Sterling) 2405982.0
+  Maksymalna wartosc w wczytywalnych
+    EEK (Kroon) 1900000.0
+    SEK (Swedish Krona) 1106560.0
+    EUR (Euro) 1.0177055971387E11
+    USD (US Dollar) 6665242.0
+    GBP (Pound Sterling) 2405982.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+19721
+  Liczba_nieodczytywalnych
+936
+PM (SAINT PIERRE AND MIQUELON)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 60000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 60000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+0
+RW (RWANDA)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1.2174475E7
+    EUR (Euro) 890997.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 1.2174475E7
+    EUR (Euro) 890997.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+10
+  Liczba_nieodczytywalnych
+5
+SA (SAUDI ARABIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.39263E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.39263E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+2
+GW (GUINEA-BISSAU)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1785104.15
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1785104.15
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+1
+SS (SOUTH SUDAN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3000000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3000000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+3
+  Liczba_nieodczytywalnych
+2
+KG (KYRGYZSTAN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 320020.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 320020.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+11
+  Liczba_nieodczytywalnych
+10
+KP (KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+7
+  Liczba_nieodczytywalnych
+7
+IR (IRAN, ISLAMIC REPUBLIC OF)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+SD (SUDAN)
+  Minimalna wartosc w wczytywalnych
+    USD (US Dollar) 1.609040634E7
+  Maksymalna wartosc w wczytywalnych
+    USD (US Dollar) 1.609040634E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+11
+  Liczba_nieodczytywalnych
+2
+NO (NORWAY)
+  Minimalna wartosc w wczytywalnych
+    SEK (Swedish Krona) 1.0101504E7
+    CHF (Swiss Franc) 413110.0
+    DKK (Danish Krone) 2000000.0
+    NOK (Norwegian Krone) 4.4617729042365E11
+    MTL (Maltese Lira) 2700000.0
+    EUR (Euro) 7.349580581E7
+    GBP (Pound Sterling) 3500001.0
+    USD (US Dollar) 1.8540625E7
+  Maksymalna wartosc w wczytywalnych
+    SEK (Swedish Krona) 1.0101504E7
+    CHF (Swiss Franc) 413110.0
+    DKK (Danish Krone) 2000000.0
+    NOK (Norwegian Krone) 4.5000157908641E11
+    MTL (Maltese Lira) 2700000.0
+    EUR (Euro) 7.349580581E7
+    GBP (Pound Sterling) 3500001.0
+    USD (US Dollar) 1.8540625E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+16146
+  Liczba_nieodczytywalnych
+6694
+PY (PARAGUAY)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 801085.94
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 801085.94
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+9
+  Liczba_nieodczytywalnych
+8
+EG (EGYPT)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 6723996.9
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 6723996.9
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+55
+  Liczba_nieodczytywalnych
+54
+PG (PAPUA NEW GUINEA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1815393.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1815393.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+5
+  Liczba_nieodczytywalnych
+4
+SV (EL SALVADOR)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 550000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 550000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+11
+  Liczba_nieodczytywalnych
+10
+GH (GHANA)
+  Minimalna wartosc w wczytywalnych
+    DKK (Danish Krone) 3.4148594E7
+    EUR (Euro) 725622.47
+  Maksymalna wartosc w wczytywalnych
+    DKK (Danish Krone) 3.4148594E7
+    EUR (Euro) 725622.47
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+45
+  Liczba_nieodczytywalnych
+41
+DK (DENMARK)
+  Minimalna wartosc w wczytywalnych
+    EEK (Kroon) 7950000.0
+    CZK (Czech Koruna) 1109000.0
+    HRK (Croatian Kuna) 1.8E7
+    CHF (Swiss Franc) 2.197795E7
+    SEK (Swedish Krona) 6.95198076E8
+    DKK (Danish Krone) 8.403622628200498E11
+    HUF (Forint) 3288493.0
+    EUR (Euro) 1.820819912771E10
+    USD (US Dollar) 2.5826762557E8
+    GBP (Pound Sterling) 1.8579431E7
+  Maksymalna wartosc w wczytywalnych
+    EEK (Kroon) 9950000.0
+    CZK (Czech Koruna) 1109000.0
+    HRK (Croatian Kuna) 1.8E7
+    CHF (Swiss Franc) 2.197795E7
+    SEK (Swedish Krona) 6.95198076E8
+    DKK (Danish Krone) 8.415030827304897E11
+    HUF (Forint) 3288493.0
+    EUR (Euro) 1.822195679361E10
+    USD (US Dollar) 2.5826762557E8
+    GBP (Pound Sterling) 1.8579431E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+17665
+  Liczba_nieodczytywalnych
+7234
+ES (SPAIN)
+  Minimalna wartosc w wczytywalnych
+    DKK (Danish Krone) 3971607.5
+    BGN (Bulgarian Lev) 7464402.12
+    CYP (Cyprus Pound) 2402987.62
+    PLN (Zloty) 22721.33
+    EUR (Euro) 1.79111200008059E11
+    GBP (Pound Sterling) 761662.5
+    USD (US Dollar) 1.016534877E7
+  Maksymalna wartosc w wczytywalnych
+    DKK (Danish Krone) 3971607.5
+    BGN (Bulgarian Lev) 7464402.12
+    CYP (Cyprus Pound) 2402987.62
+    PLN (Zloty) 22721.33
+    EUR (Euro) 1.79144727514059E11
+    GBP (Pound Sterling) 761662.5
+    USD (US Dollar) 1.016534877E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+74774
+  Liczba_nieodczytywalnych
+8939
+PS (PALESTINE, STATE OF)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 2999863.0
+    EUR (Euro) 5825804.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 2999863.0
+    EUR (Euro) 5825804.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+16
+  Liczba_nieodczytywalnych
+12
+ZW (ZIMBABWE)
+  Minimalna wartosc w wczytywalnych
+    SEK (Swedish Krona) 5200000.0
+    EUR (Euro) 509776.29
+    USD (US Dollar) 3032304.0
+  Maksymalna wartosc w wczytywalnych
+    SEK (Swedish Krona) 5200000.0
+    EUR (Euro) 509776.29
+    USD (US Dollar) 3032304.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+5
+  Liczba_nieodczytywalnych
+2
+VU (VANUATU)
+  Minimalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 40000.0
+  Maksymalna wartosc w wczytywalnych
+    BGN (Bulgarian Lev) 40000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+1
+DE (GERMANY)
+  Minimalna wartosc w wczytywalnych
+    CZK (Czech Koruna) 220220.11
+    NOK (Norwegian Krone) 9638750.0
+    CHF (Swiss Franc) 2.0668719740000002E7
+    BGN (Bulgarian Lev) 6442277.25
+    ISK (Iceland Krona) 1.0
+    JPY (Japanese yen) 1.7482E8
+    CYP (Cyprus Pound) 1174341.78
+    EUR (Euro) 7.261469967148564E13
+    GBP (Pound Sterling) 3.7529769E8
+    USD (US Dollar) 7.329732654999998E7
+  Maksymalna wartosc w wczytywalnych
+    CZK (Czech Koruna) 220220.11
+    NOK (Norwegian Krone) 9638750.0
+    CHF (Swiss Franc) 2.0668719740000002E7
+    BGN (Bulgarian Lev) 6442277.25
+    ISK (Iceland Krona) 1.0
+    JPY (Japanese yen) 1.7482E8
+    CYP (Cyprus Pound) 1174341.78
+    EUR (Euro) 7.261598209038517E13
+    GBP (Pound Sterling) 3.7529769E8
+    USD (US Dollar) 7.340408851999998E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+177004
+  Liczba_nieodczytywalnych
+61775
+MM (MYANMAR)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 5793303.0
+    DKK (Danish Krone) 1.8990145E7
+    EUR (Euro) 1058398.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 5793303.0
+    DKK (Danish Krone) 1.8990145E7
+    EUR (Euro) 1058398.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+7
+  Liczba_nieodczytywalnych
+1
+MV (MALDIVES)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+PA (PANAMA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+5
+  Liczba_nieodczytywalnych
+5
+GT (GUATEMALA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 366942.94
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 366942.94
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+7
+  Liczba_nieodczytywalnych
+6
+CI (CÔTE D'IVOIRE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3394978.95
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3394978.95
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+34
+  Liczba_nieodczytywalnych
+31
+NI (NICARAGUA)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 4977930.0
+    EUR (Euro) 1181518.0
+    USD (US Dollar) 676516.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 4977930.0
+    EUR (Euro) 1181518.0
+    USD (US Dollar) 676516.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+44
+  Liczba_nieodczytywalnych
+41
+NR (NAURU)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+CR (COSTA RICA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+21
+  Liczba_nieodczytywalnych
+21
+BD (BANGLADESH)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 3.1476088880000003E7
+    EUR (Euro) 198995.0
+    GBP (Pound Sterling) 166464.31
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 3.1476088880000003E7
+    EUR (Euro) 198995.0
+    GBP (Pound Sterling) 166464.31
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+26
+  Liczba_nieodczytywalnych
+16
+MD (MOLDOVA, REPUBLIC OF)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 648980.85
+    EUR (Euro) 2762982.09
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 648980.85
+    EUR (Euro) 2762982.09
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+57
+  Liczba_nieodczytywalnych
+48
+MY (MALAYSIA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+3
+  Liczba_nieodczytywalnych
+3
+BY (BELARUS)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 9081440.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 9081440.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+40
+  Liczba_nieodczytywalnych
+37
+TW (TAIWAN, PROVINCE OF CHINA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 214000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 214000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+0
+LB (LEBANON)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 668000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 668000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+54
+  Liczba_nieodczytywalnych
+53
+LK (SRI LANKA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 895000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 895000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+3
+  Liczba_nieodczytywalnych
+2
+BG (BULGARIA)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 8666976.82
+    BGN (Bulgarian Lev) 4.034635507908997E10
+    JPY (Japanese yen) 2.604115805E8
+    CYP (Cyprus Pound) 194739.84
+    EUR (Euro) 8.441712235699999E8
+    GBP (Pound Sterling) 0.95
+    USD (US Dollar) 3.322717667E7
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 8666976.82
+    BGN (Bulgarian Lev) 4.0347462203809975E10
+    JPY (Japanese yen) 2.604115805E8
+    CYP (Cyprus Pound) 194739.84
+    EUR (Euro) 8.441712235699999E8
+    GBP (Pound Sterling) 0.95
+    USD (US Dollar) 3.322717667E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+37838
+  Liczba_nieodczytywalnych
+2365
+MG (MADAGASCAR)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1600000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1600000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+3
+AT (AUSTRIA)
+  Minimalna wartosc w wczytywalnych
+    EEK (Kroon) 158366.58
+    EUR (Euro) 3.049425933757001E10
+    GBP (Pound Sterling) 7087439.590000001
+    USD (US Dollar) 4795400.99
+  Maksymalna wartosc w wczytywalnych
+    EEK (Kroon) 158366.58
+    EUR (Euro) 3.0523638562270008E10
+    GBP (Pound Sterling) 7087439.590000001
+    USD (US Dollar) 4795400.99
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+17992
+  Liczba_nieodczytywalnych
+6495
+LT (LITHUANIA)
+  Minimalna wartosc w wczytywalnych
+    LTL (Lithuanian Litas) 3.309064556396E10
+    EUR (Euro) 1.0668900921329998E10
+    USD (US Dollar) 828532.0
+  Maksymalna wartosc w wczytywalnych
+    LTL (Lithuanian Litas) 3.309064556396E10
+    EUR (Euro) 1.0675517802569998E10
+    USD (US Dollar) 828532.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+16553
+  Liczba_nieodczytywalnych
+340
+DZ (ALGERIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 4353000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 4353000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+73
+  Liczba_nieodczytywalnych
+72
+US (UNITED STATES)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 925000.0
+    EUR (Euro) 5622591.569999999
+    USD (US Dollar) 1.4537850739999998E7
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 925000.0
+    EUR (Euro) 5622591.569999999
+    USD (US Dollar) 1.4537850739999998E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+61
+  Liczba_nieodczytywalnych
+30
+NL (NETHERLANDS)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 521874.47
+    TRY (New Turkish Lira) 42000.0
+    EUR (Euro) 1.7286476346759502E12
+    GBP (Pound Sterling) 5.8131067E7
+    USD (US Dollar) 1.3066509101E8
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 521874.47
+    TRY (New Turkish Lira) 42000.0
+    EUR (Euro) 1.73156126752953E12
+    GBP (Pound Sterling) 5.8131067E7
+    USD (US Dollar) 1.3266509101E8
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+32342
+  Liczba_nieodczytywalnych
+16537
+CL (CHILE)
+  Minimalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 324043.0
+    EUR (Euro) 1250000.0
+  Maksymalna wartosc w wczytywalnych
+    CHF (Swiss Franc) 324043.0
+    EUR (Euro) 1250000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+0
+UA (UKRAINE)
+  Minimalna wartosc w wczytywalnych
+    SEK (Swedish Krona) 5000000.0
+    CHF (Swiss Franc) 1.179358171E7
+    EUR (Euro) 4.2672438260000005E7
+  Maksymalna wartosc w wczytywalnych
+    SEK (Swedish Krona) 5000000.0
+    CHF (Swiss Franc) 1.179358171E7
+    EUR (Euro) 4.2672438260000005E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+99
+  Liczba_nieodczytywalnych
+80
+NC (NEW CALEDONIA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1

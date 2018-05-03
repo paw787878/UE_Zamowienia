@@ -55,5 +55,20 @@ class InfoPanstwoDanyOkres() {
 
   }
 
+  def print_do_pliku_czysto(pw:java.io.PrintWriter): Unit ={
+
+    pw.write("  Minimalna wartosc w wczytywalnych"+"\n")
+    min_value.print_do_pliku_czysto(pw)
+    pw.write("  Maksymalna wartosc w wczytywalnych"+"\n")
+    max_value.print_do_pliku_czysto(pw)
+    pw.write("  Liczba wszystkich transakcji ( w tym nieodczytywalnych)"+"\n")
+    pw.write(liczba_wszystkich.toString+"\n")
+    pw.write("  Liczba_nieodczytywalnych"+"\n")
+    pw.write(liczba_nieodczytywalnych.toString+"\n")
+
+
+
+  }
+
 
 }

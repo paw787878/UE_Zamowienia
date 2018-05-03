@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c0b2106d-772f-4fcc-90dd-98630adfed01" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/scala/Analiza_danych_miesiecznych.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Analiza_danych_miesiecznych.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Exchange_rate_history.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Exchange_rate_history.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Panstwa.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Panstwa.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Waluty.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Waluty.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/InfoPanstwaDanyOkres.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/InfoPanstwaDanyOkres.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/InfoPanstwoDanyOkres.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/InfoPanstwoDanyOkres.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Portfel_walut.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Portfel_walut.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="Hello.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Hello.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="370">
+              <caret line="252" column="21" selection-start-line="252" selection-start-column="16" selection-end-line="252" selection-end-column="21" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -40,8 +40,8 @@
       <file leaf-file-name="Analiza_danych_miesiecznych.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Analiza_danych_miesiecznych.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="70" lean-forward="true" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+            <state relative-caret-position="150">
+              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -49,8 +49,8 @@
       <file leaf-file-name="InfoPanstwaDanyOkres.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/InfoPanstwaDanyOkres.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+            <state relative-caret-position="354">
+              <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -61,8 +61,11 @@
       <file leaf-file-name="InfoPanstwoDanyOkres.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/InfoPanstwoDanyOkres.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            <state relative-caret-position="474">
+              <caret line="66" column="52" lean-forward="true" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,8 +73,8 @@
       <file leaf-file-name="Portfel_walut.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Portfel_walut.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            <state relative-caret-position="435">
+              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -138,9 +141,9 @@
       <find>supernieodczytywalny</find>
       <find>XML</find>
       <find>nieodczy</find>
-      <find>split</find>
       <find>try</find>
       <find>catch</find>
+      <find>split</find>
     </findStrings>
     <replaceStrings>
       <replace>nieodczytywalny</replace>
@@ -159,18 +162,18 @@
         <option value="$PROJECT_DIR$/src/main/scala/Statystyka_dla_panstwa.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/informacje_o_panstwach.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/tag.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/InfoPanstwoDanyOkres.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/proba22.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/proby2.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/Hello.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/InfoPanstwaDanyOkres.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/proba33.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/Exchange.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Portfel_walut.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Panstwa.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Analiza_danych_miesiecznych.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Exchange_rate_history.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Waluty.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Portfel_walut.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/InfoPanstwoDanyOkres.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/InfoPanstwaDanyOkres.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Analiza_danych_miesiecznych.scala" />
       </list>
     </option>
   </component>
@@ -378,12 +381,12 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.34186748" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.34186748" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23188406" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.23188406" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="2" />
       <window_info anchor="bottom" id="Build" order="0" weight="0.32831326" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
@@ -408,7 +411,7 @@
       <window_info anchor="right" id="sbt" order="3" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="2" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.3427673" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.34186748" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
@@ -421,15 +424,15 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18902439" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.32704404" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23188406" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.32680723" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
     </layout-to-restore>
   </component>
@@ -748,49 +751,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/InfoPanstwoDanyOkres.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Exchange.scala">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/InfoPanstwaDanyOkres.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Portfel_walut.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Hello.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Panstwa.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Exchange_rate_history.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -806,10 +768,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Portfel_walut.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/InfoPanstwoDanyOkres.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="66" column="52" lean-forward="true" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Panstwa.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/InfoPanstwaDanyOkres.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Hello.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="252" column="21" selection-start-line="252" selection-start-column="16" selection-end-line="252" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Analiza_danych_miesiecznych.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="70" lean-forward="true" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+        <state relative-caret-position="150">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
         </state>
       </provider>
     </entry>

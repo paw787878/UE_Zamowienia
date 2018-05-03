@@ -18,9 +18,15 @@ class Portfel_walut() {
     for ( (waluta,ilosc)<- portfel)
       println("    "+waluta+" "+ilosc)
   }
+
   def print_do_pliku(pw:java.io.PrintWriter): Unit ={
     for ( (waluta,ilosc)<- portfel)
       pw.write("s "+waluta+" "+ilosc+"\n")
+  }
+
+  def print_do_pliku_czysto(pw:java.io.PrintWriter): Unit ={
+    for ( (waluta,ilosc)<- portfel)
+      pw.write("    "+Waluty.nazwa_ze_skroto(waluta)+" "+ilosc+"\n")
   }
 
 }
