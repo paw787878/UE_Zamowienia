@@ -29,4 +29,14 @@ class Portfel_walut() {
       pw.write("    "+Waluty.nazwa_ze_skroto(waluta)+" "+ilosc+"\n")
   }
 
+  def zmien_walute(data:String): Unit ={
+    val eur="EUR"
+    for((waluta,wartosc)<- portfel){
+      if(waluta!=eur && Exchange_rate_history.contains(data,waluta)){
+        this.add_money(eur,wartosc / Exchange_rate_history.exchange_with_euro(data,waluta))
+        portfel-=waluta
+      }
+    }
+  }
+
 }

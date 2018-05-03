@@ -2,7 +2,7 @@ object Analiza_danych_miesiecznych {
   def main(args:Array[String]): Unit ={
 
     println("to jest inny obiekt!")
-    analiza_bez_exchange()
+    analiza_w_euro()
     /*
 
 
@@ -34,5 +34,20 @@ object Analiza_danych_miesiecznych {
     wszystkie.print_do_pliku_czysto("wyniki_bez_exchange.txt")
 
   }
+
+  def analiza_w_euro(): Unit ={
+    var wszystkie=new InfoPanstwaDanyOkres()
+    val do_przerobienia=Hello.ls("wyniki")
+    for(path<- do_przerobienia){
+      val miesiac=path.split("/")(1).substring(0,7)
+      val nowy=new InfoPanstwaDanyOkres()
+      nowy.doczytaj(path)
+      nowy.zmien_walute(miesiac)
+      wszystkie.add_panstwa(nowy)
+
+    }
+    wszystkie.print_do_pliku_czysto("wyniki_z_exchange.txt")
+  }
+
 
 }

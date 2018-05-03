@@ -101,5 +101,11 @@ class InfoPanstwaDanyOkres() {
 
   }
 
+  def zmien_walute(data:String): Unit ={
+    for ((panstwo,info)<- panstwa){
+      info.zmien_walute(data)
+    }
+  }
+
 
 }

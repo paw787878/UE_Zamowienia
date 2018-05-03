@@ -1,0 +1,1830 @@
+IQ (IRAQ)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+12
+  Liczba_nieodczytywalnych
+12
+SC (SEYCHELLES)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+4
+SL (SIERRA LEONE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1515266.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1515266.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+11
+  Liczba_nieodczytywalnych
+10
+BS (BAHAMAS)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+CO (COLOMBIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1598219.4579980106
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1598219.4579980106
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+28
+  Liczba_nieodczytywalnych
+24
+TH (THAILAND)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3858346.318883063
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3858346.318883063
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+8
+  Liczba_nieodczytywalnych
+4
+JM (JAMAICA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1950000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1950000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+11
+  Liczba_nieodczytywalnych
+9
+BA (BOSNIA AND HERZEGOVINA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3.911638747868395E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3.911638747868395E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+214
+  Liczba_nieodczytywalnych
+195
+MA (MOROCCO)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3757676.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3757676.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+53
+  Liczba_nieodczytywalnych
+51
+AE (UNITED ARAB EMIRATES)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+BJ (BENIN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3451073.2354255915
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3451073.2354255915
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+20
+  Liczba_nieodczytywalnych
+17
+HU (HUNGARY)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.3037518125664887E27
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.3037518125664887E27
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+16037
+  Liczba_nieodczytywalnych
+1329
+AN
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+3
+  Liczba_nieodczytywalnych
+3
+KR (KOREA, REPUBLIC OF)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 84800.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 84800.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+3
+AW (ARUBA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+CF (CENTRAL AFRICAN REPUBLIC)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3315010.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3315010.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+0
+TZ (TANZANIA, UNITED REPUBLIC OF)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.1235247244652895E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.1235247244652895E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+20
+  Liczba_nieodczytywalnych
+15
+KI (KIRIBATI)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+SO (SOMALIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2361300.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2361300.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+3
+  Liczba_nieodczytywalnych
+1
+UY (URUGUAY)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1440807.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1440807.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+14
+  Liczba_nieodczytywalnych
+13
+VC (SAINT VINCENT AND THE GRENADINES)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+12
+  Liczba_nieodczytywalnych
+12
+GA (GABON)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2510828.877390326
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2510828.877390326
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+6
+  Liczba_nieodczytywalnych
+2
+JP (JAPAN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 6112132.047569751
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 6112132.047569751
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+17
+  Liczba_nieodczytywalnych
+4
+IT (ITALY)
+  Minimalna wartosc w wczytywalnych
+    EEK (Kroon) 1118253.5
+    CYP (Cyprus Pound) 1.055097927E7
+    EUR (Euro) 4.554273012601647E11
+  Maksymalna wartosc w wczytywalnych
+    EEK (Kroon) 1118253.5
+    CYP (Cyprus Pound) 1.055097927E7
+    EUR (Euro) 4.554534032339147E11
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+57677
+  Liczba_nieodczytywalnych
+7432
+TT (TRINIDAD AND TOBAGO)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 187500.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 187500.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+1
+RS (SERBIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2.1211941120798025E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2.1211941120798025E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+491
+  Liczba_nieodczytywalnych
+457
+UG (UGANDA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3618790.566697936
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3618790.566697936
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+11
+  Liczba_nieodczytywalnych
+8
+AZ (AZERBAIJAN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1495000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1495000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+10
+  Liczba_nieodczytywalnych
+8
+SX (SINT MAARTEN (DUTCH PART))
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+GD (GRENADA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 434451.37539625727
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 434451.37539625727
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+0
+TN (TUNISIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 4.7573844187E8
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 4.7573844187E8
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+82
+  Liczba_nieodczytywalnych
+78
+IN (INDIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.9218230256618935E8
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.9218230256618935E8
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+66
+  Liczba_nieodczytywalnych
+16
+PL (POLAND)
+  Minimalna wartosc w wczytywalnych
+    SKK (Slovak Koruna) 7071388.359999999
+    MTL (Maltese Lira) 1.1987275699E8
+    EUR (Euro) 2.5510465204666174E11
+  Maksymalna wartosc w wczytywalnych
+    SKK (Slovak Koruna) 7071388.359999999
+    MTL (Maltese Lira) 1.1987275699E8
+    EUR (Euro) 2.5576068878389835E11
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+167324
+  Liczba_nieodczytywalnych
+7486
+SI (SLOVENIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.8789207092374123E10
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.8789207092374123E10
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+15839
+  Liczba_nieodczytywalnych
+1580
+IE (IRELAND)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 7.000180448540804E14
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 7.000187480479885E14
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+6331
+  Liczba_nieodczytywalnych
+2571
+EC (ECUADOR)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 980785.7080597802
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 980785.7080597802
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+2
+GM (GAMBIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 275000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 275000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+3
+  Liczba_nieodczytywalnych
+2
+YT (MAYOTTE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 219098.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 219098.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+3
+  Liczba_nieodczytywalnych
+0
+SR (SURINAME)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+HR (CROATIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.1879216765726818E10
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.1879216765726818E10
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+7023
+  Liczba_nieodczytywalnych
+366
+ZA (SOUTH AFRICA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.343691586238116E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.343691586238116E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+12
+  Liczba_nieodczytywalnych
+9
+PF (FRENCH POLYNESIA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+5
+  Liczba_nieodczytywalnych
+5
+GP (GUADELOUPE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.248301625E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.248318425E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+14
+  Liczba_nieodczytywalnych
+1
+GY (GUYANA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+17
+  Liczba_nieodczytywalnych
+17
+YE (YEMEN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1709500.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1709500.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+2
+CN (CHINA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 7752921.64633432
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 7752921.64633432
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+26
+  Liczba_nieodczytywalnych
+21
+DJ (DJIBOUTI)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 4264895.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 4264895.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+8
+  Liczba_nieodczytywalnych
+6
+CW (CURAÇAO)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+MR (MAURITANIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1848787.61
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1848787.61
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+17
+  Liczba_nieodczytywalnych
+16
+NE (NIGER)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.6282087615194814E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.6282087615194814E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+19
+  Liczba_nieodczytywalnych
+13
+OM (OMAN)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+DM (DOMINICA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+1A
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3.2672040263937376E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3.2672040263937376E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+79
+  Liczba_nieodczytywalnych
+72
+MU (MAURITIUS)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+4
+CZ (CZECH REPUBLIC)
+  Minimalna wartosc w wczytywalnych
+    EEK (Kroon) 205700.0
+    CYP (Cyprus Pound) 9837173.84
+    EUR (Euro) 7.940244914913742E10
+  Maksymalna wartosc w wczytywalnych
+    EEK (Kroon) 205700.0
+    CYP (Cyprus Pound) 9837173.84
+    EUR (Euro) 7.95256066205985E10
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+46091
+  Liczba_nieodczytywalnych
+3420
+CH (SWITZERLAND)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2.86375693318531E10
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3.220170047537844E10
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+17176
+  Liczba_nieodczytywalnych
+3610
+MC (MONACO)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+ML (MALI)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2.68726877218134E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2.68726877218134E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+58
+  Liczba_nieodczytywalnych
+48
+AG (ANTIGUA AND BARBUDA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+ZM (ZAMBIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 4711122.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 4711122.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+32
+  Liczba_nieodczytywalnych
+31
+ER (ERITREA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 6149391.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 6149391.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+18
+  Liczba_nieodczytywalnych
+16
+TV (TUVALU)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+LA (LAO PEOPLE'S DEMOCRATIC REPUBLIC)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 6434329.667023477
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 6434329.667023477
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+1
+MX (MEXICO)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1874112.85
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1874112.85
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+6
+  Liczba_nieodczytywalnych
+3
+TM (TURKMENISTAN)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+7
+  Liczba_nieodczytywalnych
+7
+BF (BURKINA FASO)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 4.592849119345159E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 4.592849119345159E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+52
+  Liczba_nieodczytywalnych
+35
+BO (BOLIVIA, PLURINATIONAL STATE OF)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3.1880541717589244E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3.1880541717589244E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+20
+  Liczba_nieodczytywalnych
+13
+TD (CHAD)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 8569609.10965795
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 8569609.10965795
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+5
+  Liczba_nieodczytywalnych
+3
+SZ (SWAZILAND)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 375000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 375000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+8
+  Liczba_nieodczytywalnych
+7
+VN (VIETNAM)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 102433.78668575519
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 102433.78668575519
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+23
+  Liczba_nieodczytywalnych
+21
+ID (INDONESIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3263591.7589061484
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3263591.7589061484
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+12
+  Liczba_nieodczytywalnych
+10
+LS (LESOTHO)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3766325.06
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3766325.06
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+6
+  Liczba_nieodczytywalnych
+3
+KW (KUWAIT)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+VE (VENEZUELA, BOLIVARIAN REPUBLIC OF)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 5132831.57459863
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 5132831.57459863
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+6
+  Liczba_nieodczytywalnych
+2
+KN (SAINT KITTS AND NEVIS)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+2
+KE (KENYA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.1898622773381514E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.1898622773381514E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+55
+  Liczba_nieodczytywalnych
+42
+SB (SOLOMON ISLANDS)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+SK (SLOVAKIA)
+  Minimalna wartosc w wczytywalnych
+    EEK (Kroon) 404232.0
+    SKK (Slovak Koruna) 247000.0
+    EUR (Euro) 3.916641362241409E10
+  Maksymalna wartosc w wczytywalnych
+    EEK (Kroon) 404232.0
+    SKK (Slovak Koruna) 247000.0
+    EUR (Euro) 3.916797744178409E10
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+9668
+  Liczba_nieodczytywalnych
+1010
+HT (HAITI)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 6427290.322580646
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 6427290.322580646
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+3
+ST (SAO TOME AND PRINCIPE)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+AD (ANDORRA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+2
+BI (BURUNDI)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 4732133.206383066
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 4732133.206383066
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+29
+  Liczba_nieodczytywalnych
+18
+TG (TOGO)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1380000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1380000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+14
+  Liczba_nieodczytywalnych
+13
+KZ (KAZAKHSTAN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 500000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 500000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+3
+  Liczba_nieodczytywalnych
+2
+RO (ROMANIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 6.444824184687484E10
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 6.444829283687484E10
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+30612
+  Liczba_nieodczytywalnych
+1721
+KH (CAMBODIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.8011333378655348E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.8011333378655348E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+0
+GF (FRENCH GUIANA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 208175.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 208175.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+0
+AM (ARMENIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 150000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 150000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+31
+  Liczba_nieodczytywalnych
+30
+LV (LATVIA)
+  Minimalna wartosc w wczytywalnych
+    LVL (Latvian Lats) 1434452.7999999998
+    EUR (Euro) 1.3430450626349165E10
+  Maksymalna wartosc w wczytywalnych
+    LVL (Latvian Lats) 1434452.7999999998
+    EUR (Euro) 1.3433275584269165E10
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+10802
+  Liczba_nieodczytywalnych
+931
+BR (BRAZIL)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 8834029.42
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 8834029.42
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+17
+  Liczba_nieodczytywalnych
+16
+IS (ICELAND)
+  Minimalna wartosc w wczytywalnych
+    ISK (Iceland Krona) 8.7307139353E10
+    EUR (Euro) 1.071845781420533E9
+  Maksymalna wartosc w wczytywalnych
+    ISK (Iceland Krona) 8.7684488302E10
+    EUR (Euro) 1.073622642420533E9
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+445
+  Liczba_nieodczytywalnych
+246
+GI (GIBRALTAR)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.8955511703312868E8
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.8955511703312868E8
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+29
+  Liczba_nieodczytywalnych
+8
+TJ (TAJIKISTAN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 9066385.831349207
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 9066385.831349207
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+26
+  Liczba_nieodczytywalnych
+23
+SE (SWEDEN)
+  Minimalna wartosc w wczytywalnych
+    SKK (Slovak Koruna) 1.127704118E9
+    EUR (Euro) 6.874194497012457E10
+  Maksymalna wartosc w wczytywalnych
+    SKK (Slovak Koruna) 1.130421713E9
+    EUR (Euro) 6.903142589002258E10
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+34519
+  Liczba_nieodczytywalnych
+24763
+SN (SENEGAL)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 4368407.66
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 4368407.66
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+28
+  Liczba_nieodczytywalnych
+27
+HN (HONDURAS)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2.6058295332495503E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2.6058295332495503E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+25
+  Liczba_nieodczytywalnych
+20
+PH (PHILIPPINES)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1000000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1000000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+13
+  Liczba_nieodczytywalnych
+12
+GR (GREECE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3.060235725209268E10
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3.0617255573123604E10
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+16408
+  Liczba_nieodczytywalnych
+1072
+JO (JORDAN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2799562.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2799562.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+28
+  Liczba_nieodczytywalnych
+27
+FM (MICRONESIA, FEDERATED STATES OF)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+MW (MALAWI)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2800000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2800000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+12
+  Liczba_nieodczytywalnych
+11
+PK (PAKISTAN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.056533539E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.056533539E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+7
+  Liczba_nieodczytywalnych
+4
+RU (RUSSIAN FEDERATION)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2.9709875823106978E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2.9709875823106978E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+27
+  Liczba_nieodczytywalnych
+9
+DO (DOMINICAN REPUBLIC)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2600000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2600000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+3
+GL (GREENLAND)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+NA (NAMIBIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 750000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 750000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+11
+  Liczba_nieodczytywalnych
+10
+PT (PORTUGAL)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2.524290347539369E10
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2.5264317556763687E10
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+15682
+  Liczba_nieodczytywalnych
+2283
+ET (ETHIOPIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 8889542.447226537
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 8889542.447226537
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+35
+  Liczba_nieodczytywalnych
+32
+VG (VIRGIN ISLANDS, BRITISH)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+AL (ALBANIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3.2960742490173817E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3.2960742490173817E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+107
+  Liczba_nieodczytywalnych
+101
+MZ (MOZAMBIQUE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 6587186.137555191
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 6587186.137555191
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+23
+  Liczba_nieodczytywalnych
+20
+CV (CAPE VERDE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 800000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 800000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+3
+MQ (MARTINIQUE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 7.574575148E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 7.717627060000001E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+17
+  Liczba_nieodczytywalnych
+0
+BQ (BONAIRE, SINT EUSTATIUS AND SABA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 0.8129420372327453
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 0.8129420372327453
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+0
+BZ (BELIZE)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+4
+PE (PERU)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 6029005.863992186
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 6029005.863992186
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+10
+  Liczba_nieodczytywalnych
+4
+KY (CAYMAN ISLANDS)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+LC (SAINT LUCIA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+8
+  Liczba_nieodczytywalnych
+8
+FJ (FIJI)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3137514.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3137514.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+1
+CD (CONGO, THE DEMOCRATIC REPUBLIC OF THE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.335107182E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.335107182E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+33
+  Liczba_nieodczytywalnych
+25
+PN (PITCAIRN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 4554934.912377437
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 4554934.912377437
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+0
+CM (CAMEROON)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1296828.91
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1296828.91
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+9
+  Liczba_nieodczytywalnych
+8
+QA (QATAR)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+LU (LUXEMBOURG)
+  Minimalna wartosc w wczytywalnych
+    LVL (Latvian Lats) 8347817.96
+    EUR (Euro) 9.590524758257915E9
+  Maksymalna wartosc w wczytywalnych
+    LVL (Latvian Lats) 8347817.96
+    EUR (Euro) 9.592604379757915E9
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4169
+  Liczba_nieodczytywalnych
+1321
+EE (ESTONIA)
+  Minimalna wartosc w wczytywalnych
+    EEK (Kroon) 2046568.71
+    EUR (Euro) 1.4170402914860994E10
+  Maksymalna wartosc w wczytywalnych
+    EEK (Kroon) 2046568.71
+    EUR (Euro) 1.4170402914860994E10
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+9241
+  Liczba_nieodczytywalnych
+277
+MT (MALTA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.65009356581E9
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.6508430385500002E9
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2279
+  Liczba_nieodczytywalnych
+460
+BT (BHUTAN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 54939.15533285612
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 54939.15533285612
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+5
+  Liczba_nieodczytywalnych
+4
+VA (HOLY SEE (VATICAN CITY STATE))
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 36468.964106759384
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 36468.964106759384
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+0
+AF (AFGHANISTAN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 7759655.271402562
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 7759655.271402562
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+22
+  Liczba_nieodczytywalnych
+16
+WF (WALLIS AND FUTUNA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+5
+  Liczba_nieodczytywalnych
+5
+NP (NEPAL)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.729459320695103E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.729459320695103E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+11
+  Liczba_nieodczytywalnych
+9
+AO (ANGOLA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2359292.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2359292.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+3
+CY (CYPRUS)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3.6455021867597833E9
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3.6455021867597833E9
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2615
+  Liczba_nieodczytywalnych
+93
+MK (MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF)
+  Minimalna wartosc w wczytywalnych
+    MKD (Denar) 4.736770250489001E10
+    EUR (Euro) 1.497677177496613E9
+  Maksymalna wartosc w wczytywalnych
+    MKD (Denar) 4.737855460089001E10
+    EUR (Euro) 1.497724868496613E9
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2660
+  Liczba_nieodczytywalnych
+895
+NG (NIGERIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1649832.3086811488
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1649832.3086811488
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+29
+  Liczba_nieodczytywalnych
+26
+CG (CONGO)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2909987.3
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2909987.3
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+7
+  Liczba_nieodczytywalnych
+6
+TR (TURKEY)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 4.971245342369911E8
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 4.971245342369911E8
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+697
+  Liczba_nieodczytywalnych
+682
+AX (ÅLAND ISLANDS)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2184000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2184000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+1
+BB (BARBADOS)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 170345.79
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 170345.79
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+1
+TL (TIMOR-LESTE)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+IL (ISRAEL)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 5826861.12
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 5826861.12
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+1
+SY (SYRIAN ARAB REPUBLIC)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+16
+  Liczba_nieodczytywalnych
+16
+LI (LIECHTENSTEIN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 4.211684198335719E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 4.3103805368595034E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+37
+  Liczba_nieodczytywalnych
+1
+AR (ARGENTINA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3289967.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3289967.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+69
+  Liczba_nieodczytywalnych
+67
+SG (SINGAPORE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 207154.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 207154.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+1
+UZ (UZBEKISTAN)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+12
+  Liczba_nieodczytywalnych
+12
+ME (MONTENEGRO)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1422917.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1422917.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+93
+  Liczba_nieodczytywalnych
+89
+MN (MONGOLIA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+5
+  Liczba_nieodczytywalnych
+5
+TC (TURKS AND CAICOS ISLANDS)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+BE (BELGIUM)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.1459362178836755E11
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.1474597137721756E11
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+27659
+  Liczba_nieodczytywalnych
+8712
+KM (COMOROS)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+2
+CA (CANADA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 254969.37
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 254969.37
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+2
+LR (LIBERIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 918009.8892789423
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 918009.8892789423
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+9
+  Liczba_nieodczytywalnych
+0
+BW (BOTSWANA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1727352.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1727352.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+5
+  Liczba_nieodczytywalnych
+4
+GE (GEORGIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2145475.7418747055
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2145475.7418747055
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+75
+  Liczba_nieodczytywalnych
+73
+RE (RÉUNION)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.0829752227699997E9
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.0829752227699997E9
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+28
+  Liczba_nieodczytywalnych
+5
+UK
+  Minimalna wartosc w wczytywalnych
+    EEK (Kroon) 122000.0
+    ISK (Iceland Krona) 1400000.0
+    CYP (Cyprus Pound) 2120000.0
+    EUR (Euro) 4.254552743860981E12
+  Maksymalna wartosc w wczytywalnych
+    EEK (Kroon) 122000.0
+    ISK (Iceland Krona) 1400000.0
+    CYP (Cyprus Pound) 2120000.0
+    EUR (Euro) 4.32512874339439E12
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+82053
+  Liczba_nieodczytywalnych
+29790
+GN (GUINEA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 721991.77
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 721991.77
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+21
+  Liczba_nieodczytywalnych
+20
+FR (FRANCE)
+  Minimalna wartosc w wczytywalnych
+    CYP (Cyprus Pound) 1553099.0
+    EUR (Euro) 2.000001165354196E20
+  Maksymalna wartosc w wczytywalnych
+    CYP (Cyprus Pound) 1553099.0
+    EUR (Euro) 2.000001166657001E20
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+274497
+  Liczba_nieodczytywalnych
+102212
+TO (TONGA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+IO (BRITISH INDIAN OCEAN TERRITORY)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3447221.5154923815
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3447221.5154923815
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+0
+FI (FINLAND)
+  Minimalna wartosc w wczytywalnych
+    EEK (Kroon) 1900000.0
+    EUR (Euro) 1.0135070164633067E11
+  Maksymalna wartosc w wczytywalnych
+    EEK (Kroon) 1900000.0
+    EUR (Euro) 1.0177919233278065E11
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+19721
+  Liczba_nieodczytywalnych
+936
+PM (SAINT PIERRE AND MIQUELON)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 60000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 60000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+0
+RW (RWANDA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.0982672565884558E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.0982672565884558E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+10
+  Liczba_nieodczytywalnych
+5
+SA (SAUDI ARABIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.39263E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.39263E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+2
+GW (GUINEA-BISSAU)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1785104.15
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1785104.15
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+1
+SS (SOUTH SUDAN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3000000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3000000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+3
+  Liczba_nieodczytywalnych
+2
+KG (KYRGYZSTAN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 320020.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 320020.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+11
+  Liczba_nieodczytywalnych
+10
+KP (KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+7
+  Liczba_nieodczytywalnych
+7
+IR (IRAN, ISLAMIC REPUBLIC OF)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+SD (SUDAN)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.2387132266444841E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.2387132266444841E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+11
+  Liczba_nieodczytywalnych
+2
+NO (NORWAY)
+  Minimalna wartosc w wczytywalnych
+    MTL (Maltese Lira) 2700000.0
+    EUR (Euro) 5.100971134812336E10
+  Maksymalna wartosc w wczytywalnych
+    MTL (Maltese Lira) 2700000.0
+    EUR (Euro) 5.142390329491604E10
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+16146
+  Liczba_nieodczytywalnych
+6694
+PY (PARAGUAY)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 801085.94
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 801085.94
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+9
+  Liczba_nieodczytywalnych
+8
+EG (EGYPT)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 5753890.89508814
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 5753890.89508814
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+55
+  Liczba_nieodczytywalnych
+54
+PG (PAPUA NEW GUINEA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1815393.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1815393.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+5
+  Liczba_nieodczytywalnych
+4
+SV (EL SALVADOR)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 550000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 550000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+11
+  Liczba_nieodczytywalnych
+10
+GH (GHANA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 5309288.344199498
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 5309288.344199498
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+45
+  Liczba_nieodczytywalnych
+41
+DK (DENMARK)
+  Minimalna wartosc w wczytywalnych
+    EEK (Kroon) 7950000.0
+    EUR (Euro) 1.3136776917422473E11
+  Maksymalna wartosc w wczytywalnych
+    EEK (Kroon) 9950000.0
+    EUR (Euro) 1.3153490236224744E11
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+17665
+  Liczba_nieodczytywalnych
+7234
+PS (PALESTINE, STATE OF)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 8250131.6224341355
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 8250131.6224341355
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+16
+  Liczba_nieodczytywalnych
+12
+ES (SPAIN)
+  Minimalna wartosc w wczytywalnych
+    CYP (Cyprus Pound) 2402987.62
+    EUR (Euro) 1.791252302312512E11
+  Maksymalna wartosc w wczytywalnych
+    CYP (Cyprus Pound) 2402987.62
+    EUR (Euro) 1.7915875773725116E11
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+74774
+  Liczba_nieodczytywalnych
+8939
+ZW (ZIMBABWE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3760377.5798292784
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3760377.5798292784
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+5
+  Liczba_nieodczytywalnych
+2
+VU (VANUATU)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 20451.988955925965
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 20451.988955925965
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+1
+DE (GERMANY)
+  Minimalna wartosc w wczytywalnych
+    ISK (Iceland Krona) 1.0
+    CYP (Cyprus Pound) 1174341.78
+    EUR (Euro) 7.261524683847725E13
+  Maksymalna wartosc w wczytywalnych
+    ISK (Iceland Krona) 1.0
+    CYP (Cyprus Pound) 1174341.78
+    EUR (Euro) 7.261652935441545E13
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+177004
+  Liczba_nieodczytywalnych
+61775
+MM (MYANMAR)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 8656657.79719243
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 8656657.79719243
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+7
+  Liczba_nieodczytywalnych
+1
+MV (MALDIVES)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+0
+  Liczba_nieodczytywalnych
+0
+PA (PANAMA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+5
+  Liczba_nieodczytywalnych
+5
+GT (GUATEMALA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 366942.94
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 366942.94
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+7
+  Liczba_nieodczytywalnych
+6
+CI (CÔTE D'IVOIRE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3394978.95
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3394978.95
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+34
+  Liczba_nieodczytywalnych
+31
+NI (NICARAGUA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 5830353.7748540575
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 5830353.7748540575
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+44
+  Liczba_nieodczytywalnych
+41
+NR (NAURU)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1
+CR (COSTA RICA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+21
+  Liczba_nieodczytywalnych
+21
+MD (MOLDOVA, REPUBLIC OF)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 3296488.6863354933
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 3296488.6863354933
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+57
+  Liczba_nieodczytywalnych
+48
+BD (BANGLADESH)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 2.823563025810768E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 2.823563025810768E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+26
+  Liczba_nieodczytywalnych
+16
+MY (MALAYSIA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+3
+  Liczba_nieodczytywalnych
+3
+BY (BELARUS)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 9081440.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 9081440.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+40
+  Liczba_nieodczytywalnych
+37
+TW (TAIWAN, PROVINCE OF CHINA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 214000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 214000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+0
+LB (LEBANON)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 668000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 668000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+54
+  Liczba_nieodczytywalnych
+53
+LK (SRI LANKA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 895000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 895000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+3
+  Liczba_nieodczytywalnych
+2
+BG (BULGARIA)
+  Minimalna wartosc w wczytywalnych
+    CYP (Cyprus Pound) 194739.84
+    EUR (Euro) 2.150874408099648E10
+  Maksymalna wartosc w wczytywalnych
+    CYP (Cyprus Pound) 194739.84
+    EUR (Euro) 2.1509310153560135E10
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+37838
+  Liczba_nieodczytywalnych
+2365
+MG (MADAGASCAR)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1600000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1600000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+4
+  Liczba_nieodczytywalnych
+3
+LT (LITHUANIA)
+  Minimalna wartosc w wczytywalnych
+    LTL (Lithuanian Litas) 2.8811390849E8
+    EUR (Euro) 2.016987200713065E10
+  Maksymalna wartosc w wczytywalnych
+    LTL (Lithuanian Litas) 2.8811390849E8
+    EUR (Euro) 2.0176488888370647E10
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+16553
+  Liczba_nieodczytywalnych
+340
+AT (AUSTRIA)
+  Minimalna wartosc w wczytywalnych
+    EEK (Kroon) 158366.58
+    EUR (Euro) 3.0506157952411377E10
+  Maksymalna wartosc w wczytywalnych
+    EEK (Kroon) 158366.58
+    EUR (Euro) 3.0535537177111374E10
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+17992
+  Liczba_nieodczytywalnych
+6495
+DZ (ALGERIA)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 4353000.0
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 4353000.0
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+73
+  Liczba_nieodczytywalnych
+72
+US (UNITED STATES)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.9001108773200817E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.9001108773200817E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+61
+  Liczba_nieodczytywalnych
+30
+NL (NETHERLANDS)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1.7288402591804565E12
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1.7317555999759663E12
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+32342
+  Liczba_nieodczytywalnych
+16537
+CL (CHILE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 1545713.6338747947
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 1545713.6338747947
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+2
+  Liczba_nieodczytywalnych
+0
+UA (UKRAINE)
+  Minimalna wartosc w wczytywalnych
+    EUR (Euro) 5.4038806961122975E7
+  Maksymalna wartosc w wczytywalnych
+    EUR (Euro) 5.4038806961122975E7
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+99
+  Liczba_nieodczytywalnych
+80
+NC (NEW CALEDONIA)
+  Minimalna wartosc w wczytywalnych
+  Maksymalna wartosc w wczytywalnych
+  Liczba wszystkich transakcji ( w tym nieodczytywalnych)
+1
+  Liczba_nieodczytywalnych
+1

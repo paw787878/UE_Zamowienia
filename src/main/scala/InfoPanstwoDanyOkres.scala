@@ -70,5 +70,10 @@ class InfoPanstwoDanyOkres() {
 
   }
 
+  def zmien_walute(data:String): Unit ={
+    min_value.zmien_walute(data)
+    max_value.zmien_walute(data)
+  }
+
 
 }
