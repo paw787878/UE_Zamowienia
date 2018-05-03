@@ -3,6 +3,7 @@ object Analiza_danych_miesiecznych {
     println("to jest inny obiekt!")
 
 val a= new Exchange_rate_history()
+    println(a.exchange_with_euro("2018-04","USD"))
 
 /*
     val w=new Panstwa()

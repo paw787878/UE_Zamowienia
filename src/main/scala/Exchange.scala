@@ -1,4 +1,0 @@
-class Exchange {
-  println("dziala")
-
-}
