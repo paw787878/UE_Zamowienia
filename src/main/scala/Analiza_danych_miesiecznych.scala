@@ -2,8 +2,8 @@ object Analiza_danych_miesiecznych {
   def main(args:Array[String]): Unit ={
     println("to jest inny obiekt!")
 
-    val w=new Waluty()
-    for ((a,b)<-w.waluty)
+    val w=new Panstwa()
+    for ((a,b)<-w.panstwa)
       println(a+";"+b)
 
     /*
