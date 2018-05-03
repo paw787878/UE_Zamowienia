@@ -1,6 +1,6 @@
 import scala.io.Source
 
-class Waluty() {
+object Waluty {
   var waluty = collection.mutable.Map[String, String]()
   val path = "waluty"
   val source = Source.fromFile(path)

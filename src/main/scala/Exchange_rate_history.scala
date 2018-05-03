@@ -1,4 +1,4 @@
-class Exchange_rate_history() {
+object Exchange_rate_history {
   def wczytaj():collection.mutable.Map[(String,String), Double]={
 
 
