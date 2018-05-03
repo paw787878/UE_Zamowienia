@@ -1,53 +1,65 @@
 [info] Updating ...
-[debug] :: resolving dependencies :: default#zamowienia_ue_2.12;0.1
+[debug] :: resolving dependencies :: zamowienia_ue#zamowienia_ue_2.12;0.1
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [compile]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->default(compile)]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [compile]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.5
-[debug] 	found org.scala-lang#scala-library;2.12.5 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] 		tried /home/pawel/.ivy2/local/org.scala-lang/scala-library/2.12.5/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang#scala-library;2.12.5
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.5/scala-library-2.12.5.pom
+[debug] 	public: found md file for org.scala-lang#scala-library;2.12.5
+[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.5/scala-library-2.12.5.pom (2.12.5)
+[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.5/scala-library-2.12.5.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.5/scala-library-2.12.5.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.5/scala-library-2.12.5.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.5/scala-library-2.12.5.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.5!scala-library.pom(pom.original) (461ms)
+[debug] 		tried /home/pawel/.ivy2/local/org.scala-lang/scala-library/2.12.5/jars/scala-library.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.5/scala-library-2.12.5.jar
+[debug] 	found org.scala-lang#scala-library;2.12.5 in public
 [debug] 	[2.12.5] org.scala-lang#scala-library;2.12.5
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [runtime]
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [compile]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->default(compile)]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [runtime]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [compile]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [test]
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [runtime]
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [compile]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->default(compile)]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [test]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [runtime]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [compile]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [provided]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [provided]
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [optional]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [compile-internal]
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [compile]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->default(compile)]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [compile-internal]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [compile]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]}
@@ -56,16 +68,16 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [optional]
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [provided]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [optional]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [runtime-internal]
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [runtime]
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [compile]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->default(compile)]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [runtime-internal]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [runtime]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [compile]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]}
@@ -74,16 +86,16 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [optional]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [test-internal]
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [test]
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [runtime]
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [compile]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->default(compile)]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [test-internal]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [test]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [runtime]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [compile]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]}
@@ -96,25 +108,37 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [optional]
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [provided]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [optional]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [provided]
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [plugin]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [plugin]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [pom]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#zamowienia_ue_2.12;0.1 [scala-tool]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->default]
+[debug] == resolving dependencies for zamowienia_ue#zamowienia_ue_2.12;0.1 [scala-tool]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.12.5
-[debug] 	found org.scala-lang#scala-compiler;2.12.5 in sbt-chain
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->runtime]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->compile]
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]}
+[debug] 		tried /home/pawel/.ivy2/local/org.scala-lang/scala-compiler/2.12.5/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang#scala-compiler;2.12.5
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.5/scala-compiler-2.12.5.pom
+[debug] 	public: found md file for org.scala-lang#scala-compiler;2.12.5
+[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.5/scala-compiler-2.12.5.pom (2.12.5)
+[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.5/scala-compiler-2.12.5.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.5/scala-compiler-2.12.5.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.5/scala-compiler-2.12.5.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.5/scala-compiler-2.12.5.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.5!scala-compiler.pom(pom.original) (333ms)
+[debug] 		tried /home/pawel/.ivy2/local/org.scala-lang/scala-compiler/2.12.5/jars/scala-compiler.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.5/scala-compiler-2.12.5.jar
+[debug] 	found org.scala-lang#scala-compiler;2.12.5 in public
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->runtime]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.5->org.scala-lang#scala-library;2.12.5 [compile->master(compile)]
@@ -152,8 +176,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.5
-[debug] 	found org.scala-lang#scala-reflect;2.12.5 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/pawel/.ivy2/local/org.scala-lang/scala-reflect/2.12.5/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang#scala-reflect;2.12.5
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.5/scala-reflect-2.12.5.pom
+[debug] 	public: found md file for org.scala-lang#scala-reflect;2.12.5
+[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.5/scala-reflect-2.12.5.pom (2.12.5)
+[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.5/scala-reflect-2.12.5.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.5/scala-reflect-2.12.5.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.5/scala-reflect-2.12.5.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.5/scala-reflect-2.12.5.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.5!scala-reflect.pom(pom.original) (421ms)
+[debug] 		tried /home/pawel/.ivy2/local/org.scala-lang/scala-reflect/2.12.5/jars/scala-reflect.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.5/scala-reflect-2.12.5.jar
+[debug] 	found org.scala-lang#scala-reflect;2.12.5 in public
 [debug] 	[2.12.5] org.scala-lang#scala-reflect;2.12.5
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.5->org.scala-lang#scala-reflect;2.12.5 [compile->compile(*)]
@@ -217,12 +253,12 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.5->org.scala-lang#scala-reflect;2.12.5 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.5->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.5->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->master]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->optional(default)]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->optional(default)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.5->jline#jline;2.14.5 [optional->master(compile)]
@@ -244,55 +280,34 @@
 [debug] sbt-chain: module revision found in cache: jline#jline;2.14.5
 [debug] 	found jline#jline;2.14.5 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.5->jline#jline;2.14.5 [optional->compile(*)]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->default]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->runtime]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->compile]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->master]
-[debug] == resolving dependencies default#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->optional(default)]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->default]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->runtime]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->compile]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->master]
+[debug] == resolving dependencies zamowienia_ue#zamowienia_ue_2.12;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->optional(default)]
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.5!scala-library.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.5!scala-compiler.jar
-[debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.5!scala-reflect.jar
-[debug] no default ivy user dir defined: set to /home/pawelc/.ivy2
-[debug] no default ivy user dir defined: set to /home/pawelc/.ivy2
-[debug] no default ivy user dir defined: set to /home/pawelc/.ivy2
-[debug] no default ivy user dir defined: set to /home/pawelc/.ivy2
-[debug] no default ivy user dir defined: set to /home/pawelc/.ivy2
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/pawelc/.ivy2/cache
-[debug] no default cache defined: set to /home/pawelc/.ivy2/cache
-[debug] no default cache defined: set to /home/pawelc/.ivy2/cache
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/pawelc/.ivy2/cache
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/pawelc/.ivy2/cache
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (40ms)
-[debug] 	default cache: /home/pawelc/.ivy2/cache
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.5/scala-library-2.12.5.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.5/scala-library-2.12.5.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.5/scala-library-2.12.5.jar
+[debug] no default ivy user dir defined: set to /home/pawel/.ivy2
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default ivy user dir defined: set to /home/pawel/.ivy2
+[debug] no default cache defined: set to /home/pawel/.ivy2/cache
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default cache defined: set to /home/pawel/.ivy2/cache
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] no default ivy user dir defined: set to /home/pawel/.ivy2
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] settings loaded (18ms)
+[debug] 	default cache: /home/pawel/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
 [debug] 	shared [file]
@@ -300,9 +315,11 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] including url: jar:file:/home/pawelc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (43ms)
-[debug] 	default cache: /home/pawelc/.ivy2/cache
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] settings loaded (19ms)
+[debug] 	default cache: /home/pawel/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
 [debug] 	shared [file]
@@ -310,17 +327,40 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] settings loaded (41ms)
-[debug] 	default cache: /home/pawelc/.ivy2/cache
+[debug] no default cache defined: set to /home/pawel/.ivy2/cache
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.5/scala-compiler-2.12.5.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.5/scala-compiler-2.12.5.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.5/scala-compiler-2.12.5.jar
+[debug] no default ivy user dir defined: set to /home/pawel/.ivy2
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.5/scala-reflect-2.12.5.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.5/scala-reflect-2.12.5.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.5/scala-reflect-2.12.5.jar
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/pawel/.ivy2/cache
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] no default ivy user dir defined: set to /home/pawel/.ivy2
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] settings loaded (47ms)
+[debug] 	default cache: /home/pawel/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
 [debug] 	shared [file]
 [debug] 	default [chain] [local, main]
 [debug] 	public [ibiblio]
-[debug] settings loaded (41ms)
 [debug] 	main [chain] [shared, public]
-[debug] 	default cache: /home/pawelc/.ivy2/cache
 [debug] 	local [file]
+[debug] no default cache defined: set to /home/pawel/.ivy2/cache
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] settings loaded (44ms)
+[debug] 	default cache: /home/pawel/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
 [debug] 	shared [file]
@@ -328,8 +368,10 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] settings loaded (45ms)
-[debug] 	default cache: /home/pawelc/.ivy2/cache
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/pawel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (25ms)
+[debug] 	default cache: /home/pawel/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
 [debug] 	shared [file]
@@ -337,17 +379,26 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] :: resolution report :: resolve 222ms :: artifacts dl 64ms
-[debug] 	report for default#zamowienia_ue_2.12;0.1 compile produced in /home/pawelc/Desktop/Intelij_projects/Zamowienia_UE/target/scala-2.12/resolution-cache/reports/default-zamowienia_ue_2.12-compile.xml
-[debug] 	report for default#zamowienia_ue_2.12;0.1 runtime produced in /home/pawelc/Desktop/Intelij_projects/Zamowienia_UE/target/scala-2.12/resolution-cache/reports/default-zamowienia_ue_2.12-runtime.xml
-[debug] 	report for default#zamowienia_ue_2.12;0.1 test produced in /home/pawelc/Desktop/Intelij_projects/Zamowienia_UE/target/scala-2.12/resolution-cache/reports/default-zamowienia_ue_2.12-test.xml
-[debug] 	report for default#zamowienia_ue_2.12;0.1 provided produced in /home/pawelc/Desktop/Intelij_projects/Zamowienia_UE/target/scala-2.12/resolution-cache/reports/default-zamowienia_ue_2.12-provided.xml
-[debug] 	report for default#zamowienia_ue_2.12;0.1 optional produced in /home/pawelc/Desktop/Intelij_projects/Zamowienia_UE/target/scala-2.12/resolution-cache/reports/default-zamowienia_ue_2.12-optional.xml
-[debug] 	report for default#zamowienia_ue_2.12;0.1 compile-internal produced in /home/pawelc/Desktop/Intelij_projects/Zamowienia_UE/target/scala-2.12/resolution-cache/reports/default-zamowienia_ue_2.12-compile-internal.xml
-[debug] 	report for default#zamowienia_ue_2.12;0.1 runtime-internal produced in /home/pawelc/Desktop/Intelij_projects/Zamowienia_UE/target/scala-2.12/resolution-cache/reports/default-zamowienia_ue_2.12-runtime-internal.xml
-[debug] 	report for default#zamowienia_ue_2.12;0.1 test-internal produced in /home/pawelc/Desktop/Intelij_projects/Zamowienia_UE/target/scala-2.12/resolution-cache/reports/default-zamowienia_ue_2.12-test-internal.xml
-[debug] 	report for default#zamowienia_ue_2.12;0.1 plugin produced in /home/pawelc/Desktop/Intelij_projects/Zamowienia_UE/target/scala-2.12/resolution-cache/reports/default-zamowienia_ue_2.12-plugin.xml
-[debug] 	report for default#zamowienia_ue_2.12;0.1 pom produced in /home/pawelc/Desktop/Intelij_projects/Zamowienia_UE/target/scala-2.12/resolution-cache/reports/default-zamowienia_ue_2.12-pom.xml
-[debug] 	report for default#zamowienia_ue_2.12;0.1 scala-tool produced in /home/pawelc/Desktop/Intelij_projects/Zamowienia_UE/target/scala-2.12/resolution-cache/reports/default-zamowienia_ue_2.12-scala-tool.xml
-[debug] 	resolve done (222ms resolve - 64ms download)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.5/scala-reflect-2.12.5.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.5/scala-reflect-2.12.5.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.5!scala-reflect.jar (12338ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.5/scala-library-2.12.5.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.5/scala-library-2.12.5.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.5!scala-library.jar (17899ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.5/scala-compiler-2.12.5.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.5/scala-compiler-2.12.5.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.5!scala-compiler.jar (27876ms)
+[debug] :: resolution report :: resolve 4676ms :: artifacts dl 27949ms
+[debug] 	report for zamowienia_ue#zamowienia_ue_2.12;0.1 compile produced in /home/pawel/Desktop/Java_Scala_projects/UE_Zamowienia/target/scala-2.12/resolution-cache/reports/zamowienia_ue-zamowienia_ue_2.12-compile.xml
+[debug] 	report for zamowienia_ue#zamowienia_ue_2.12;0.1 runtime produced in /home/pawel/Desktop/Java_Scala_projects/UE_Zamowienia/target/scala-2.12/resolution-cache/reports/zamowienia_ue-zamowienia_ue_2.12-runtime.xml
+[debug] 	report for zamowienia_ue#zamowienia_ue_2.12;0.1 test produced in /home/pawel/Desktop/Java_Scala_projects/UE_Zamowienia/target/scala-2.12/resolution-cache/reports/zamowienia_ue-zamowienia_ue_2.12-test.xml
+[debug] 	report for zamowienia_ue#zamowienia_ue_2.12;0.1 provided produced in /home/pawel/Desktop/Java_Scala_projects/UE_Zamowienia/target/scala-2.12/resolution-cache/reports/zamowienia_ue-zamowienia_ue_2.12-provided.xml
+[debug] 	report for zamowienia_ue#zamowienia_ue_2.12;0.1 optional produced in /home/pawel/Desktop/Java_Scala_projects/UE_Zamowienia/target/scala-2.12/resolution-cache/reports/zamowienia_ue-zamowienia_ue_2.12-optional.xml
+[debug] 	report for zamowienia_ue#zamowienia_ue_2.12;0.1 compile-internal produced in /home/pawel/Desktop/Java_Scala_projects/UE_Zamowienia/target/scala-2.12/resolution-cache/reports/zamowienia_ue-zamowienia_ue_2.12-compile-internal.xml
+[debug] 	report for zamowienia_ue#zamowienia_ue_2.12;0.1 runtime-internal produced in /home/pawel/Desktop/Java_Scala_projects/UE_Zamowienia/target/scala-2.12/resolution-cache/reports/zamowienia_ue-zamowienia_ue_2.12-runtime-internal.xml
+[debug] 	report for zamowienia_ue#zamowienia_ue_2.12;0.1 test-internal produced in /home/pawel/Desktop/Java_Scala_projects/UE_Zamowienia/target/scala-2.12/resolution-cache/reports/zamowienia_ue-zamowienia_ue_2.12-test-internal.xml
+[debug] 	report for zamowienia_ue#zamowienia_ue_2.12;0.1 plugin produced in /home/pawel/Desktop/Java_Scala_projects/UE_Zamowienia/target/scala-2.12/resolution-cache/reports/zamowienia_ue-zamowienia_ue_2.12-plugin.xml
+[debug] 	report for zamowienia_ue#zamowienia_ue_2.12;0.1 pom produced in /home/pawel/Desktop/Java_Scala_projects/UE_Zamowienia/target/scala-2.12/resolution-cache/reports/zamowienia_ue-zamowienia_ue_2.12-pom.xml
+[debug] 	report for zamowienia_ue#zamowienia_ue_2.12;0.1 scala-tool produced in /home/pawel/Desktop/Java_Scala_projects/UE_Zamowienia/target/scala-2.12/resolution-cache/reports/zamowienia_ue-zamowienia_ue_2.12-scala-tool.xml
+[debug] 	resolve done (4676ms resolve - 27949ms download)
 [info] Done updating.

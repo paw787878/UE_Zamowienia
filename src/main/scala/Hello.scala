@@ -11,10 +11,31 @@ import scala.io.Source
 
 object Hello {
   def main(args:Array[String]): Unit ={
+  println("dziala")
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+  def Czytaj_miesieczne_z_folderu_dane(): Unit ={
     val lista_miesiecy=ls("dane")
-    //lista_miesiecy.foreach(println)
+    lista_miesiecy.foreach(println)
+
 
 
     for (mies<-lista_miesiecy){
@@ -32,96 +53,6 @@ object Hello {
       }
       dane.print_do_pliku(nazwa)
     }
-
-
-
-
-    //untar("dane/2018-02.tar.gz")
-/*
-    val dni=ls(rozp)
-   val testowe=ls(dni(5))
-
-//    for (i<- 0 until testowe.size){
-//      println(i)
-//      println(testowe(i))
-//      czytaj_xml(testowe(i))
-//
-//    }
-
-
-    val dokumenty = testowe.map(czytaj_xml)
-
-    //val costam=new informacje_o_panstwach(dokumenty)
-    def czy_dziwny(d:Dokument):Boolean={
-      d.nieodczytywalny
-    }
-    def czy_kontrakt(d:Dokument):Boolean={
-      d.czy_award_notice
-    }
-    val dziwne=dokumenty.filter(czy_dziwny)
-    def drukuj_nazwe(d:Dokument): Unit ={
-      println(d.plik)
-    }
-
-    var info= new InfoPanstwaDanyOkres
-
-
-    for (dok <- dokumenty)
-      info.add_dokument(dok)
-    info.print()
-
-
-    println("stary dal")
-    println("tyle nieodczytywalnych"+dziwne.size)
-    println("tyle wszystkich kontraktow"+dokumenty.filter(czy_kontrakt).size)
-
-
-    println("tu_sa_takie ktore maja cos glebiej")
-    for(d<- dokumenty)
-      if((!(d.superdziwny)) && d.nieodczytywalny)
-        println(d.plik)
-    info.print_do_pliku("przyklad.txt")
-
-
-
-
-
-
-   //dziwne.foreach(drukuj_nazwe)
-
-
-
-
-
-
-
-
-
-
-    //println(a)
-
-    // val linie=Source.fromFile(filename).getLines()
-   // for(f<-linie)
-   //   println(f)
-//    val zly="397361_2017.xml"
-//    val dobry="386737_2017.xml"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
-
   }
 
   case class Dokument(czy_award_notice:Boolean, plik:String, country_iso: String, currency:String="", amount_min: Double=0,

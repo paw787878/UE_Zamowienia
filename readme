@@ -1,50 +1,10 @@
-mozna by w przypadku range values czytac obydwie wartosci
-teraz trzeba dodac untarowanie folderow
+Trzeba miec dodane w intellij external library scala-lang.modules:scala-xml
+mozna znalexc w project structure external libraries i wpisac scala.xml
 
-czasem nie ma value w pliku. 
+Ta wersja programu odczyta znajdujace sie w folderze dane 
+miesieczne pakiety .tar.gz a nastepnie odczyta dla kazdego miesiaca
+wartosci zamowien publicznych dla takiego miesiaca. 
+Policzone dane zostana zapisane w folderze wyniki.
 
-wazne by miec w intellij w project structure external libraries add mavel i 
-wowczas scala.xml wpisac i znalexc jakies lang czy cos i jakas nowsza wersje dodac najlepiej
-z jakims bootstrapem czy cyms.
-
-W folderze rozpakowane beda rozpakowane dane pochodzace z jakiegos 
-miesiaca
-
-Mam problem z usuwaniem ale to sie wszystko kiedys zrobi
-
-Teraz slow kilka o strategii
-
-najsamwpierw szukasz 
-<TD_DOCUMENT_TYPE CODE="7">Contract award notice</TD_DOCUMENT_TYPE>
-to znaczy, ze to jest ile przyznali pieniendzy i komu. tylko takie
-dokumenty nas interesuja.
-tu liczy sie ten code rowny 7 a nie wnetrze bo w starych jest inaczej
-
-
-Teraz jak juz znajdziesz to szukasz 
-
-<VALUE TYPE="PROCUREMENT_TOTAL" CURRENCY="PLN">6257710.21</VALUE>
-w starych dokumentach nie ma "procurement_total"
-w bardzo starych nie ma value
-czasem jest
-<VALUE_RANGE TYPE="PROCUREMENT_TOTAL" CURRENCY="EUR"><LOW>1400000.00</LOW>
-<HIGH>1400000.00</HIGH></VALUE_RANGE>
-
-czasem jest tez przypadek gdy jest values_list i wowczas moze byc
-najpierw ten z atrybutem global a potem jakies inne podkontrakty
-mozna by dla pewnosci zakodzic, na razie zaklada, ze to jest jako pierwsze
-to jest w pliku w home "przypadek_z_values_list.xml"
-
-
-
-to masz kwote ktora jest bez vat i tam masz tez currency masz wszystko
-
-jeszcze potrzeba nam panstwa
-
-panstwo znadjujemy przy pomocy 
-<ISO_COUNTRY VALUE="PL"/>
-no wlasnie czasem nie ma <country> a jest to <iso_country>
-na razie mam szukanie przy pomocy country to to potem zmienie
-i to jest kod iso panstwa ktory mozna odszyfrowac. 
-
-bywa, ze wartosc kontraktu podana jest w tekscie. 
+Obecnie w folderze wyniki znajduja sie wczesniej policzone dane
+w formie latwej do odczytania przez komputer.
