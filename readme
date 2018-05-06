@@ -1,10 +1,5 @@
-Trzeba miec dodane w intellij external library scala-lang.modules:scala-xml
-mozna znalexc w project structure external libraries i wpisac scala.xml
+Gdy uruchamiałem projekt przy pomocy IntelliJ IDEA musiałem zaimportować depencency 
+org.scala-lang.modules:scala-xml_2.12:1.1.0-newCollectionsBootstrap92
+poprzez Project Structure libraries plus from Maven.
 
-Ta wersja programu odczyta znajdujace sie w folderze dane 
-miesieczne pakiety .tar.gz a nastepnie odczyta dla kazdego miesiaca
-wartosci zamowien publicznych dla takiego miesiaca. 
-Policzone dane zostana zapisane w folderze wyniki.
 
-Obecnie w folderze wyniki znajduja sie wczesniej policzone dane
-w formie latwej do odczytania przez komputer.

@@ -1,9 +1,14 @@
 import java.io.{File, PrintWriter}
 
-import Hello.Dokument
+import Wstepne_przetwarzanie.Dokument
 import scala.io.Source
 
 class InfoPanstwaDanyOkres() {
+  /*
+  Klasa ta służy do gromadzenia informacji o łącznej kwocie zleceń oraz o ich liczbie dla wszystkich państw
+  zlecających w danym okresie czasu.
+
+   */
   var panstwa=collection.mutable.Map[String, InfoPanstwoDanyOkres]()
 
   def add_dokument(dok:Dokument): Unit ={

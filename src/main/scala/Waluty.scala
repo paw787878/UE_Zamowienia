@@ -1,6 +1,9 @@
 import scala.io.Source
 
 object Waluty {
+  /*
+  Obiekt ten pozwala na odczytanie nazwy waluty na podstawie jej kodu.
+   */
   var waluty = collection.mutable.Map[String, String]()
   val path = "waluty"
   val source = Source.fromFile(path)

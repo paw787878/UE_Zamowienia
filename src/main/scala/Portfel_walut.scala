@@ -1,5 +1,9 @@
 import java.io.{File, PrintWriter}
 class Portfel_walut() {
+  /*
+  Pomocnicza klasa dla klasy InfoPanstwaDanyOkres, która jest portfelem pozwalającym na trzymanie funduszy w
+  różncych walutach.
+   */
   var portfel=collection.mutable.Map[String, Double]()
   def add_money(waluta:String,ilosc:Double): Unit ={
     if (portfel.contains(waluta)) {

@@ -1,6 +1,9 @@
 import scala.io.Source
 
 object Panstwa {
+  /*
+  Obiekt pozwalający odczytać nazwę państwa na podstawie jego kodu iso.
+   */
   var panstwa = collection.mutable.Map[String, String]()
   val path = "iso_panstwa"
   val source = Source.fromFile(path)

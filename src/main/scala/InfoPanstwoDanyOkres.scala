@@ -1,8 +1,12 @@
 import java.io.{File, PrintWriter}
 
-import Hello.Dokument
+import Wstepne_przetwarzanie.Dokument
 
 class InfoPanstwoDanyOkres() {
+  /*
+  Pomocnicza klasa dla klasy InfoPanstwaDanyOkres
+
+   */
   val nazwa_folderu="wyniki"
   var min_value=new Portfel_walut()
   var max_value=new Portfel_walut()
